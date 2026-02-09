@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the big-remote-play-together package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: big-remote-play-together\n"
@@ -24,6 +25,7 @@ msgid " (IPv6 Global)"
 msgstr "(IPv6 Global)"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
+#, python-brace-format
 msgid "Host ({})"
 msgstr "Vært ({})"
 # 
@@ -115,6 +117,7 @@ msgid "Error: No terminal detected."
 msgstr "Fejl: Ingen terminal registreret."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+#, python-brace-format
 msgid ""
 "Execute manually:\n"
 "{}"
@@ -127,10 +130,12 @@ msgid "Installing..."
 msgstr "Installerer..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
+#, python-brace-format
 msgid "Error: {}"
 msgstr "Fejl: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
+#, python-brace-format
 msgid "Embedded terminal error: {}. Trying external..."
 msgstr "Indlejret terminalfejl: {}. Forsøger ekstern..."
 # 
@@ -138,11 +143,17 @@ msgstr "Indlejret terminalfejl: {}. Forsøger ekstern..."
 msgid "Installation completed successfully!"
 msgstr "Installation gennemført med succes!"
 # 
+# File: usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+#: NEEDS WORK
+msgid "Finish"
+msgstr "Afslut"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
+#, python-brace-format
 msgid "Installation failed. Exit code: {}"
 msgstr "Installation mislykkedes. Afslutningskode: {}"
 # 
@@ -169,6 +180,11 @@ msgstr "Vælg farveskemaet"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
 msgid "Automático"
 msgstr "Automatisk"
+# 
+# File: usr/share/big-remote-play-together/ui/preferences.py, line: 52
+#: NEEDS WORK
+msgid "Claro"
+msgstr "Claro"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
 # 
@@ -225,6 +241,15 @@ msgstr "Rene logs"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Gamle logfiler er blevet fjernet."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+#: NEEDS WORK
+msgid "OK"
+msgstr "OK"
 # 
 # #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
@@ -1132,6 +1157,7 @@ msgid "Waiting for data..."
 msgstr "Venter på data..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 260
+#, python-brace-format
 msgid "{} Active Devices"
 msgstr "{} Aktive enheder"
 # 
@@ -1160,6 +1186,7 @@ msgid "Guest"
 msgstr "Gæst"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 714
+#, python-brace-format
 msgid "{} users connected"
 msgstr "{} brugere tilsluttet"
 # 
@@ -1168,6 +1195,7 @@ msgid "Active - No one connected"
 msgstr "Aktiv - Ingen tilsluttet"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 773
+#, python-brace-format
 msgid "Connected to {}"
 msgstr "Forbundet til {}"
 # 
@@ -1229,6 +1257,7 @@ msgid "connect"
 msgstr "forbind"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 196
+#, python-brace-format
 msgid "Need to install {} to {}"
 msgstr "Skal installere {} til {}"
 # 
@@ -1869,6 +1898,7 @@ msgid "Error loading audio"
 msgstr "Fejl ved indlæsning af lyd"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 763
+#, python-brace-format
 msgid "Output changed to: {}"
 msgstr "Output ændret til: {}"
 # 
@@ -1888,6 +1918,7 @@ msgid "Error"
 msgstr "Fejl"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 783
+#, python-brace-format
 msgid "Success: {}"
 msgstr "Succes: {}"
 # 
@@ -1900,8 +1931,14 @@ msgid "Execution failed or cancelled."
 msgstr "Udførelsen mislykkedes eller blev annulleret."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 796
+#, python-brace-format
 msgid "Error executing script: {}"
 msgstr "Fejl ved udførelse af script: {}"
+# 
+# File: usr/share/big-remote-play-together/ui/host_view.py, line: 830
+#: NEEDS WORK
+msgid "Copied!"
+msgstr "Kopieret!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 830
 # 
@@ -1952,6 +1989,7 @@ msgid "Check logs for details."
 msgstr "Tjek logfiler for detaljer."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1206
+#, python-brace-format
 msgid ""
 "Missing library: {}\n"
 "\n"
@@ -1962,6 +2000,7 @@ msgstr ""
 "Vil du gerne prøve at rette det automatisk?"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1215
+#, python-brace-format
 msgid ""
 "Missing library: {}\n"
 "\n"
@@ -1980,6 +2019,7 @@ msgid "Failed to start"
 msgstr "Mislykkedes at starte"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1222
+#, python-brace-format
 msgid ""
 "The server failed to start.\n"
 "{}"
@@ -2018,6 +2058,7 @@ msgid "Detecting bandwidth..."
 msgstr "Registrerer båndbredde..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 40
+#, python-brace-format
 msgid "Suggested bitrate: {} Mbps"
 msgstr "Forslået bitrate: {} Mbps"
 # 
@@ -2095,6 +2136,7 @@ msgid "Use GPU for decoding"
 msgstr "Brug GPU til dekodning"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 140
+#, python-brace-format
 msgid "Host connected: {}"
 msgstr "Vært tilsluttet: {}"
 # 
@@ -2111,6 +2153,7 @@ msgid "Host connected. Click Stop to disconnect."
 msgstr "Vært tilsluttet. Klik på Stop for at afbryde forbindelsen."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
+#, python-brace-format
 msgid "Connect to {}"
 msgstr "Forbind til {}"
 # 
@@ -2155,6 +2198,7 @@ msgid "Copy IP"
 msgstr "Kopier IP"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
+#, python-brace-format
 msgid "IP Copied: {}"
 msgstr "IP kopieret: {}"
 # 
@@ -2207,6 +2251,7 @@ msgid "Failed to connect"
 msgstr "Mislykkedes at oprette forbindelse"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 587
+#, python-brace-format
 msgid "Attempting automatic pairing PIN: {}"
 msgstr "Forsøger automatisk parring PIN: {}"
 # 
@@ -2239,6 +2284,7 @@ msgid "Pairing Required"
 msgstr "Parring påkrævet"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+#, python-brace-format
 msgid ""
 "Moonlight needs to be paired.\n"
 "\n"
@@ -2247,6 +2293,7 @@ msgstr "Moonlight skal parres."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 655
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 659
+#, python-brace-format
 msgid ""
 "Follow instructions.\n"
 "\n"
@@ -2273,6 +2320,7 @@ msgid "Must contain 6 digits."
 msgstr "Skal indeholde 6 cifre."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 717
+#, python-brace-format
 msgid "Host found: {}"
 msgstr "Vært fundet: {}"
 # 
@@ -2286,6 +2334,7 @@ msgstr "Kunne ikke finde en vært med denne PIN på det lokale netværk..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 734
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 744
+#, python-brace-format
 msgid "Set: {}"
 msgstr "Sæt: {}"
 # 
@@ -2335,22 +2384,27 @@ msgid "Restored"
 msgstr "Gendannet"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 80
+#, python-brace-format
 msgid "Sunshine failed to start (Exit code {}).\n"
 msgstr "Sunshine kunne ikke starte (Exit-kode {})."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 82
+#, python-brace-format
 msgid "Sunshine failed to start: {}"
 msgstr "Sunshine kunne ikke starte: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 84
+#, python-brace-format
 msgid "Sunshine failed to start (Exit code {}). Check logs."
 msgstr "Sunshine kunne ikke starte (Exit-kode {}). Tjek logfiler."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 99
+#, python-brace-format
 msgid "Sunshine started (PID: {})"
 msgstr "Sunshine startet (PID: {})"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 103
+#, python-brace-format
 msgid "Error starting Sunshine: {}"
 msgstr "Fejl ved opstart af Sunshine: {}"
 # 
@@ -2363,6 +2417,7 @@ msgid "Sunshine stopped"
 msgstr "Sunshine stoppede"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 157
+#, python-brace-format
 msgid "Error stopping Sunshine: {}"
 msgstr "Fejl ved stop af Sunshine: {}"
 # 
@@ -2372,11 +2427,13 @@ msgstr "Godkendelse mislykkedes. Konfigurer en bruger i Sunshine."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 312
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 348
+#, python-brace-format
 msgid "API Error: {} - {}"
 msgstr "API-fejl: {} - {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 314
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 350
+#, python-brace-format
 msgid "Connection Error: {}"
 msgstr "Forbindelsesfejl: {}"
 # 

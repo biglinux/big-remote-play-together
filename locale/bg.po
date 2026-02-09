@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the big-remote-play-together package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: big-remote-play-together\n"
@@ -24,6 +25,7 @@ msgid " (IPv6 Global)"
 msgstr "(IPv6 Глобален)"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/utils/network.py, line: 156
+#, python-brace-format
 msgid "Host ({})"
 msgstr "Хост ({})"
 # 
@@ -115,6 +117,7 @@ msgid "Error: No terminal detected."
 msgstr "Грешка: Не е открит терминал."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 86
+#, python-brace-format
 msgid ""
 "Execute manually:\n"
 "{}"
@@ -127,10 +130,12 @@ msgid "Installing..."
 msgstr "Инсталиране..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 91
+#, python-brace-format
 msgid "Error: {}"
 msgstr "Грешка: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 92
+#, python-brace-format
 msgid "Embedded terminal error: {}. Trying external..."
 msgstr "Грешка на вградения терминал: {}. Опитвам външен..."
 # 
@@ -143,6 +148,7 @@ msgid "Finish"
 msgstr "Завършете"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
+#, python-brace-format
 msgid "Installation failed. Exit code: {}"
 msgstr "Инсталацията не успя. Код на изхода: {}"
 # 
@@ -225,6 +231,15 @@ msgstr "Чисти журнали"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Старите лог файлове бяха премахнати."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+#: NEEDS WORK
+msgid "OK"
+msgstr "Добре"
 # 
 # #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
@@ -1142,6 +1157,7 @@ msgid "Waiting for data..."
 msgstr "Изчакване на данни..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 260
+#, python-brace-format
 msgid "{} Active Devices"
 msgstr "{} Активни устройства"
 # 
@@ -1170,6 +1186,7 @@ msgid "Guest"
 msgstr "Гост"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 714
+#, python-brace-format
 msgid "{} users connected"
 msgstr "{} потребители свързани"
 # 
@@ -1178,6 +1195,7 @@ msgid "Active - No one connected"
 msgstr "Активен - Никой не е свързан"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 773
+#, python-brace-format
 msgid "Connected to {}"
 msgstr "Свързано с {}"
 # 
@@ -1239,6 +1257,7 @@ msgid "connect"
 msgstr "свържи"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 196
+#, python-brace-format
 msgid "Need to install {} to {}"
 msgstr "Трябва да инсталирате {} на {}"
 # 
@@ -1879,6 +1898,7 @@ msgid "Error loading audio"
 msgstr "Грешка при зареждане на аудио"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 763
+#, python-brace-format
 msgid "Output changed to: {}"
 msgstr "Изходът беше променен на: {}"
 # 
@@ -1898,6 +1918,7 @@ msgid "Error"
 msgstr "Грешка"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 783
+#, python-brace-format
 msgid "Success: {}"
 msgstr "Успех: {}"
 # 
@@ -1910,6 +1931,7 @@ msgid "Execution failed or cancelled."
 msgstr "Изпълнението е неуспешно или отменено."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 796
+#, python-brace-format
 msgid "Error executing script: {}"
 msgstr "Грешка при изпълнение на скрипта: {}"
 # 
@@ -1962,6 +1984,7 @@ msgid "Check logs for details."
 msgstr "Проверете логовете за подробности."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1206
+#, python-brace-format
 msgid ""
 "Missing library: {}\n"
 "\n"
@@ -1972,6 +1995,7 @@ msgstr ""
 "Искате ли да опитате да я поправите автоматично?"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1215
+#, python-brace-format
 msgid ""
 "Missing library: {}\n"
 "\n"
@@ -1990,6 +2014,7 @@ msgid "Failed to start"
 msgstr "Неуспешно стартиране"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1222
+#, python-brace-format
 msgid ""
 "The server failed to start.\n"
 "{}"
@@ -2028,6 +2053,7 @@ msgid "Detecting bandwidth..."
 msgstr "Откриване на честотна лента..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 40
+#, python-brace-format
 msgid "Suggested bitrate: {} Mbps"
 msgstr "Предложен битрейт: {} Mbps"
 # 
@@ -2105,6 +2131,7 @@ msgid "Use GPU for decoding"
 msgstr "Използвайте GPU за декодиране"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 140
+#, python-brace-format
 msgid "Host connected: {}"
 msgstr "Хост свързан: {}"
 # 
@@ -2121,6 +2148,7 @@ msgid "Host connected. Click Stop to disconnect."
 msgstr "Хостът е свързан. Щракнете Спри, за да се отключите."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 212
+#, python-brace-format
 msgid "Connect to {}"
 msgstr "Свържете се с {}"
 # 
@@ -2165,6 +2193,7 @@ msgid "Copy IP"
 msgstr "Копирай IP"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
+#, python-brace-format
 msgid "IP Copied: {}"
 msgstr "IP адресът е копиран: {}"
 # 
@@ -2217,6 +2246,7 @@ msgid "Failed to connect"
 msgstr "Неуспешно свързване"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 587
+#, python-brace-format
 msgid "Attempting automatic pairing PIN: {}"
 msgstr "Опит за автоматично сдвояване на ПИН: {}"
 # 
@@ -2249,6 +2279,7 @@ msgid "Pairing Required"
 msgstr "Изисква се сдвояване"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 648
+#, python-brace-format
 msgid ""
 "Moonlight needs to be paired.\n"
 "\n"
@@ -2257,6 +2288,7 @@ msgstr "Лунната светлина трябва да бъде свърза�
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 655
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 659
+#, python-brace-format
 msgid ""
 "Follow instructions.\n"
 "\n"
@@ -2283,6 +2315,7 @@ msgid "Must contain 6 digits."
 msgstr "Трябва да съдържа 6 цифри."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 717
+#, python-brace-format
 msgid "Host found: {}"
 msgstr "Намерен хост: {}"
 # 
@@ -2296,6 +2329,7 @@ msgstr "Не можа да се намери хост с този ПИН в ло
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 734
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 744
+#, python-brace-format
 msgid "Set: {}"
 msgstr "Настройка: {}"
 # 
@@ -2345,22 +2379,27 @@ msgid "Restored"
 msgstr "Възстановено"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 80
+#, python-brace-format
 msgid "Sunshine failed to start (Exit code {}).\n"
 msgstr "Sunshine не успя да стартира (Код на изхода {})."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 82
+#, python-brace-format
 msgid "Sunshine failed to start: {}"
 msgstr "Sunshine не успя да стартира: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 84
+#, python-brace-format
 msgid "Sunshine failed to start (Exit code {}). Check logs."
 msgstr "Sunshine не успя да стартира (Код за изход {}). Проверете логовете."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 99
+#, python-brace-format
 msgid "Sunshine started (PID: {})"
 msgstr "Слънчевата светлина стартира (PID: {})"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 103
+#, python-brace-format
 msgid "Error starting Sunshine: {}"
 msgstr "Грешка при стартиране на Sunshine: {}"
 # 
@@ -2373,6 +2412,7 @@ msgid "Sunshine stopped"
 msgstr "Слънчевата светлина спря"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 157
+#, python-brace-format
 msgid "Error stopping Sunshine: {}"
 msgstr "Грешка при спиране на Sunshine: {}"
 # 
@@ -2382,11 +2422,13 @@ msgstr "Неуспешна автентикация. Конфигурирайт�
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 312
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 348
+#, python-brace-format
 msgid "API Error: {} - {}"
 msgstr "Грешка на API: {} - {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 314
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 350
+#, python-brace-format
 msgid "Connection Error: {}"
 msgstr "Грешка при свързване: {}"
 # 
