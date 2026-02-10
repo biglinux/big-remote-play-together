@@ -1,0 +1,8 @@
+local/harfbuzz-icu 12.3.2-1
+    OpenType text shaping engine - ICU integration
+local/icu 78.2-1
+    International Components for Unicode library
+local/icu76 76.1-1
+    International Components for Unicode library (legacy version 76).
+local/lib32-icu 78.2-1
+    International Components for Unicode library (32 bit)
