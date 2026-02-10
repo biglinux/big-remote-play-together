@@ -1181,14 +1181,13 @@ msgstr "Frakoblet"
 msgid "Guest"
 msgstr "Gæst"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 714
-#, python-brace-format
-msgid "{} users connected"
-msgstr "{} brugere tilsluttet"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 666
+msgid "{} devices monitoring"
+msgstr "{} enheder overvågning"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 718
-msgid "Active - No one connected"
-msgstr "Aktiv - Ingen tilsluttet"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 669
+msgid "Active - No devices"
+msgstr "Aktiv - Ingen enheder"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 773
 #, python-brace-format
@@ -2265,6 +2264,10 @@ msgstr "Fejl ved udførelse af script: {}"
 msgid "Copied!"
 msgstr "Kopieret!"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 838
+msgid "Clicked Start Server..."
+msgstr "Klikkede på Start Server..."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 830
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 830
@@ -2354,13 +2357,17 @@ msgstr "Serveren kunne ikke starte."
 msgid "Fix Automatically"
 msgstr "Reparer automatisk"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
-msgid "Failed to stop Sunshine."
-msgstr "Kunne ikke stoppe Sunshine."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1248
+msgid "Stopping server..."
+msgstr "Stopper server..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1284
-msgid "Server stopped and ports released."
-msgstr "Server stoppet og porte frigivet."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1279
+msgid "Server stopped"
+msgstr "Server stoppet"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1289
+msgid "Sunshine stopped unexpectedly"
+msgstr "Sunshine stoppede uventet"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1429
 msgid "Restore Defaults"
@@ -2545,6 +2552,10 @@ msgstr "Brug IPv6"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 426
 msgid "Enter the 6-digit PIN code provided by the host"
 msgstr "Indtast den 6-cifrede PIN-kode, der er givet af værten."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
+msgid "Clicked Connect..."
+msgstr "Klikkede på Forbind..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
@@ -2731,15 +2742,6 @@ msgstr "Fejl ved opstart af Sunshine: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 109
 msgid "Sunshine is not running"
 msgstr "Sunshine kører ikke"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 153
-msgid "Sunshine stopped"
-msgstr "Sunshine stoppede"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 157
-#, python-brace-format
-msgid "Error stopping Sunshine: {}"
-msgstr "Fejl ved stop af Sunshine: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 311
 msgid "Authentication Failed. Configure a user in Sunshine."

@@ -266,6 +266,18 @@ msgstr "Alte Protokolldateien wurden entfernt."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
 # 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
 msgstr "Pfad kopiert!"
@@ -1199,13 +1211,13 @@ msgstr "Getrennt"
 msgid "Guest"
 msgstr "Gast"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 714
-msgid "{} users connected"
-msgstr "{} Benutzer verbunden"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 666
+msgid "{} devices monitoring"
+msgstr "{} Geräteüberwachung"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 718
-msgid "Active - No one connected"
-msgstr "Aktiv - Niemand verbunden"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 669
+msgid "Active - No devices"
+msgstr "Aktiv - Keine Geräte"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 773
 msgid "Connected to {}"
@@ -2280,6 +2292,10 @@ msgstr "Fehler beim Ausführen des Skripts: {}"
 msgid "Copied!"
 msgstr "Kopiert!"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 838
+msgid "Clicked Start Server..."
+msgstr "Server starten..."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 850
 msgid "Server Active - Guests can now connect"
 msgstr "Server aktiv - Gäste können sich jetzt verbinden"
@@ -2362,13 +2378,17 @@ msgstr "Der Server konnte nicht gestartet werden."
 msgid "Fix Automatically"
 msgstr "Automatisch reparieren"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
-msgid "Failed to stop Sunshine."
-msgstr "Fehler beim Stoppen von Sunshine."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1248
+msgid "Stopping server..."
+msgstr "Server wird gestoppt..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1284
-msgid "Server stopped and ports released."
-msgstr "Server gestoppt und Ports freigegeben."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1279
+msgid "Server stopped"
+msgstr "Server gestoppt"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1289
+msgid "Sunshine stopped unexpectedly"
+msgstr "Sunshine wurde unerwartet gestoppt."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1429
 msgid "Restore Defaults"
@@ -2550,6 +2570,10 @@ msgstr "Verwenden Sie IPv6"
 msgid "Enter the 6-digit PIN code provided by the host"
 msgstr "Geben Sie den 6-stelligen PIN-Code ein, der vom Gastgeber bereitgestellt wurde."
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
+msgid "Clicked Connect..."
+msgstr "Verbunden..."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
@@ -2725,14 +2749,6 @@ msgstr "Fehler beim Starten von Sunshine: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 109
 msgid "Sunshine is not running"
 msgstr "Sunshine läuft nicht."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 153
-msgid "Sunshine stopped"
-msgstr "Sonnenschein gestoppt"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 157
-msgid "Error stopping Sunshine: {}"
-msgstr "Fehler beim Stoppen von Sunshine: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 311
 msgid "Authentication Failed. Configure a user in Sunshine."

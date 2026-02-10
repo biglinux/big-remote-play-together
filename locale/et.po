@@ -151,6 +151,10 @@ msgstr "Installeerimine lõpetati edukalt!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Installeerimine ebaõnnestus. Väljumiskood: {}"
@@ -186,6 +190,10 @@ msgstr "Selge"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
 msgid "Escuro"
 msgstr "Tume"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
 # 
@@ -244,6 +252,18 @@ msgstr "Puhas logid"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Vana logifailid on eemaldatud."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
 # 
 # #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
@@ -1199,13 +1219,13 @@ msgstr "Ühendus katkestatud"
 msgid "Guest"
 msgstr "Külastaja"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 714
-msgid "{} users connected"
-msgstr "{} kasutajat on ühendatud"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 666
+msgid "{} devices monitoring"
+msgstr "{} seadmete jälgimine"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 718
-msgid "Active - No one connected"
-msgstr "Aktiivne - Ükski ei ole ühendatud"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 669
+msgid "Active - No devices"
+msgstr "Aktiivne - Seadmeid pole"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 773
 msgid "Connected to {}"
@@ -2280,6 +2300,10 @@ msgstr "Viga skripti täitmisel: {}"
 msgid "Copied!"
 msgstr "Kopeeritud!"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 838
+msgid "Clicked Start Server..."
+msgstr "Klõpsatud Serveri käivitamine..."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 850
 msgid "Server Active - Guests can now connect"
 msgstr "Server aktiivne - Külastajad saavad nüüd ühenduda"
@@ -2362,13 +2386,17 @@ msgstr "Server ei õnnestunud käivitada."
 msgid "Fix Automatically"
 msgstr "Paranda automaatselt"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
-msgid "Failed to stop Sunshine."
-msgstr "Eba õnnestus Sunshine'i peatada."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1248
+msgid "Stopping server..."
+msgstr "Serveri peatamine..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1284
-msgid "Server stopped and ports released."
-msgstr "Server peatunud ja pordid vabastatud."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1279
+msgid "Server stopped"
+msgstr "Server peatunud"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1289
+msgid "Sunshine stopped unexpectedly"
+msgstr "Päikesepaiste peatus ootamatult"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1429
 msgid "Restore Defaults"
@@ -2550,6 +2578,10 @@ msgstr "Kasutage IPv6."
 msgid "Enter the 6-digit PIN code provided by the host"
 msgstr "Sisestage peremehe poolt antud 6-kohaline PIN-kood."
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
+msgid "Clicked Connect..."
+msgstr "Klõpsatud Ühenda..."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
@@ -2725,14 +2757,6 @@ msgstr "Viga Sunshine'i käivitamisel: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 109
 msgid "Sunshine is not running"
 msgstr "Sunshine ei tööta"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 153
-msgid "Sunshine stopped"
-msgstr "Päikesepaiste peatus"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 157
-msgid "Error stopping Sunshine: {}"
-msgstr "Viga Sunshine'i peatamisel: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 311
 msgid "Authentication Failed. Configure a user in Sunshine."

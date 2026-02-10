@@ -182,6 +182,10 @@ msgstr "Αυτόματο"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
 msgid "Escuro"
 msgstr "Σκοτεινός"
@@ -270,6 +274,18 @@ msgstr "Τα παλιά αρχεία καταγραφής έχουν αφαιρ�
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
 # 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 663
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
 msgstr "Διαδρομή αντιγράφηκε!"
@@ -285,6 +301,10 @@ msgstr "Γενικά"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 73
 msgid "Server general settings"
 msgstr "Γενικές ρυθμίσεις διακομιστή"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 74
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 74
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/sunshine_preferences.py, line: 74
 # 
@@ -1211,13 +1231,13 @@ msgstr "Αποσυνδεδεμένος"
 msgid "Guest"
 msgstr "Επισκέπτης"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 714
-msgid "{} users connected"
-msgstr "{} χρήστες συνδεδεμένοι"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 666
+msgid "{} devices monitoring"
+msgstr "{} παρακολούθηση συσκευών"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 718
-msgid "Active - No one connected"
-msgstr "Ενεργό - Κανείς συνδεδεμένος"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 669
+msgid "Active - No devices"
+msgstr "Ενεργό - Χωρίς συσκευές"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 773
 msgid "Connected to {}"
@@ -2294,6 +2314,10 @@ msgstr "Σφάλμα κατά την εκτέλεση του σεναρίου: {
 msgid "Copied!"
 msgstr "Αντιγράφηκε!"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 838
+msgid "Clicked Start Server..."
+msgstr "Κλίκαρε Ξεκίνα Διακομιστή..."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 850
 msgid "Server Active - Guests can now connect"
 msgstr "Ο διακομιστής είναι ενεργός - Οι επισκέπτες μπορούν τώρα να συνδεθούν."
@@ -2376,13 +2400,17 @@ msgstr "Ο διακομιστής απέτυχε να ξεκινήσει."
 msgid "Fix Automatically"
 msgstr "Διόρθωση Αυτόματα"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
-msgid "Failed to stop Sunshine."
-msgstr "Αποτυχία να σταματήσει το Sunshine."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1248
+msgid "Stopping server..."
+msgstr "Διακοπή διακομιστή..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1284
-msgid "Server stopped and ports released."
-msgstr "Ο διακομιστής σταμάτησε και οι θύρες απελευθερώθηκαν."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1279
+msgid "Server stopped"
+msgstr "Ο διακομιστής σταμάτησε"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1289
+msgid "Sunshine stopped unexpectedly"
+msgstr "Ο Sunshine σταμάτησε απροσδόκητα"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1429
 msgid "Restore Defaults"
@@ -2564,6 +2592,10 @@ msgstr "Χρησιμοποιήστε IPv6"
 msgid "Enter the 6-digit PIN code provided by the host"
 msgstr "Εισάγετε τον 6ψήφιο κωδικό PIN που παρέχεται από τον οικοδεσπότη."
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
+msgid "Clicked Connect..."
+msgstr "Κλίκαρε Σύνδεση..."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 627
@@ -2742,14 +2774,6 @@ msgstr "Σφάλμα κατά την εκκίνηση του Sunshine: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 109
 msgid "Sunshine is not running"
 msgstr "Ο Sunshine δεν εκτελείται."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 153
-msgid "Sunshine stopped"
-msgstr "Ο ήλιος σταμάτησε"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 157
-msgid "Error stopping Sunshine: {}"
-msgstr "Σφάλμα κατά την διακοπή του Sunshine: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 311
 msgid "Authentication Failed. Configure a user in Sunshine."

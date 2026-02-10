@@ -1163,14 +1163,13 @@ msgstr "Odpojeno"
 msgid "Guest"
 msgstr "Host."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 714
-#, python-brace-format
-msgid "{} users connected"
-msgstr "{} uživatelů připojeno"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 666
+msgid "{} devices monitoring"
+msgstr "{} sledování zařízení"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 718
-msgid "Active - No one connected"
-msgstr "Aktivní - Nikdo není připojen"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 669
+msgid "Active - No devices"
+msgstr "Aktivní - Žádná zařízení"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/performance_monitor.py, line: 773
 #, python-brace-format
@@ -2249,6 +2248,10 @@ msgstr "Chyba při provádění skriptu: {}"
 msgid "Copied!"
 msgstr "Zkopírováno!"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 838
+msgid "Clicked Start Server..."
+msgstr "Kliknuto na Spustit server..."
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 850
 msgid "Server Active - Guests can now connect"
 msgstr "Server aktivní - Hosté se nyní mohou připojit"
@@ -2334,13 +2337,17 @@ msgstr "Server se nepodařilo spustit."
 msgid "Fix Automatically"
 msgstr "Opravit automaticky"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
-msgid "Failed to stop Sunshine."
-msgstr "Nepodařilo se zastavit Sunshine."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1248
+msgid "Stopping server..."
+msgstr "Zastavení serveru..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1284
-msgid "Server stopped and ports released."
-msgstr "Server zastaven a porty uvolněny."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1279
+msgid "Server stopped"
+msgstr "Server zastaven."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1289
+msgid "Sunshine stopped unexpectedly"
+msgstr "Slunce se neočekávaně zastavilo."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1429
 msgid "Restore Defaults"
@@ -2525,6 +2532,10 @@ msgstr "Použijte IPv6"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 426
 msgid "Enter the 6-digit PIN code provided by the host"
 msgstr "Zadejte 6místný PIN kód poskytnutý hostitelem."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 464
+msgid "Clicked Connect..."
+msgstr "Kliknuto Připojit..."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 499
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 555
@@ -2714,15 +2725,6 @@ msgstr "Chyba při spuštění Sunshine: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 109
 msgid "Sunshine is not running"
 msgstr "Sunshine neběží"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 153
-msgid "Sunshine stopped"
-msgstr "Slunce se zastavilo"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 157
-#, python-brace-format
-msgid "Error stopping Sunshine: {}"
-msgstr "Chyba při zastavování Sunshine: {}"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/host/sunshine_manager.py, line: 311
 msgid "Authentication Failed. Configure a user in Sunshine."
