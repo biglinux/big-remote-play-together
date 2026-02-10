@@ -258,26 +258,76 @@ msgid   "Limpar"
 msgstr  ""
 
 #
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
+msgid   "Manutenção do Sistema"
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
+msgid   "Ferramentas para resolver problemas comuns"
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
+msgid   "Corrigir Bibliotecas (ICU)"
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
+msgid   "Resolve o erro libicuuc.so.7* ausente"
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
+msgid   "Fix Automático"
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
 msgid   "Logs Limpos"
 msgstr  ""
 
 #
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 158
 msgid   "Arquivos de log antigos foram removidos."
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 #
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 141
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
 msgid   "OK"
 msgstr  ""
 
 #
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid   "Fix Automático Iniciado"
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid   "O script de correção de bibliotecas foi iniciado. Forneça a senha se "
+        "solicitado."
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid   "Erro"
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid   "Script de correção não encontrado."
+msgstr  ""
+
+#
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 190
 msgid   "Caminho copiado!"
 msgstr  ""
 
