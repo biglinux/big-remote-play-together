@@ -168,6 +168,10 @@ msgstr "Installation terminée avec succès !"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "L'installation a échoué. Code de sortie : {}"
@@ -195,6 +199,10 @@ msgstr "Choisissez le schéma de couleurs."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 51
 msgid "Automático"
 msgstr "Automatique"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
 # 
@@ -264,6 +272,26 @@ msgstr "Removez les anciens fichiers journaux."
 msgid "Limpar"
 msgstr "Nettoyer"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
+msgid "Manutenção do Sistema"
+msgstr "Maintenance du Système"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "Outils pour résoudre des problèmes courants"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "Corriger les bibliothèques (ICU)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "Résoudre l'erreur libicuuc.so.7* manquante"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
+msgid "Fix Automático"
+msgstr "Correction automatique"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Journaux propres"
@@ -271,6 +299,41 @@ msgstr "Journaux propres"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Les anciens fichiers journaux ont été supprimés."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "Fix Automático Iniciado"
+msgstr "Correction automatique lancée"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "Le script de correction des bibliothèques a été lancé. Veuillez fournir le mot de passe si demandé."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Erro"
+msgstr "Erreur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Script de correção não encontrado."
+msgstr "Script de correction non trouvé."
 # 
 # #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
@@ -1290,9 +1353,78 @@ msgstr "Actif - Aucun appareil"
 msgid "Connected to {}"
 msgstr "Connecté à {}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 56
-msgid "Access Information"
-msgstr "Accéder aux informations"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
+msgid "🎮 Network Created Successfully!"
+msgstr "🎮 Réseau créé avec succès !"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 58
+msgid ""
+"Share the info below with your friends so they can join via \"Connect to Private Network\" and play "
+"together!"
+msgstr ""
+"Partagez les informations ci-dessous avec vos amis afin qu'ils puissent rejoindre via \"Se "
+"connecter à un réseau privé\" et jouer ensemble !"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 86
+msgid "📤 Share with Your Friends"
+msgstr "📤 Partager avec vos amis"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 88
+msgid "Your friends only need these 2 items to join your network."
+msgstr "Vos amis n'ont besoin que de ces 2 éléments pour rejoindre votre réseau."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 384
+msgid "Server Domain"
+msgstr "Domaine du serveur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 101
+msgid "Copy domain"
+msgstr "Copier le domaine"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
+msgid "Auth Key (Friends)"
+msgstr "Clé d'authentification (Amis)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 115
+msgid "Copy auth key"
+msgstr "Copier la clé d'authentification"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 122
+msgid "📋 How to Connect"
+msgstr "📋 Comment se connecter"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 124
+msgid "Both you AND your friends must connect!"
+msgstr "Vous et vos amis devez vous connecter !"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "1. Open \"Connect to Private Network\""
+msgstr "1. Ouvrir \"Se connecter à un réseau privé\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "In the sidebar menu"
+msgstr "Dans le menu latéral"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+msgid "2. Enter domain and Auth Key"
+msgstr "2. Entrez le domaine et la clé d'authentification"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "3. Click \"Establish Connection\""
+msgstr "3. Cliquez sur \"Établir la connexion\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "Play together over the internet!"
+msgstr "Jouez ensemble sur Internet !"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 142
+msgid "🔧 Server Details"
+msgstr "🔧 Détails du serveur"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 66
 msgid "Web Interface"
@@ -1310,247 +1442,456 @@ msgstr "IP public"
 msgid "Local IP"
 msgstr "IP local"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 70
-msgid "API Key (UI)"
-msgstr "Clé API (UI)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
-msgid "Auth Key (Friends)"
-msgstr "Clé d'authentification (Amis)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 150
+msgid "API Key (Admin UI)"
+msgstr "Clé API (Interface Admin)"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 99
 msgid "Save and Finish"
 msgstr "Enregistrer et terminer"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 555
-msgid "Install Server"
-msgstr "Installer le serveur"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 204
+msgid "Save to File"
+msgstr "Enregistrer dans le fichier"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 115
-msgid "1. Domain Registration"
-msgstr "1. Enregistrement de domaine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 215
+msgid "Share"
+msgstr "Partager"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 117
-msgid "The first step is to have a domain pointed to Cloudflare."
-msgstr "La première étape consiste à avoir un domaine pointé vers Cloudflare."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 226
+msgid "This info is saved in \"Connect to Private Network\" → \"Previous Networks\""
+msgstr "Ces informations sont enregistrées dans \"Se connecter à un réseau privé\" → \"Réseaux précédents\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 262
+msgid "Save Connection Info"
+msgstr "Enregistrer les informations de connexion"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 275
+msgid "File saved: {}"
+msgstr "Fichier enregistré : {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
+msgid "Error saving: {}"
+msgstr "Erreur de sauvegarde : {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 288
+msgid "Connection info copied! Paste it in any app to share."
+msgstr "Informations de connexion copiées ! Collez-les dans n'importe quelle application pour partager."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 315
+msgid "Preparing connection..."
+msgstr "Préparation de la connexion..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 316
+msgid "Checking dependencies..."
+msgstr "Vérification des dépendances..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
+msgid "Configuring Tailscale client..."
+msgstr "Configuration du client Tailscale..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 318
+msgid "Logging in to network..."
+msgstr "Connexion au réseau..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 319
+msgid "Verifying connection..."
+msgstr "Vérification de la connexion..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 320
+msgid "Connection established!"
+msgstr "Connexion établie !"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 35
+msgid "Create Private Network"
+msgstr "Créer un réseau privé"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 369
+msgid ""
+"Set up your own Headscale VPN server with automatic DNS configuration via Cloudflare. This allows "
+"you and your friends to connect securely over the internet."
+msgstr ""
+"Configurez votre propre serveur VPN Headscale avec une configuration DNS automatique via "
+"Cloudflare. Cela vous permet, à vous et à vos amis, de vous connecter en toute sécurité sur "
+"Internet."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 376
+msgid "Server Configuration"
+msgstr "Configuration du serveur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 377
+msgid "Enter your Cloudflare credentials to automate the installation"
+msgstr "Entrez vos identifiants Cloudflare pour automatiser l'installation."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 121
 msgid "Enter your domain"
 msgstr "Entrez votre domaine"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 122
-msgid "Domain Name"
-msgstr "Nom de domaine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 380
+msgid "e.g.: myserver.us.kg"
+msgstr "myserver.us.kg"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 125
-msgid "Register Free Domain (DigitalPlat)"
-msgstr "Enregistrer un domaine gratuit (DigitalPlat)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 382
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 672
+msgid "Zone ID"
+msgstr "ID de zone"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 145
-msgid "2. Cloudflare Setup"
-msgstr "2. Configuration de Cloudflare"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 383
+msgid "Found in Cloudflare Overview page"
+msgstr "Trouvé dans la page d'aperçu de Cloudflare"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 147
-msgid "Detailed tutorial to configure your domain"
-msgstr "Tutoriel détaillé pour configurer votre domaine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 385
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 682
+msgid "API Token"
+msgstr "Jeton API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 153
-msgid "1. Access Cloudflare"
-msgstr "Accéder à Cloudflare"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 386
+msgid "Token with DNS Edit permission"
+msgstr "Jeton avec autorisation d'édition DNS"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 154
-msgid "Create account and click '+ Add'"
-msgstr "Créer un compte et cliquer sur '+ Ajouter'"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 442
+msgid "View access information"
+msgstr "Afficher les informations d'accès"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 163
-msgid "2. Enter Domain"
-msgstr "2. Entrer le domaine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 478
+msgid "Preparing environment..."
+msgstr "Préparation de l'environnement..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 166
-msgid "Enter your domain: <b>{}</b>"
-msgstr "Entrez votre domaine : <b>{}</b>"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 479
+msgid "Installing Docker..."
+msgstr "Installation de Docker..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 168
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 480
+msgid "Configuring Headscale..."
+msgstr "Configuration de Headscale..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 481
+msgid "Setting up Caddy reverse proxy..."
+msgstr "Configuration du proxy inverse Caddy..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 482
+msgid "Configuring DNS records..."
+msgstr "Configuration des enregistrements DNS..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 483
+msgid "Generating access keys..."
+msgstr "Génération des clés d'accès..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 484
+msgid "Finalizing installation..."
+msgstr "Finalisation de l'installation..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 555
+msgid "Install Server"
+msgstr "Installer le serveur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 508
+msgid "Instructions"
+msgstr "Instructions"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 544
+msgid "Domain is required"
+msgstr "Le domaine est requis."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 530
+msgid "Zone ID is required"
+msgstr "L'ID de la zone est requis."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 533
+msgid "API Token is required"
+msgstr "Un jeton API est requis."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 548
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 557
+msgid "Setup Instructions"
+msgstr "Instructions d'installation"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 558
+msgid "Step-by-step guide to create your private network"
+msgstr "Guide étape par étape pour créer votre réseau privé"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 578
+msgid "1. Register a Free Domain"
+msgstr "1. Enregistrer un domaine gratuit"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 579
+msgid "Get a free .us.kg domain to use with your server"
+msgstr "Obtenez un domaine .us.kg gratuit à utiliser avec votre serveur."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 582
+msgid "Access DigitalPlat Domain"
+msgstr "Accéder au domaine DigitalPlat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 583
+msgid "Register and get your free domain (e.g.: myserver.us.kg)"
+msgstr "Inscrivez-vous et obtenez votre domaine gratuit (par exemple : monserveur.us.kg)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 586
+msgid "Open Site"
+msgstr "Ouvrir le site"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 597
+msgid "Steps at DigitalPlat"
+msgstr "Étapes à DigitalPlat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 599
 msgid ""
-"On the next page 'Speed up and secure your site':\n"
-"- Select: Quick DNS Check\n"
-"- Select: Global Block\n"
-"- Disable: AI Bots (robots.txt)\n"
-"- Click 'Continue'"
+"1. Create an account or login\n"
+"2. Choose a .us.kg domain\n"
+"3. Complete the simple registration\n"
+"4. Write down the domain you obtained (e.g.: myserver.us.kg)"
 msgstr ""
-"Sur la page suivante 'Accélérez et sécurisez votre site' :\n"
-"- Sélectionnez : Vérification DNS rapide\n"
-"- Sélectionnez : Blocage global\n"
-"- Désactivez : Bots IA (robots.txt)\n"
-"- Cliquez sur 'Continuer'"
+"1. Créez un compte ou connectez-vous\n"
+"2. Choisissez un domaine .us.kg\n"
+"3. Complétez l'enregistrement simple\n"
+"4. Notez le domaine que vous avez obtenu (par exemple : monserveur.us.kg)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 177
-msgid "3. Select Plan"
-msgstr "3. Sélectionner le plan"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 613
+msgid "2. Configure Cloudflare"
+msgstr "2. Configurer Cloudflare"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 178
-msgid "Choose the 'Free Plan' (first card) and click 'Select Plan'"
-msgstr "Choisissez le 'Plan Gratuit' (première carte) et cliquez sur 'Sélectionner le Plan'"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 614
+msgid "Point your domain to Cloudflare for DNS management"
+msgstr "Pointez votre domaine vers Cloudflare pour la gestion DNS."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 183
-msgid "4. DNS Records"
-msgstr "4. Enregistrements DNS"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 617
+msgid "Access Cloudflare Dashboard"
+msgstr "Accéder au tableau de bord Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 618
+msgid "Create a free account and add your domain"
+msgstr "Créez un compte gratuit et ajoutez votre domaine."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 621
+msgid "Open Cloudflare"
+msgstr "Ouvrir Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 632
+msgid "Setup Steps"
+msgstr "Étapes de configuration"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 634
+msgid ""
+"1. Click 'Add a site' → Enter your domain\n"
+"2. Choose the FREE plan\n"
+"3. Write down the 2 nameservers provided\n"
+"4. Go back to your domain provider (DigitalPlat)\n"
+"5. Replace the DNS with Cloudflare's nameservers\n"
+"6. Wait for DNS propagation (may take a few minutes)"
+msgstr ""
+"1. Cliquez sur 'Ajouter un site' → Entrez votre domaine\n"
+"2. Choisissez le plan GRATUIT\n"
+"3. Notez les 2 serveurs de noms fournis\n"
+"4. Retournez chez votre fournisseur de domaine (DigitalPlat)\n"
+"5. Remplacez les DNS par les serveurs de noms de Cloudflare\n"
+"6. Attendez la propagation des DNS (cela peut prendre quelques minutes)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 646
+msgid "Update Nameservers"
+msgstr "Mettre à jour les serveurs de noms"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 647
+msgid "Open domain panel to change NS records"
+msgstr "Ouvrir le panneau de domaine pour changer les enregistrements NS"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 650
+msgid "Domain Panel"
+msgstr "Panneau de domaine"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 668
+msgid "3. Get API Credentials"
+msgstr "3. Obtenez les identifiants API"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 669
+msgid "Obtain your Zone ID and API Token from Cloudflare"
+msgstr "Obtenez votre ID de zone et votre jeton API de Cloudflare."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 674
+msgid ""
+"1. In Cloudflare, click on your domain\n"
+"2. Scroll down to the 'API' section on the right\n"
+"3. Copy the 'Zone ID' value"
+msgstr ""
+"1. Dans Cloudflare, cliquez sur votre domaine\n"
+"2. Faites défiler vers le bas jusqu'à la section 'API' à droite\n"
+"3. Copiez la valeur 'Zone ID'"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 684
+msgid ""
+"1. Click 'Get your API token' (below Zone ID)\n"
+"2. Click 'Create Token'\n"
+"3. Use template: 'Edit zone DNS' → 'Use template'\n"
+"4. Configure:\n"
+"   • Token name: VPN-Token\n"
+"   • Permissions: Zone - DNS - Edit\n"
+"   • Zone: Select your domain\n"
+"5. Click 'Continue to summary' → 'Create Token'\n"
+"6. Copy token IMMEDIATELY (shown only once!)"
+msgstr ""
+"1. Cliquez sur 'Obtenir votre jeton API' (sous l'ID de zone)\n"
+"2. Cliquez sur 'Créer un jeton'\n"
+"3. Utilisez le modèle : 'Modifier le DNS de la zone' → 'Utiliser le modèle'\n"
+"4. Configurez :\n"
+"   • Nom du jeton : VPN-Token\n"
+"   • Permissions : Zone - DNS - Modifier\n"
+"   • Zone : Sélectionnez votre domaine\n"
+"5. Cliquez sur 'Continuer vers le résumé' → 'Créer un jeton'\n"
+"6. Copiez le jeton IMMÉDIATEMENT (affiché une seule fois !)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 703
+msgid "4. Configure DNS Records in Cloudflare"
+msgstr "4. Configurer les enregistrements DNS dans Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 704
+msgid "Create DNS records pointing to your public IP"
+msgstr "Créez des enregistrements DNS pointant vers votre adresse IP publique."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 186
 msgid "Your Public IP"
 msgstr "Votre adresse IP publique"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Type"
-msgstr "Type"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 709
+msgid "Use this IP for the A record below"
+msgstr "Utilisez cette adresse IP pour l'enregistrement A ci-dessous."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Name"
-msgstr "Nom"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 712
+msgid "Loading..."
+msgstr "Chargement..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Target / IP"
-msgstr "Cible / IP"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 356
+msgid "Copy IP"
+msgstr "Copier l'IP"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Proxy"
-msgstr "Proxy"
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 208
-msgid "Disabled (Gray)"
-msgstr "Désactivé (Gris)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 776
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1238
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
+msgid "Error"
+msgstr "Erreur"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 209
-msgid "-"
-msgstr "-"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 746
+msgid "A Record"
+msgstr "Un enregistrement"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 217
-msgid "Click '+ Add Record' and fill as follows:"
-msgstr "Cliquez sur '+ Ajouter un enregistrement' et remplissez comme suit :"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 219
-msgid "After that, click 'Continue to activation'."
-msgstr "Après cela, cliquez sur 'Continuer vers l'activation'."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 225
-msgid "5. Update Nameservers"
-msgstr "5. Mettre à jour les serveurs de noms"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 226
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 748
 msgid ""
-"- Replace your current NS with Cloudflare's NS1 and NS2\n"
-"- Update them in your registrar panel:"
+"In Cloudflare → DNS → Records → 'Add record':\n"
+"• Type: A\n"
+"• Name: @\n"
+"• Content: YOUR-PUBLIC-IP (shown above)\n"
+"• Proxy: OFF (gray cloud — IMPORTANT!)"
 msgstr ""
-"- Remplacez votre NS actuel par les NS1 et NS2 de Cloudflare\n"
-"- Mettez-les à jour dans votre panneau d'enregistrement :"
+"Dans Cloudflare → DNS → Enregistrements → 'Ajouter un enregistrement' :\n"
+"• Type : A\n"
+"• Nom : @\n"
+"• Contenu : VOTRE-ADRESSE-IP-PUBLIQUE (indiquée ci-dessus)\n"
+"• Proxy : OFF (nuage gris — IMPORTANT !)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 250
-msgid "3. Credentials"
-msgstr "3. Identifiants"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 758
+msgid "CNAME Record"
+msgstr "Enregistrement CNAME"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 252
-msgid "We need your Cloudflare API keys to automate DNS."
-msgstr "Nous avons besoin de vos clés API Cloudflare pour automatiser le DNS."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 258
-msgid "How to generate your API Token"
-msgstr "Comment générer votre jeton API"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 265
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 760
 msgid ""
-"<b>Cloudflare API Token (Edit DNS)</b>\n"
-"\n"
-"Para gerar esse API Token com a permissão específica de 'Edit DNS', siga este passo a passo:\n"
-"\n"
-"1. No painel da Cloudflare (Overview), procure <b>Get your API token</b> no canto inferior direito.\n"
-"2. Clique em <b>Create Token</b>.\n"
-"3. Use o primeiro modelo: <b>Edit zone DNS</b> (clique em Use template).\n"
-"4. Configure as permissões exatamente assim:\n"
-"   - Token name: <i>Script-Headscale</i>\n"
-"   - Permissions: <i>Zone - DNS - Edit</i>\n"
-"   - Zone Resources: Include - Specific zone - <b>{}</b>\n"
-"5. Clique em <b>Continue to summary</b> e depois <b>Create Token</b>.\n"
-"\n"
-"<b>Atenção:</b> O Token aparecerá apenas uma vez. Copie e guarde-o bem!"
+"Add another record:\n"
+"• Type: CNAME\n"
+"• Name: www\n"
+"• Target: @\n"
+"• Proxy: OFF"
 msgstr ""
-"<b>Jeton API Cloudflare (Modifier DNS)</b>\n"
-"\n"
-"Pour générer ce jeton API avec la permission spécifique de 'Modifier DNS', suivez ces étapes :\n"
-"\n"
-"1. Dans le tableau de bord Cloudflare (Aperçu), recherchez <b>Obtenez votre jeton API</b> dans le "
-"coin inférieur droit.\n"
-"2. Cliquez sur <b>Créer un jeton</b>.\n"
-"3. Utilisez le premier modèle : <b>Modifier zone DNS</b> (cliquez sur Utiliser le modèle).\n"
-"4. Configurez les permissions exactement comme suit :\n"
-"   - Nom du jeton : <i>Script-Headscale</i>\n"
-"   - Permissions : <i>Zone - DNS - Modifier</i>\n"
-"   - Ressources de zone : Inclure - Zone spécifique - <b>{}</b>\n"
-"5. Cliquez sur <b>Continuer vers le résumé</b> puis sur <b>Créer un jeton</b>.\n"
-"\n"
-"<b>Attention :</b> Le jeton apparaîtra uniquement une fois. Copiez-le et conservez-le bien !"
+"Ajouter un autre enregistrement :\n"
+"• Type : CNAME\n"
+"• Nom : www\n"
+"• Cible : @\n"
+"• Proxy : OFF"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 282
-msgid "API Access"
-msgstr "Accès API"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 775
+msgid "5. Configure Router (Port Forwarding)"
+msgstr "5. Configurer le routeur (Redirection de port)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 291
-msgid "Zone ID is in the 'Overview' page. Token must have 'Zone.DNS' edit permissions."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 776
+msgid "Open the required ports on your router"
+msgstr "Ouvrez les ports requis sur votre routeur."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 779
+msgid "Access Your Router"
+msgstr "Accédez à votre routeur"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 781
+msgid ""
+"1. Open your browser and go to 192.168.1.1 (or your router's IP)\n"
+"2. Find 'Port Forwarding' or 'NAT' settings"
 msgstr ""
-"L'ID de la zone se trouve sur la page 'Aperçu'. Le jeton doit avoir des autorisations d'édition "
-"'Zone.DNS'."
+"1. Ouvrez votre navigateur et allez à 192.168.1.1 (ou l'adresse IP de votre routeur)  \n"
+"2. Trouvez les paramètres 'Redirection de port' ou 'NAT'"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 307
-msgid "4. Network & Ports"
-msgstr "4. Réseau et ports"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 788
+msgid "Web Interface and API"
+msgstr "Interface Web et API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 309
-msgid "Ensure your router is ready"
-msgstr "Assurez-vous que votre routeur est prêt."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 789
+msgid "Admin Panel (Headscale UI)"
+msgstr "Panneau d'administration (Interface utilisateur Headscale)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 313
-msgid "Required Port Forwarding"
-msgstr "Redirection de port requise"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 790
+msgid "Peer-to-peer VPN data"
+msgstr "Données VPN pair à pair"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 315
-msgid "Web and API"
-msgstr "Web et API"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 800
+msgid "Find your local IP"
+msgstr "Trouvez votre adresse IP locale"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 316
-msgid "Admin Panel"
-msgstr "Panneau d'administration"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 801
+msgid "Run 'hostname -I' in a terminal to find your local IP address"
+msgstr "Exécutez 'hostname -I' dans un terminal pour trouver votre adresse IP locale."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
-msgid "Peer-to-peer data"
-msgstr "Données pair à pair"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
+msgid "✅ Quick Summary"
+msgstr "✅ Résumé rapide"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 327
-msgid "Cloudflare Proxy (Orange Cloud) MUST be DISABLED (Gray)."
-msgstr "Le proxy Cloudflare (nuage orange) DOIT être DÉSACTIVÉ (gris)."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 812
+msgid "Checklist before clicking 'Install Server'"
+msgstr "Liste de vérification avant de cliquer sur 'Installer le serveur'"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 345
-msgid "5. Installation"
-msgstr "5. Installation"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 815
+msgid "1. Register free domain at DigitalPlat"
+msgstr "1. Enregistrez un domaine gratuit sur DigitalPlat"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 347
-msgid "Setting up Docker, Headscale and Caddy..."
-msgstr "Configuration de Docker, Headscale et Caddy..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 816
+msgid "2. Change DNS to Cloudflare nameservers"
+msgstr "2. Changez les serveurs de noms DNS en serveurs de noms Cloudflare."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 351
-msgid "Ready to Begin"
-msgstr "Prêt à commencer"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 817
+msgid "3. Get Zone ID + Create API Token"
+msgstr "3. Obtenir l'ID de zone + Créer un jeton API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 377
-msgid "Connect to Network"
-msgstr "Se connecter au réseau"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 818
+msgid "4. Create A record with your IP (proxy OFF)"
+msgstr "4. Créez un enregistrement avec votre IP (proxy DÉSACTIVÉ)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 379
-msgid "Join an existing Headscale private network"
-msgstr "Rejoindre un réseau privé Headscale existant"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 819
+msgid "5. Open ports 8080, 9443, 41641 on router"
+msgstr "5. Ouvrez les ports 8080, 9443, 41641 sur le routeur"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 384
-msgid "Server Domain"
-msgstr "Domaine du serveur"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 40
+msgid "Connect to Private Network"
+msgstr "Se connecter au réseau privé"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 857
+msgid ""
+"Join an existing Headscale private network. You need a Server Domain and an Auth Key provided by "
+"the network administrator."
+msgstr ""
+"Rejoindre un réseau privé Headscale existant. Vous avez besoin d'un domaine de serveur et d'une clé "
+"d'authentification fournis par l'administrateur du réseau."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 863
+msgid "Connection Details"
+msgstr "Détails de connexion"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 385
 msgid "Auth Key"
@@ -1652,10 +1993,6 @@ msgstr "Enregistrer les informations réseau"
 msgid "File saved!"
 msgstr "Fichier enregistré !"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
-msgid "Error saving: {}"
-msgstr "Erreur de sauvegarde : {}"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
 msgid "Delete History?"
 msgstr "Supprimer l'historique ?"
@@ -1680,21 +2017,27 @@ msgstr "Erreur de suppression : {}"
 msgid "Copied: {}"
 msgstr "Copié : {}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 544
-msgid "Domain is required"
-msgstr "Le domaine est requis."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1529
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1542
+msgid "Installation Log"
+msgstr "Journal d'installation"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 548
-msgid "API Keys are required"
-msgstr "Des clés API sont requises."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+msgid "Connection Log"
+msgstr "Journal de connexion"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 598
-msgid "Finished with code: {}"
-msgstr "Terminé avec le code : {}"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1759
+msgid "✅ Installation complete!"
+msgstr "✅ Installation terminée !"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 599
 msgid "Success!"
 msgstr "Succès !"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1767
+msgid "❌ Installation failed"
+msgstr "❌ L'installation a échoué"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 600
 msgid "Installation failed"
@@ -1720,6 +2063,26 @@ msgstr "Erreur lors de l'enregistrement de l'historique : {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 606
 msgid "Fill all fields"
 msgstr "Remplissez tous les champs"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1848
+msgid "Connecting..."
+msgstr "Connexion..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1904
+msgid "✅ Connection established!"
+msgstr "✅ Connexion établie !"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1907
+msgid "Connected successfully!"
+msgstr "Connecté avec succès !"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1912
+msgid "❌ Connection failed"
+msgstr "❌ La connexion a échoué"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
+msgid "Connection failed"
+msgstr "Échec de la connexion"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -1789,17 +2152,9 @@ msgstr "Se connecter à un hôte"
 msgid "Private Network"
 msgstr "Réseau Privé"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 35
-msgid "Create Private Network"
-msgstr "Créer un réseau privé"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 37
 msgid "Setup Headscale server"
 msgstr "Configurer le serveur Headscale"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 40
-msgid "Connect to Private Network"
-msgstr "Se connecter au réseau privé"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 42
 msgid "Join a private network"
@@ -2521,17 +2876,6 @@ msgstr "La sortie a été modifiée en : {}"
 msgid "Configuring firewall... (Password may be requested)"
 msgstr "Configuration du pare-feu... (Un mot de passe peut être demandé)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 776
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1238
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
-msgid "Error"
-msgstr "Erreur"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 783
 msgid "Success: {}"
 msgstr "Succès : {}"
@@ -2789,10 +3133,6 @@ msgstr "Recherche d'hôtes..."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
 msgid "No hosts found"
 msgstr "Aucun hôte trouvé"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 356
-msgid "Copy IP"
-msgstr "Copier l'IP"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
 msgid "IP Copied: {}"

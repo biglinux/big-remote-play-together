@@ -181,6 +181,10 @@ msgstr "Automatikus"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
 msgid "Escuro"
 msgstr "Sötét"
@@ -227,6 +231,26 @@ msgstr "Régi naplófájlok eltávolítása"
 msgid "Limpar"
 msgstr "Tisztítás"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
+msgid "Manutenção do Sistema"
+msgstr "Rendszerkarbantartás"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "Eszközök gyakori problémák megoldására"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "Könyvtárak javítása (ICU)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "A hiba megoldása: hiányzik a libicuuc.so.7* fájl."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
+msgid "Fix Automático"
+msgstr "Automatikus javítás"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Tiszta naplók"
@@ -242,6 +266,23 @@ msgstr "Régi naplófájlok eltávolításra kerültek."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
 msgid "OK"
 msgstr "Rendben"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "Fix Automático Iniciado"
+msgstr "Automatikus javítás megkezdődött"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "A könyvtárak javító szkriptje elindult. Kérjük, adja meg a jelszót, ha kérik."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Erro"
+msgstr "Hiba"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Script de correção não encontrado."
+msgstr "A javítási szkript nem található."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
@@ -1182,9 +1223,78 @@ msgstr "Aktív - Nincsenek eszközök"
 msgid "Connected to {}"
 msgstr "Csatlakozva a {}-hoz"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 56
-msgid "Access Information"
-msgstr "Hozzáférési információ"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
+msgid "🎮 Network Created Successfully!"
+msgstr "🎮 Hálózat sikeresen létrehozva!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 58
+msgid ""
+"Share the info below with your friends so they can join via \"Connect to Private Network\" and play "
+"together!"
+msgstr ""
+"Oszd meg az alábbi információt a barátaiddal, hogy csatlakozhassanak a \"Csatlakozás a Privát "
+"Hálózathoz\" lehetőségen keresztül, és együtt játszhassatok!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 86
+msgid "📤 Share with Your Friends"
+msgstr "📤 Oszd meg a barátaiddal"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 88
+msgid "Your friends only need these 2 items to join your network."
+msgstr "A barátainak csak ezekre a 2 elemre van szükségük, hogy csatlakozzanak a hálózatodhoz."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 536
+msgid "Server Domain"
+msgstr "Szerver Domain"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 101
+msgid "Copy domain"
+msgstr "Domain másolása"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
+msgid "Auth Key (Friends)"
+msgstr "Hitelesítési kulcs (Barátok)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 115
+msgid "Copy auth key"
+msgstr "Másold az auth kulcsot"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 122
+msgid "📋 How to Connect"
+msgstr "📋 Hogyan csatlakozzunk"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 124
+msgid "Both you AND your friends must connect!"
+msgstr "Mindkettőtöknek, neked ÉS a barátaidnak csatlakoznia kell!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "1. Open \"Connect to Private Network\""
+msgstr "1. Nyissa meg a \"Kapcsolódás Privát Hálózathoz\" lehetőséget"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "In the sidebar menu"
+msgstr "A mellékmenüben"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+msgid "2. Enter domain and Auth Key"
+msgstr "2. Adja meg a domaint és az Auth Key-t"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+msgid "Paste the data shown above"
+msgstr "Az adatok, amelyek a fenti képen láthatók."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "3. Click \"Establish Connection\""
+msgstr "3. Kattintson az \"Kapcsolat létrehozása\" gombra"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "Play together over the internet!"
+msgstr "Játsszatok együtt az interneten!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 142
+msgid "🔧 Server Details"
+msgstr "🔧 Szerver részletek"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 66
 msgid "Web Interface"
@@ -1202,250 +1312,454 @@ msgstr "Nyilvános IP"
 msgid "Local IP"
 msgstr "Helyi IP"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 70
-msgid "API Key (UI)"
-msgstr "API kulcs (UI)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
-msgid "Auth Key (Friends)"
-msgstr "Hitelesítési kulcs (Barátok)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 150
+msgid "API Key (Admin UI)"
+msgstr "API kulcs (Admin UI)"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 99
 msgid "Save and Finish"
 msgstr "Mentés és befejezés"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 235
-msgid "Install Server"
-msgstr "Szerver telepítése"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 204
+msgid "Save to File"
+msgstr "Mentés fájlba"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 250
-msgid "1. Domain Registration"
-msgstr "1. Domain regisztráció"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 215
+msgid "Share"
+msgstr "Megosztás"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 252
-msgid "The first step is to have a domain pointed to Cloudflare."
-msgstr "Az első lépés, hogy egy domaint a Cloudflare-hez irányítsunk."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 226
+msgid "This info is saved in \"Connect to Private Network\" → \"Previous Networks\""
+msgstr "Ez az információ a \"Csatlakozás Privát Hálózathoz\" → \"Előző Hálózatok\" alatt van mentve."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 262
+msgid "Save Connection Info"
+msgstr "Kapcsolati információ mentése"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 275
+msgid "File saved: {}"
+msgstr "Fájl mentve: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
+msgid "Error saving: {}"
+msgstr "Hiba a mentéskor: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 288
+msgid "Connection info copied! Paste it in any app to share."
+msgstr "A kapcsolat információ másolva! Illessze be bármelyik alkalmazásba a megosztáshoz."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 315
+msgid "Preparing connection..."
+msgstr "Kapcsolat előkészítése..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 316
+msgid "Checking dependencies..."
+msgstr "Függőségek ellenőrzése..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
+msgid "Configuring Tailscale client..."
+msgstr "A Tailscale kliens konfigurálása..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 318
+msgid "Logging in to network..."
+msgstr "Bejelentkezés a hálózatra..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 319
+msgid "Verifying connection..."
+msgstr "Kapcsolat ellenőrzése..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 320
+msgid "Connection established!"
+msgstr "Kapcsolat létrejött!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 73
+msgid "Create Private Network"
+msgstr "Hozzon létre privát hálózatot"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 369
+msgid ""
+"Set up your own Headscale VPN server with automatic DNS configuration via Cloudflare. This allows "
+"you and your friends to connect securely over the internet."
+msgstr ""
+"Állítsa be saját Headscale VPN szerverét automatikus DNS konfigurációval a Cloudflare-en keresztül. "
+"Ez lehetővé teszi, hogy Ön és barátai biztonságosan csatlakozzanak az interneten."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 376
+msgid "Server Configuration"
+msgstr "Szerver konfiguráció"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 377
+msgid "Enter your Cloudflare credentials to automate the installation"
+msgstr "Írd be a Cloudflare hitelesítő adataidat az automatikus telepítéshez."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 256
 msgid "Enter your domain"
 msgstr "Írd be a domainedet"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 257
-msgid "Domain Name"
-msgstr "Domain név"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 380
+msgid "e.g.: myserver.us.kg"
+msgstr "myserver.us.kg"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 260
-msgid "Register Free Domain (DigitalPlat)"
-msgstr "Regisztrálj ingyenes domaint (DigitalPlat)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 382
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 672
+msgid "Zone ID"
+msgstr "Zónaazonosító"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 279
-msgid "2. Cloudflare Setup"
-msgstr "2. Cloudflare Beállítás"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 383
+msgid "Found in Cloudflare Overview page"
+msgstr "Megtalálható a Cloudflare Áttekintés oldalon"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 281
-msgid "Detailed tutorial to configure your domain"
-msgstr "Részletes útmutató a domain konfigurálásához"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 385
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 682
+msgid "API Token"
+msgstr "API Token"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 287
-msgid "1. Access Cloudflare"
-msgstr "1. Hozzáférés a Cloudflare-hez"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 386
+msgid "Token with DNS Edit permission"
+msgstr "Token DNS szerkesztési jogosultsággal"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 288
-msgid "Create account and click '+ Add'"
-msgstr "Fiók létrehozása és kattintson a '+ Hozzáadás' gombra."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 442
+msgid "View access information"
+msgstr "Hozzáférési információk megtekintése"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 297
-msgid "2. Enter Domain"
-msgstr "2. Domain megadása"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 478
+msgid "Preparing environment..."
+msgstr "Környezet előkészítése..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 300
-msgid "Enter your domain: <b>{}</b>"
-msgstr "Írd be a domained: <b>{}</b>"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 479
+msgid "Installing Docker..."
+msgstr "Docker telepítése..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 302
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 480
+msgid "Configuring Headscale..."
+msgstr "A Headscale konfigurálása..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 481
+msgid "Setting up Caddy reverse proxy..."
+msgstr "Caddy visszafelé proxy beállítása..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 482
+msgid "Configuring DNS records..."
+msgstr "DNS rekordok konfigurálása..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 483
+msgid "Generating access keys..."
+msgstr "Hozzáférési kulcsok generálása..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 484
+msgid "Finalizing installation..."
+msgstr "Telepítés befejezése..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 235
+msgid "Install Server"
+msgstr "Szerver telepítése"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 508
+msgid "Instructions"
+msgstr "Utasítások"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1025
+msgid "Domain is required"
+msgstr "A domain megadása kötelező."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 530
+msgid "Zone ID is required"
+msgstr "A zónaazonosító kötelező."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 533
+msgid "API Token is required"
+msgstr "API token szükséges"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 548
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 557
+msgid "Setup Instructions"
+msgstr "Beállítási utasítások"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 558
+msgid "Step-by-step guide to create your private network"
+msgstr "Lépésről lépésre útmutató a saját hálózatod létrehozásához"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 578
+msgid "1. Register a Free Domain"
+msgstr "1. Regisztrálj egy ingyenes domaint"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 579
+msgid "Get a free .us.kg domain to use with your server"
+msgstr "Szerezzen ingyenes .us.kg domaint, amelyet a szerverével használhat."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 582
+msgid "Access DigitalPlat Domain"
+msgstr "Hozzáférés a DigitalPlat domainhoz"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 583
+msgid "Register and get your free domain (e.g.: myserver.us.kg)"
+msgstr "Regisztrálj és szerezd meg ingyenes domainedet (pl.: myserver.us.kg)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 586
+msgid "Open Site"
+msgstr "Webhely megnyitása"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 597
+msgid "Steps at DigitalPlat"
+msgstr "Lépések a DigitalPlat-nál"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 599
 msgid ""
-"On the next page 'Speed up and secure your site':\n"
-"- Select: Quick DNS Check\n"
-"- Select: Global Block\n"
-"- Disable: AI Bots (robots.txt)\n"
-"- Click 'Continue'"
+"1. Create an account or login\n"
+"2. Choose a .us.kg domain\n"
+"3. Complete the simple registration\n"
+"4. Write down the domain you obtained (e.g.: myserver.us.kg)"
 msgstr ""
-"A következő oldalon 'Gyorsítsa fel és biztosítsa a webhelyét':\n"
-"- Válassza: Gyors DNS Ellenőrzés\n"
-"- Válassza: Globális Blokkolás\n"
-"- Tiltsa le: AI Botok (robots.txt)\n"
-"- Kattintson a 'Tovább' gombra"
+"1. Hozzon létre egy fiókot vagy jelentkezzen be\n"
+"2. Válasszon egy .us.kg domaint\n"
+"3. Töltse ki az egyszerű regisztrációt\n"
+"4. Jegyezze fel a megszerzett domaint (pl.: myserver.us.kg)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 311
-msgid "3. Select Plan"
-msgstr "3. Válassza ki a tervet"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 613
+msgid "2. Configure Cloudflare"
+msgstr "2. Állítsa be a Cloudflare-t"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 312
-msgid "Choose the 'Free Plan' (first card) and click 'Select Plan'"
-msgstr "Válaszd a 'Ingyenes csomagot' (első kártya), majd kattints a 'Csomag kiválasztása' gombra."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 614
+msgid "Point your domain to Cloudflare for DNS management"
+msgstr "Irányítsd a domained a Cloudflare-hez a DNS kezeléséhez."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
-msgid "4. DNS Records"
-msgstr "4. DNS Rekordok"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 617
+msgid "Access Cloudflare Dashboard"
+msgstr "Hozzáférés a Cloudflare irányítópulthoz"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 618
+msgid "Create a free account and add your domain"
+msgstr "Hozzon létre egy ingyenes fiókot, és adja hozzá a domainjét."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 621
+msgid "Open Cloudflare"
+msgstr "Nyisd meg a Cloudflare-t"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 632
+msgid "Setup Steps"
+msgstr "Beállítási lépések"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 634
+msgid ""
+"1. Click 'Add a site' → Enter your domain\n"
+"2. Choose the FREE plan\n"
+"3. Write down the 2 nameservers provided\n"
+"4. Go back to your domain provider (DigitalPlat)\n"
+"5. Replace the DNS with Cloudflare's nameservers\n"
+"6. Wait for DNS propagation (may take a few minutes)"
+msgstr ""
+"1. Kattintson az 'Új webhely hozzáadása' → Adja meg a domain nevét\n"
+"2. Válassza a INGYENES csomagot\n"
+"3. Jegyezze fel a megadott 2 névszervert\n"
+"4. Térjen vissza a domain szolgáltatójához (DigitalPlat)\n"
+"5. Cserélje le a DNS-t a Cloudflare névszervereire\n"
+"6. Várjon a DNS propagációra (ez néhány percet is igénybe vehet)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 646
+msgid "Update Nameservers"
+msgstr "Névszolgáltatók frissítése"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 647
+msgid "Open domain panel to change NS records"
+msgstr "Nyisd meg a tartománypanelt az NS rekordok módosításához."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 650
+msgid "Domain Panel"
+msgstr "Domain Panel"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 668
+msgid "3. Get API Credentials"
+msgstr "3. API hitelesítő adatok beszerzése"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 669
+msgid "Obtain your Zone ID and API Token from Cloudflare"
+msgstr "Szerezze meg a Zónaazonosítóját és az API Tokent a Cloudflare-től."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 674
+msgid ""
+"1. In Cloudflare, click on your domain\n"
+"2. Scroll down to the 'API' section on the right\n"
+"3. Copy the 'Zone ID' value"
+msgstr ""
+"1. A Cloudflare-ben kattints a domainedre\n"
+"2. Görgess le a 'API' szakaszhoz jobbra\n"
+"3. Másold ki a 'Zónaazonosító' értéket"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 684
+msgid ""
+"1. Click 'Get your API token' (below Zone ID)\n"
+"2. Click 'Create Token'\n"
+"3. Use template: 'Edit zone DNS' → 'Use template'\n"
+"4. Configure:\n"
+"   • Token name: VPN-Token\n"
+"   • Permissions: Zone - DNS - Edit\n"
+"   • Zone: Select your domain\n"
+"5. Click 'Continue to summary' → 'Create Token'\n"
+"6. Copy token IMMEDIATELY (shown only once!)"
+msgstr ""
+"1. Kattintson a 'API token megszerzése' gombra (a Zóna ID alatt)\n"
+"2. Kattintson a 'Token létrehozása' gombra\n"
+"3. Használja a sablont: 'Zóna DNS szerkesztése' → 'Sablon használata'\n"
+"4. Konfigurálja:\n"
+"   • Token neve: VPN-Token\n"
+"   • Jogosultságok: Zóna - DNS - Szerkesztés\n"
+"   • Zóna: Válassza ki a domainjét\n"
+"5. Kattintson a 'Tovább a összegzéshez' → 'Token létrehozása' gombra\n"
+"6. Másolja a tokent AZONNAL (csak egyszer jelenik meg!)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 703
+msgid "4. Configure DNS Records in Cloudflare"
+msgstr "4. DNS rekordok konfigurálása a Cloudflare-ben"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 704
+msgid "Create DNS records pointing to your public IP"
+msgstr "Hozzon létre DNS rekordokat, amelyek a nyilvános IP-címére mutatnak."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 320
 msgid "Your Public IP"
 msgstr "A nyilvános IP-címe"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 335
-msgid "Type"
-msgstr "Típus"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 709
+msgid "Use this IP for the A record below"
+msgstr "Használja ezt az IP-címet az alábbi A rekordhoz."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 335
-msgid "Name"
-msgstr "Név"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 712
+msgid "Loading..."
+msgstr "Betöltés..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 335
-msgid "Target / IP"
-msgstr "Cél / IP"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 365
+msgid "Copy IP"
+msgstr "IP másolása"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 335
-msgid "Proxy"
-msgstr "Proxy"
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 343
-msgid "Disabled (Gray)"
-msgstr "Letiltva (Szürke)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 787
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1240
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1246
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 562
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 600
+msgid "Error"
+msgstr "Hiba"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 344
-msgid "-"
-msgstr "-"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 746
+msgid "A Record"
+msgstr "Egy rekord"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 352
-msgid "Click '+ Add Record' and fill as follows:"
-msgstr "Kattintson a '+ Rekord hozzáadása' gombra, és töltse ki a következőket:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 354
-msgid "After that, click 'Continue to activation'."
-msgstr "Ezután kattintson a 'Folytatás az aktiváláshoz' gombra."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 360
-msgid "5. Update Nameservers"
-msgstr "5. Névszolgáltatók frissítése"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 361
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 748
 msgid ""
-"- Replace your current NS with Cloudflare's NS1 and NS2\n"
-"- Update them in your registrar panel:"
+"In Cloudflare → DNS → Records → 'Add record':\n"
+"• Type: A\n"
+"• Name: @\n"
+"• Content: YOUR-PUBLIC-IP (shown above)\n"
+"• Proxy: OFF (gray cloud — IMPORTANT!)"
 msgstr ""
-"- Cseréld le a jelenlegi NS-edet a Cloudflare NS1 és NS2-re\n"
-"- Frissítsd őket a regisztrátor panelen:"
+"A Cloudflare → DNS → Rekordok → 'Rekord hozzáadása':\n"
+"• Típus: A\n"
+"• Név: @\n"
+"• Tartalom: A-TE-PUBLIC-IP (a fenti)\n"
+"• Proxy: KI (szürke felhő — FONTOS!)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 384
-msgid "3. Credentials"
-msgstr "3. Hitelesítő adatok"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 758
+msgid "CNAME Record"
+msgstr "CNAME rekord"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 386
-msgid "We need your Cloudflare API keys to automate DNS."
-msgstr "Szükségünk van a Cloudflare API kulcsaidra a DNS automatizálásához."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 392
-msgid "How to generate your API Token"
-msgstr "Hogyan generálj API tokent?"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 399
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 760
 msgid ""
-"<b>Cloudflare API Token (Edit DNS)</b>\n"
-"\n"
-"Para gerar esse API Token com a permissão específica de 'Edit DNS', siga este passo a passo:\n"
-"\n"
-"1. No painel da Cloudflare (Overview), procure <b>Get your API token</b> no canto inferior direito.\n"
-"2. Clique em <b>Create Token</b>.\n"
-"3. Use o primeiro modelo: <b>Edit zone DNS</b> (clique em Use template).\n"
-"4. Configure as permissões exatamente assim:\n"
-"   - Token name: <i>Script-Headscale</i>\n"
-"   - Permissions: <i>Zone - DNS - Edit</i>\n"
-"   - Zone Resources: Include - Specific zone - <b>{}</b>\n"
-"5. Clique em <b>Continue to summary</b> e depois <b>Create Token</b>.\n"
-"\n"
-"<b>Atenção:</b> O Token aparecerá apenas uma vez. Copie e guarde-o bem!"
+"Add another record:\n"
+"• Type: CNAME\n"
+"• Name: www\n"
+"• Target: @\n"
+"• Proxy: OFF"
 msgstr ""
-"<b>Cloudflare API Token (DNS szerkesztése)</b>\n"
-"\n"
-"Az 'Edit DNS' (DNS szerkesztése) specifikus engedéllyel rendelkező API Token létrehozásához kövesse "
-"az alábbi lépéseket:\n"
-"\n"
-"1. A Cloudflare irányítópultján (Áttekintés) keresse meg a <b>Get your API token</b> (API token "
-"megszerzése) lehetőséget a jobb alsó sarokban.\n"
-"2. Kattintson a <b>Create Token</b> (Token létrehozása) gombra.\n"
-"3. Használja az első sablont: <b>Edit zone DNS</b> (Zóna DNS szerkesztése) (kattintson a Használja "
-"a sablont).\n"
-"4. Állítsa be az engedélyeket pontosan így:\n"
-"   - Token név: <i>Script-Headscale</i>\n"
-"   - Engedélyek: <i>Zone - DNS - Edit</i>\n"
-"   - Zóna erőforrások: Include - Specific zone - <b>{}</b>\n"
-"5. Kattintson a <b>Continue to summary</b> (Folytatás az összegzéshez) gombra, majd a <b>Create "
-"Token</b> (Token létrehozása) gombra.\n"
-"\n"
-"<b>Figyelem:</b> A Token csak egyszer jelenik meg. Másolja le és jól őrizze meg!"
+"Adj hozzá egy másik rekordot:\n"
+"• Típus: CNAME\n"
+"• Név: www\n"
+"• Cél: @\n"
+"• Proxy: KI"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 416
-msgid "API Access"
-msgstr "API-hozzáférés"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 775
+msgid "5. Configure Router (Port Forwarding)"
+msgstr "5. Router konfigurálása (Port továbbítás)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 425
-msgid "Zone ID is in the 'Overview' page. Token must have 'Zone.DNS' edit permissions."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 776
+msgid "Open the required ports on your router"
+msgstr "Nyissa meg a szükséges portokat az útválasztóján."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 779
+msgid "Access Your Router"
+msgstr "Hozzáférés a Routerhez"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 781
+msgid ""
+"1. Open your browser and go to 192.168.1.1 (or your router's IP)\n"
+"2. Find 'Port Forwarding' or 'NAT' settings"
 msgstr ""
-"A Zónaazonosító a 'Áttekintés' oldalon található. A tokennek 'Zone.DNS' szerkesztési "
-"jogosultságokkal kell rendelkeznie."
+"1. Nyisd meg a böngésződet, és menj a 192.168.1.1 (vagy a routered IP-címe) oldalra.\n"
+"2. Keresd meg a 'Port Továbbítás' vagy 'NAT' beállításokat."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 440
-msgid "4. Network & Ports"
-msgstr "4. Hálózat és portok"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 788
+msgid "Web Interface and API"
+msgstr "Webfelület és API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 442
-msgid "Ensure your router is ready"
-msgstr "Győződjön meg arról, hogy az útválasztója készen áll."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 789
+msgid "Admin Panel (Headscale UI)"
+msgstr "Admin Panel (Headscale UI)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 446
-msgid "Required Port Forwarding"
-msgstr "Szükséges Port Továbbítás"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 790
+msgid "Peer-to-peer VPN data"
+msgstr "Peer-to-peer VPN adat"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 448
-msgid "Web and API"
-msgstr "Web és API"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 800
+msgid "Find your local IP"
+msgstr "Találd meg a helyi IP-címedet"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 449
-msgid "Admin Panel"
-msgstr "Adminisztrációs panel"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 801
+msgid "Run 'hostname -I' in a terminal to find your local IP address"
+msgstr "Futtassa a 'hostname -I' parancsot egy terminálban, hogy megtalálja a helyi IP-címét."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 450
-msgid "Peer-to-peer data"
-msgstr "Peer-to-peer adat"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
+msgid "✅ Quick Summary"
+msgstr "✅ Gyors összefoglaló"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 460
-msgid "Cloudflare Proxy (Orange Cloud) MUST be DISABLED (Gray)."
-msgstr "A Cloudflare Proxy (Narancssárga Felhő) KIKAPCSOLVA KELL, hogy legyen (Szürke)."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 812
+msgid "Checklist before clicking 'Install Server'"
+msgstr "Telepítés előtt ellenőrizze a következőket:"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 477
-msgid "5. Installation"
-msgstr "5. Telepítés"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 815
+msgid "1. Register free domain at DigitalPlat"
+msgstr "Ingyenes domain regisztrálása a DigitalPlat-nál"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 479
-msgid "Setting up Docker, Headscale and Caddy..."
-msgstr "Docker, Headscale és Caddy beállítása..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 816
+msgid "2. Change DNS to Cloudflare nameservers"
+msgstr "2. A DNS-t állítsa Cloudflare névszerverekre"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 483
-msgid "Ready to Begin"
-msgstr "Készen áll a kezdésre"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 817
+msgid "3. Get Zone ID + Create API Token"
+msgstr "3. Zónaazonosító lekérése + API-token létrehozása"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 529
-msgid "Connect to Network"
-msgstr "Csatlakozás a hálózathoz"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 818
+msgid "4. Create A record with your IP (proxy OFF)"
+msgstr "4. Hozzon létre egy rekordot az IP-címével (proxy KI)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 531
-msgid "Join an existing Headscale private network"
-msgstr "Csatlakozzon egy meglévő Headscale privát hálózathoz"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 819
+msgid "5. Open ports 8080, 9443, 41641 on router"
+msgstr "5. Nyissa meg a 8080, 9443, 41641 portokat az útválasztón."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 536
-msgid "Server Domain"
-msgstr "Szerver Domain"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 78
+msgid "Connect to Private Network"
+msgstr "Csatlakozás a Magánhálózathoz"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 857
+msgid ""
+"Join an existing Headscale private network. You need a Server Domain and an Auth Key provided by "
+"the network administrator."
+msgstr ""
+"Csatlakozzon egy meglévő Headscale privát hálózathoz. Szüksége van egy Szerver Domainra és egy "
+"Hitelesítési Kulcsra, amelyet a hálózati adminisztrátor biztosít."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 863
+msgid "Connection Details"
+msgstr "Kapcsolati adatok"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 537
 msgid "Auth Key"
@@ -1547,10 +1861,6 @@ msgstr "Hálózati információk mentése"
 msgid "File saved!"
 msgstr "Fájl mentve!"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
-msgid "Error saving: {}"
-msgstr "Hiba a mentéskor: {}"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
 msgid "Delete History?"
 msgstr "Történelem törlése?"
@@ -1575,21 +1885,27 @@ msgstr "Hiba a törléskor: {}"
 msgid "Copied: {}"
 msgstr "Másolt: {}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1025
-msgid "Domain is required"
-msgstr "A domain megadása kötelező."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1529
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1542
+msgid "Installation Log"
+msgstr "Telepítési napló"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1029
-msgid "API Keys are required"
-msgstr "API kulcsok szükségesek"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+msgid "Connection Log"
+msgstr "Kapcsolati napló"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1112
-msgid "Finished with code: {}"
-msgstr "Befejezve a kóddal: {}"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1759
+msgid "✅ Installation complete!"
+msgstr "✅ Telepítés befejeződött!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1114
 msgid "Success!"
 msgstr "Siker!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1767
+msgid "❌ Installation failed"
+msgstr "❌ Telepítés meghiúsult"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1117
 msgid "Installation failed"
@@ -1615,6 +1931,26 @@ msgstr "Hiba a történelem mentésekor: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1187
 msgid "Fill all fields"
 msgstr "Töltse ki az összes mezőt."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1848
+msgid "Connecting..."
+msgstr "Csatlakozás..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1904
+msgid "✅ Connection established!"
+msgstr "✅ Kapcsolat létrejött!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1907
+msgid "Connected successfully!"
+msgstr "Sikeresen csatlakozott!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1912
+msgid "❌ Connection failed"
+msgstr "❌ Kapcsolódás sikertelen"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
+msgid "Connection failed"
+msgstr "Kapcsolódás sikertelen"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -1684,17 +2020,9 @@ msgstr "Csatlakozás egy gazdagéphez"
 msgid "Private Network"
 msgstr "Privát Hálózat"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 73
-msgid "Create Private Network"
-msgstr "Hozzon létre privát hálózatot"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 75
 msgid "Setup Headscale server"
 msgstr "Headscale szerver beállítása"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 78
-msgid "Connect to Private Network"
-msgstr "Csatlakozás a Magánhálózathoz"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 80
 msgid "Join a private network"
@@ -2419,16 +2747,6 @@ msgstr "A kimenet megváltozott: {}"
 msgid "Configuring firewall... (Password may be requested)"
 msgstr "Tűzfal konfigurálása... (Lehet, hogy jelszót kér)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 787
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1240
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1246
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 562
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 600
-msgid "Error"
-msgstr "Hiba"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 794
 msgid "Success: {}"
 msgstr "Siker: {}"
@@ -2686,10 +3004,6 @@ msgstr "Gazdák keresése..."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 319
 msgid "No hosts found"
 msgstr "Nincs található gazda"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 365
-msgid "Copy IP"
-msgstr "IP másolása"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 368
 msgid "IP Copied: {}"

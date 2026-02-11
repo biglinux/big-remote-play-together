@@ -208,6 +208,10 @@ msgstr "Αυτόματο"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 52
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
 msgid "Escuro"
 msgstr "Σκοτεινός"
@@ -279,6 +283,24 @@ msgstr "Καθαρά Καταγραφές"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Τα παλιά αρχεία καταγραφής έχουν αφαιρεθεί."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
 # 
 # #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
@@ -1434,6 +1456,10 @@ msgstr "Στο μενού πλαϊνής μπάρας"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Εισάγετε το domain και το Auth Key"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 

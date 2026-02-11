@@ -224,6 +224,26 @@ msgstr "הסר קבצי יומן ישנים"
 msgid "Limpar"
 msgstr "נקה"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
+msgid "Manutenção do Sistema"
+msgstr "תחזוקת המערכת"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "כלים לפתרון בעיות נפוצות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "לתקן ספריות (ICU)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "פתור את השגיאה libicuuc.so.7* חסר"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
+msgid "Fix Automático"
+msgstr "תיקון אוטומטי"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "יומנים נקיים"
@@ -239,6 +259,23 @@ msgstr "קבצי יומן ישנים הוסרו."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 727
 msgid "OK"
 msgstr "אוקי"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "Fix Automático Iniciado"
+msgstr "תיקון אוטומטי החל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "הסקריפט לתיקון ספריות הושק. ספק את הסיסמה אם תתבקש."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Erro"
+msgstr "שגיאה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Script de correção não encontrado."
+msgstr "סקריפט תיקון לא נמצא."
 # 
 # #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
@@ -1175,9 +1212,76 @@ msgstr "פעיל - אין מכשירים"
 msgid "Connected to {}"
 msgstr "מחובר ל{}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 56
-msgid "Access Information"
-msgstr "גישה למידע"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
+msgid "🎮 Network Created Successfully!"
+msgstr "🎮 הרשת נוצרה בהצלחה!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 58
+msgid ""
+"Share the info below with your friends so they can join via \"Connect to Private Network\" and play "
+"together!"
+msgstr "שתף את המידע למטה עם החברים שלך כדי שהם יוכלו להצטרף דרך \"התחבר לרשת פרטית\" ולשחק יחד!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 86
+msgid "📤 Share with Your Friends"
+msgstr "📤 שתף עם החברים שלך"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 88
+msgid "Your friends only need these 2 items to join your network."
+msgstr "החברים שלך צריכים רק את 2 הפריטים האלה כדי להצטרף לרשת שלך."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 384
+msgid "Server Domain"
+msgstr "דומיין שרת"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 101
+msgid "Copy domain"
+msgstr "העתק דומיין"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
+msgid "Auth Key (Friends)"
+msgstr "מפתח אימות (חברים)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 115
+msgid "Copy auth key"
+msgstr "העתק מפתח אימות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 122
+msgid "📋 How to Connect"
+msgstr "📋 כיצד להתחבר"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 124
+msgid "Both you AND your friends must connect!"
+msgstr "גם אתה וגם החברים שלך חייבים להתחבר!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "1. Open \"Connect to Private Network\""
+msgstr "פתח \"התחבר לרשת פרטית\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "In the sidebar menu"
+msgstr "בתפריט הצדדי"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+msgid "2. Enter domain and Auth Key"
+msgstr "2. הזן דומיין ומפתח אימות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "3. Click \"Establish Connection\""
+msgstr "3. לחץ על \"הקם חיבור\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "Play together over the internet!"
+msgstr "שחקו יחד באינטרנט!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 142
+msgid "🔧 Server Details"
+msgstr "🔧 פרטי השרת"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 66
 msgid "Web Interface"
@@ -1195,246 +1299,453 @@ msgstr "כתובת IP ציבורית"
 msgid "Local IP"
 msgstr "כתובת IP מקומית"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 70
-msgid "API Key (UI)"
-msgstr "מפתח API (ממשק משתמש)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
-msgid "Auth Key (Friends)"
-msgstr "מפתח אימות (חברים)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 150
+msgid "API Key (Admin UI)"
+msgstr "מפתח API (ממשק ניהול)"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 99
 msgid "Save and Finish"
 msgstr "שמור וסיים"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 555
-msgid "Install Server"
-msgstr "התקן שרת"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 204
+msgid "Save to File"
+msgstr "שמור לקובץ"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 115
-msgid "1. Domain Registration"
-msgstr "1. רישום דומיין"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 215
+msgid "Share"
+msgstr "שתף"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 117
-msgid "The first step is to have a domain pointed to Cloudflare."
-msgstr "השלב הראשון הוא שיהיה דומיין המצביע על Cloudflare."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 226
+msgid "This info is saved in \"Connect to Private Network\" → \"Previous Networks\""
+msgstr "המידע הזה נשמר ב\"תחבר לרשת פרטית\" → \"רשתות קודמות\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 262
+msgid "Save Connection Info"
+msgstr "שמור מידע חיבור"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 275
+msgid "File saved: {}"
+msgstr "הקובץ נשמר: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
+msgid "Error saving: {}"
+msgstr "שגיאה בשמירה: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 288
+msgid "Connection info copied! Paste it in any app to share."
+msgstr "מידע על החיבור הועתק! הדבק אותו בכל אפליקציה כדי לשתף."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 315
+msgid "Preparing connection..."
+msgstr "מכין חיבור..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 316
+msgid "Checking dependencies..."
+msgstr "בודק תלותים..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
+msgid "Configuring Tailscale client..."
+msgstr "מגדיר לקוח Tailscale..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 318
+msgid "Logging in to network..."
+msgstr "מתחבר לרשת..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 319
+msgid "Verifying connection..."
+msgstr "מאמת חיבור..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 320
+msgid "Connection established!"
+msgstr "חיבור הוקם!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 35
+msgid "Create Private Network"
+msgstr "צור רשת פרטית"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 369
+msgid ""
+"Set up your own Headscale VPN server with automatic DNS configuration via Cloudflare. This allows "
+"you and your friends to connect securely over the internet."
+msgstr ""
+"הגדר את שרת ה-VPN Headscale שלך עם קונפיגורציית DNS אוטומטית דרך Cloudflare. זה מאפשר לך ולחבריך "
+"להתחבר בצורה מאובטחת דרך האינטרנט."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 376
+msgid "Server Configuration"
+msgstr "הגדרת שרת"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 377
+msgid "Enter your Cloudflare credentials to automate the installation"
+msgstr "הזן את אישורי Cloudflare שלך כדי לאוטומט את ההתקנה"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 121
 msgid "Enter your domain"
 msgstr "הזן את הדומיין שלך"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 122
-msgid "Domain Name"
-msgstr "שם דומיין"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 380
+msgid "e.g.: myserver.us.kg"
+msgstr "myserver.us.kg"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 125
-msgid "Register Free Domain (DigitalPlat)"
-msgstr "רשום דומיין חינם (DigitalPlat)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 382
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 672
+msgid "Zone ID"
+msgstr "מזהה אזור"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 145
-msgid "2. Cloudflare Setup"
-msgstr "2. הגדרת Cloudflare"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 383
+msgid "Found in Cloudflare Overview page"
+msgstr "נמצא בדף סקירה של Cloudflare"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 147
-msgid "Detailed tutorial to configure your domain"
-msgstr "מדריך מפורט להגדרת הדומיין שלך"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 385
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 682
+msgid "API Token"
+msgstr "אסימון API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 153
-msgid "1. Access Cloudflare"
-msgstr "1. גישה ל-Cloudflare"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 386
+msgid "Token with DNS Edit permission"
+msgstr "אסימון עם הרשאת עריכת DNS"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 154
-msgid "Create account and click '+ Add'"
-msgstr "צור חשבון ולחץ על '+ הוסף'"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 442
+msgid "View access information"
+msgstr "צפה במידע על גישה"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 163
-msgid "2. Enter Domain"
-msgstr "2. הזן דומיין"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 478
+msgid "Preparing environment..."
+msgstr "מכין את הסביבה..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 166
-msgid "Enter your domain: <b>{}</b>"
-msgstr "הזן את הדומיין שלך: <b>{}</b>"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 479
+msgid "Installing Docker..."
+msgstr "מתקין את דוקר..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 168
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 480
+msgid "Configuring Headscale..."
+msgstr "מגדיר את Headscale..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 481
+msgid "Setting up Caddy reverse proxy..."
+msgstr "מגדיר פרוקסי הפוך של קדי..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 482
+msgid "Configuring DNS records..."
+msgstr "מגדיר רשומות DNS..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 483
+msgid "Generating access keys..."
+msgstr "מייצר מפתחות גישה..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 484
+msgid "Finalizing installation..."
+msgstr "סיום התקנה..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 555
+msgid "Install Server"
+msgstr "התקן שרת"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 508
+msgid "Instructions"
+msgstr "הוראות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 544
+msgid "Domain is required"
+msgstr "הדומיין נדרש"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 530
+msgid "Zone ID is required"
+msgstr "דרוש מזהה אזור"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 533
+msgid "API Token is required"
+msgstr "דרוש טוקן API"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 548
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 557
+msgid "Setup Instructions"
+msgstr "הוראות התקנה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 558
+msgid "Step-by-step guide to create your private network"
+msgstr "מדריך שלב אחר שלב ליצירת הרשת הפרטית שלך"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 578
+msgid "1. Register a Free Domain"
+msgstr "1. רישום דומיין חינם"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 579
+msgid "Get a free .us.kg domain to use with your server"
+msgstr "קבל דומיין .us.kg חינם לשימוש עם השרת שלך"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 582
+msgid "Access DigitalPlat Domain"
+msgstr "גשת לדומיין DigitalPlat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 583
+msgid "Register and get your free domain (e.g.: myserver.us.kg)"
+msgstr "הירשם וקבל את הדומיין החינמי שלך (למשל: myserver.us.kg)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 586
+msgid "Open Site"
+msgstr "פתח אתר"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 597
+msgid "Steps at DigitalPlat"
+msgstr "צעדים ב-DigitalPlat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 599
 msgid ""
-"On the next page 'Speed up and secure your site':\n"
-"- Select: Quick DNS Check\n"
-"- Select: Global Block\n"
-"- Disable: AI Bots (robots.txt)\n"
-"- Click 'Continue'"
+"1. Create an account or login\n"
+"2. Choose a .us.kg domain\n"
+"3. Complete the simple registration\n"
+"4. Write down the domain you obtained (e.g.: myserver.us.kg)"
 msgstr ""
-"בעמוד הבא 'האיץ והגן על האתר שלך':\n"
-"- בחר: בדיקת DNS מהירה\n"
-"- בחר: חסימה גלובלית\n"
-"- השבת: בוטים של AI (robots.txt)\n"
-"- לחץ על 'המשך'"
+"1. צור חשבון או התחבר\n"
+"2. בחר דומיין .us.kg\n"
+"3. השלם את הרישום הפשוט\n"
+"4. רשום את הדומיין שהשגת (למשל: myserver.us.kg)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 177
-msgid "3. Select Plan"
-msgstr "3. בחר תוכנית"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 613
+msgid "2. Configure Cloudflare"
+msgstr "2. הגדר את Cloudflare"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 178
-msgid "Choose the 'Free Plan' (first card) and click 'Select Plan'"
-msgstr "בחר את 'תוכנית חינם' (כרטיס ראשון) ולחץ על 'בחר תוכנית'"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 614
+msgid "Point your domain to Cloudflare for DNS management"
+msgstr "כוון את הדומיין שלך ל-Cloudflare לניהול DNS"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 183
-msgid "4. DNS Records"
-msgstr "4. רשומות DNS"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 617
+msgid "Access Cloudflare Dashboard"
+msgstr "גש ללוח המחוונים של Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 618
+msgid "Create a free account and add your domain"
+msgstr "צור חשבון חינם והוסף את הדומיין שלך"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 621
+msgid "Open Cloudflare"
+msgstr "פתח את Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 632
+msgid "Setup Steps"
+msgstr "צעדים להתקנה"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 634
+msgid ""
+"1. Click 'Add a site' → Enter your domain\n"
+"2. Choose the FREE plan\n"
+"3. Write down the 2 nameservers provided\n"
+"4. Go back to your domain provider (DigitalPlat)\n"
+"5. Replace the DNS with Cloudflare's nameservers\n"
+"6. Wait for DNS propagation (may take a few minutes)"
+msgstr ""
+"1. לחץ על 'הוסף אתר' → הזן את הדומיין שלך\n"
+"2. בחר בתוכנית חינמית\n"
+"3. רשום את 2 שרתי השמות שסופקו\n"
+"4. חזור לספק הדומיינים שלך (DigitalPlat)\n"
+"5. החלף את ה-DNS בשרתי השמות של Cloudflare\n"
+"6. המתן להפצת ה-DNS (עשוי לקחת כמה דקות)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 646
+msgid "Update Nameservers"
+msgstr "עדכן את שרתי השמות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 647
+msgid "Open domain panel to change NS records"
+msgstr "פתח לוח דומיין לשינוי רשומות NS"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 650
+msgid "Domain Panel"
+msgstr "לוח דומיינים"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 668
+msgid "3. Get API Credentials"
+msgstr "3. קבל אישורי API"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 669
+msgid "Obtain your Zone ID and API Token from Cloudflare"
+msgstr "השג את מזהה האזור שלך ואת טוקן ה-API מ-Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 674
+msgid ""
+"1. In Cloudflare, click on your domain\n"
+"2. Scroll down to the 'API' section on the right\n"
+"3. Copy the 'Zone ID' value"
+msgstr ""
+"1. ב-Cloudflare, לחץ על הדומיין שלך\n"
+"2. גלול למטה לחלק ה-'API' בצד ימין\n"
+"3. העתק את ערך ה-'Zone ID'"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 684
+msgid ""
+"1. Click 'Get your API token' (below Zone ID)\n"
+"2. Click 'Create Token'\n"
+"3. Use template: 'Edit zone DNS' → 'Use template'\n"
+"4. Configure:\n"
+"   • Token name: VPN-Token\n"
+"   • Permissions: Zone - DNS - Edit\n"
+"   • Zone: Select your domain\n"
+"5. Click 'Continue to summary' → 'Create Token'\n"
+"6. Copy token IMMEDIATELY (shown only once!)"
+msgstr ""
+"1. לחץ על 'קבל את טוקן ה-API שלך' (מתחת ל-Zone ID)\n"
+"2. לחץ על 'צור טוקן'\n"
+"3. השתמש בתבנית: 'ערוך DNS של אזור' → 'השתמש בתבנית'\n"
+"4. הגדר:\n"
+"   • שם טוקן: VPN-Token\n"
+"   • הרשאות: אזור - DNS - עריכה\n"
+"   • אזור: בחר את הדומיין שלך\n"
+"5. לחץ על 'המשך לסיכום' → 'צור טוקן'\n"
+"6. העתק את הטוקן מיד (מוצג רק פעם אחת!)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 703
+msgid "4. Configure DNS Records in Cloudflare"
+msgstr "4. הגדר רשומות DNS ב-Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 704
+msgid "Create DNS records pointing to your public IP"
+msgstr "צור רשומות DNS המצביעות על ה-IP הציבורי שלך"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 186
 msgid "Your Public IP"
 msgstr "כתובת ה-IP הציבורית שלך"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Type"
-msgstr "סוג"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 709
+msgid "Use this IP for the A record below"
+msgstr "השתמש בכתובת ה-IP הזו עבור רשומת A למטה"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Name"
-msgstr "שם"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 712
+msgid "Loading..."
+msgstr "טוען..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Target / IP"
-msgstr "יעד / כתובת IP"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 356
+msgid "Copy IP"
+msgstr "העתק כתובת IP"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Proxy"
-msgstr "פרוקסי"
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 208
-msgid "Disabled (Gray)"
-msgstr "מושבת (אפור)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 776
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1238
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
+msgid "Error"
+msgstr "שגיאה"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 209
-msgid "-"
-msgstr "-"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 746
+msgid "A Record"
+msgstr "רשומה"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 209
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 217
-msgid "Click '+ Add Record' and fill as follows:"
-msgstr "לחץ על '+ הוסף רשומה' ומלא כפי הבא:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 219
-msgid "After that, click 'Continue to activation'."
-msgstr "לאחר מכן, לחץ על 'המשך להפעלה'."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 225
-msgid "5. Update Nameservers"
-msgstr "5. עדכון שרתי שמות"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 226
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 748
 msgid ""
-"- Replace your current NS with Cloudflare's NS1 and NS2\n"
-"- Update them in your registrar panel:"
+"In Cloudflare → DNS → Records → 'Add record':\n"
+"• Type: A\n"
+"• Name: @\n"
+"• Content: YOUR-PUBLIC-IP (shown above)\n"
+"• Proxy: OFF (gray cloud — IMPORTANT!)"
 msgstr ""
-"- החלף את ה-NS הנוכחי שלך ב-NS1 ו-NS2 של Cloudflare\n"
-"- עדכן אותם בלוח הבקרה של הרשם שלך:"
+"ב-Cloudflare → DNS → רשומות → 'הוסף רשומה':\n"
+"• סוג: A\n"
+"• שם: @\n"
+"• תוכן: YOUR-PUBLIC-IP (מוצג למעלה)\n"
+"• פרוקסי: OFF (ענן אפור — חשוב!)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 250
-msgid "3. Credentials"
-msgstr "3. אישורים"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 758
+msgid "CNAME Record"
+msgstr "רשומת CNAME"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 252
-msgid "We need your Cloudflare API keys to automate DNS."
-msgstr "אנו זקוקים למפתחות ה-API של Cloudflare שלך כדי לאוטומט את ה-DNS."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 258
-msgid "How to generate your API Token"
-msgstr "כיצד ליצור את טוקן ה-API שלך"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 265
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 760
 msgid ""
-"<b>Cloudflare API Token (Edit DNS)</b>\n"
-"\n"
-"Para gerar esse API Token com a permissão específica de 'Edit DNS', siga este passo a passo:\n"
-"\n"
-"1. No painel da Cloudflare (Overview), procure <b>Get your API token</b> no canto inferior direito.\n"
-"2. Clique em <b>Create Token</b>.\n"
-"3. Use o primeiro modelo: <b>Edit zone DNS</b> (clique em Use template).\n"
-"4. Configure as permissões exatamente assim:\n"
-"   - Token name: <i>Script-Headscale</i>\n"
-"   - Permissions: <i>Zone - DNS - Edit</i>\n"
-"   - Zone Resources: Include - Specific zone - <b>{}</b>\n"
-"5. Clique em <b>Continue to summary</b> e depois <b>Create Token</b>.\n"
-"\n"
-"<b>Atenção:</b> O Token aparecerá apenas uma vez. Copie e guarde-o bem!"
+"Add another record:\n"
+"• Type: CNAME\n"
+"• Name: www\n"
+"• Target: @\n"
+"• Proxy: OFF"
 msgstr ""
-"<b>אסימון API של Cloudflare (עריכת DNS)</b>\n"
-"\n"
-"כדי ליצור אסימון API עם ההרשאה הספציפית של 'עריכת DNS', עקוב אחרי הצעדים הבאים:\n"
-"\n"
-"1. בלוח הבקרה של Cloudflare (סקירה כללית), חפש <b>קבל את אסימון ה-API שלך</b> בפינה הימנית התחתונה.\n"
-"2. לחץ על <b>צור אסימון</b>.\n"
-"3. השתמש בתבנית הראשונה: <b>עריכת DNS של אזור</b> (לחץ על השתמש בתבנית).\n"
-"4. הגדר את ההרשאות בדיוק כך:\n"
-"   - שם האסימון: <i>Script-Headscale</i>\n"
-"   - הרשאות: <i>אזור - DNS - עריכה</i>\n"
-"   - משאבי אזור: כלול - אזור ספציפי - <b>{}</b>\n"
-"5. לחץ על <b>המשך לסיכום</b> ולאחר מכן <b>צור אסימון</b>.\n"
-"\n"
-"<b>שימו לב:</b> האסימון יופיע רק פעם אחת. העתק ושמור אותו היטב!"
+"הוסף רשומה נוספת:\n"
+"• סוג: CNAME\n"
+"• שם: www\n"
+"• יעד: @\n"
+"• פרוקסי: כבוי"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 282
-msgid "API Access"
-msgstr "גישה ל-API"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 775
+msgid "5. Configure Router (Port Forwarding)"
+msgstr "5. הגדר נתב (העברת פורטים)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 291
-msgid "Zone ID is in the 'Overview' page. Token must have 'Zone.DNS' edit permissions."
-msgstr "מזהה האזור נמצא בדף 'סקירה כללית'. לטוקן חייבות להיות הרשאות עריכה 'Zone.DNS'."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 776
+msgid "Open the required ports on your router"
+msgstr "פתח את הפורטים הנדרשים בראוטר שלך"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 307
-msgid "4. Network & Ports"
-msgstr "4. רשת ופורטס"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 779
+msgid "Access Your Router"
+msgstr "גשת לראוטר שלך"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 309
-msgid "Ensure your router is ready"
-msgstr "ודא שהראוטר שלך מוכן"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 781
+msgid ""
+"1. Open your browser and go to 192.168.1.1 (or your router's IP)\n"
+"2. Find 'Port Forwarding' or 'NAT' settings"
+msgstr ""
+"1. פתח את הדפדפן שלך ועבור ל-192.168.1.1 (או לכתובת ה-IP של הנתב שלך)\n"
+"2. מצא את הגדרות 'העברת פורטים' או 'NAT'"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 313
-msgid "Required Port Forwarding"
-msgstr "הפניית פורטים נדרשת"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 788
+msgid "Web Interface and API"
+msgstr "ממשק רשת ו-API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 315
-msgid "Web and API"
-msgstr "אינטרנט ו-API"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 789
+msgid "Admin Panel (Headscale UI)"
+msgstr "לוח בקרה של מנהל (ממשק משתמש של Headscale)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 316
-msgid "Admin Panel"
-msgstr "לוח בקרה של מנהל"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 790
+msgid "Peer-to-peer VPN data"
+msgstr "נתוני VPN בין עמיתים"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
-msgid "Peer-to-peer data"
-msgstr "נתוני פ peer-to-peer"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 800
+msgid "Find your local IP"
+msgstr "מצא את ה-IP המקומי שלך"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 327
-msgid "Cloudflare Proxy (Orange Cloud) MUST be DISABLED (Gray)."
-msgstr "פרוקסי של Cloudflare (ענן כתום) חייב להיות כבוי (אפור)."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 801
+msgid "Run 'hostname -I' in a terminal to find your local IP address"
+msgstr "הרץ 'hostname -I' בטרמינל כדי למצוא את כתובת ה-IP המקומית שלך"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 345
-msgid "5. Installation"
-msgstr "5. התקנה"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
+msgid "✅ Quick Summary"
+msgstr "✅ סיכום מהיר"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 347
-msgid "Setting up Docker, Headscale and Caddy..."
-msgstr "הגדרת דוקר, הדסקייל וקדי..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 812
+msgid "Checklist before clicking 'Install Server'"
+msgstr "רשימת בדיקה לפני לחיצה על 'התקן שרת'"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 351
-msgid "Ready to Begin"
-msgstr "מוכן להתחיל"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 815
+msgid "1. Register free domain at DigitalPlat"
+msgstr "1. רשום דומיין חינם ב-DigitalPlat"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 377
-msgid "Connect to Network"
-msgstr "התחבר לרשת"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 816
+msgid "2. Change DNS to Cloudflare nameservers"
+msgstr "2. שנה את ה-DNS לשרתים של Cloudflare"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 379
-msgid "Join an existing Headscale private network"
-msgstr "הצטרף לרשת פרטית קיימת של Headscale"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 817
+msgid "3. Get Zone ID + Create API Token"
+msgstr "3. קבל מזהה אזור + צור טוקן API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 384
-msgid "Server Domain"
-msgstr "דומיין שרת"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 818
+msgid "4. Create A record with your IP (proxy OFF)"
+msgstr "4. צור רשומה עם ה-IP שלך (פרוקסי כבוי)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 819
+msgid "5. Open ports 8080, 9443, 41641 on router"
+msgstr "5. פתח את הפורטים 8080, 9443, 41641 בראוטר"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 40
+msgid "Connect to Private Network"
+msgstr "התחבר לרשת פרטית"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 857
+msgid ""
+"Join an existing Headscale private network. You need a Server Domain and an Auth Key provided by "
+"the network administrator."
+msgstr "הצטרף לרשת פרטית קיימת של Headscale. אתה זקוק לדומיין שרת ומפתח אימות שסופקו על ידי מנהל הרשת."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 863
+msgid "Connection Details"
+msgstr "פרטי חיבור"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 385
 msgid "Auth Key"
@@ -1536,10 +1847,6 @@ msgstr "שמור מידע רשת"
 msgid "File saved!"
 msgstr "הקובץ נשמר!"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
-msgid "Error saving: {}"
-msgstr "שגיאה בשמירה: {}"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
 msgid "Delete History?"
 msgstr "מחק היסטוריה?"
@@ -1564,21 +1871,27 @@ msgstr "שגיאה במחיקה: {}"
 msgid "Copied: {}"
 msgstr "הועתק: {}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 544
-msgid "Domain is required"
-msgstr "הדומיין נדרש"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1529
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1542
+msgid "Installation Log"
+msgstr "יומן התקנה"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 548
-msgid "API Keys are required"
-msgstr "דרושים מפתחות API"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+msgid "Connection Log"
+msgstr "יומן חיבור"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 598
-msgid "Finished with code: {}"
-msgstr "סיים עם קוד: {}"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1759
+msgid "✅ Installation complete!"
+msgstr "✅ ההתקנה הושלמה!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 599
 msgid "Success!"
 msgstr "הצלחה!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1767
+msgid "❌ Installation failed"
+msgstr "❌ ההתקנה נכשלה"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 600
 msgid "Installation failed"
@@ -1604,6 +1917,26 @@ msgstr "שגיאה בשמירת היסטוריה: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 606
 msgid "Fill all fields"
 msgstr "מלא את כל השדות"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1848
+msgid "Connecting..."
+msgstr "מתחבר..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1904
+msgid "✅ Connection established!"
+msgstr "✅ חיבור הוקם!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1907
+msgid "Connected successfully!"
+msgstr "מחובר בהצלחה!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1912
+msgid "❌ Connection failed"
+msgstr "❌ חיבור נכשל"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
+msgid "Connection failed"
+msgstr "חיבור נכשל"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -1673,17 +2006,9 @@ msgstr "התחבר לארח"
 msgid "Private Network"
 msgstr "רשת פרטית"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 35
-msgid "Create Private Network"
-msgstr "צור רשת פרטית"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 37
 msgid "Setup Headscale server"
 msgstr "הגדרת שרת Headscale"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 40
-msgid "Connect to Private Network"
-msgstr "התחבר לרשת פרטית"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 42
 msgid "Join a private network"
@@ -2401,17 +2726,6 @@ msgstr "פלט שונה ל: {}"
 msgid "Configuring firewall... (Password may be requested)"
 msgstr "מגדיר חומת אש... (ייתכן שיתבקש סיסמה)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 776
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1238
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
-msgid "Error"
-msgstr "שגיאה"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 783
 msgid "Success: {}"
 msgstr "הצלחה: {}"
@@ -2669,10 +2983,6 @@ msgstr "מחפש מארחים..."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
 msgid "No hosts found"
 msgstr "לא נמצאו מארחים"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 356
-msgid "Copy IP"
-msgstr "העתק כתובת IP"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
 msgid "IP Copied: {}"

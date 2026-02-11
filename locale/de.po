@@ -268,6 +268,24 @@ msgstr "Alte Protokolldateien wurden entfernt."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
 # 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
 msgid "Fix Automático Iniciado"
 msgstr "Automatische Reparatur gestartet"
@@ -1396,6 +1414,12 @@ msgstr "Im Seitenmenü"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Geben Sie die Domain und den Authentifizierungsschlüssel ein."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+msgid "Paste the data shown above"
+msgstr "Die Daten, die oben angezeigt werden."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
 # 

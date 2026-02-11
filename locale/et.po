@@ -171,6 +171,10 @@ msgstr "Installeerimine lõpetati edukalt!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Installeerimine ebaõnnestus. Väljumiskood: {}"
@@ -206,6 +210,10 @@ msgstr "Selge"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 53
 msgid "Escuro"
 msgstr "Tume"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 64
 # 
@@ -275,6 +283,26 @@ msgstr "Eemaldage vanad logifailid"
 msgid "Limpar"
 msgstr "Puhastama"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
+msgid "Manutenção do Sistema"
+msgstr "Süsteemi hooldus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "Tavalised probleemide lahendamise tööriistad"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "Korrigeeri raamatukogud (ICU)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "Lahenda puuduv viga libicuuc.so.7*"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
+msgid "Fix Automático"
+msgstr "Automaatne parandamine"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 100
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
@@ -284,6 +312,41 @@ msgstr "Puhas logid"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Vana logifailid on eemaldatud."
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 159
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 173
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 178
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 183
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 686
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 750
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "Fix Automático Iniciado"
+msgstr "Automaatne parandamine algatatud"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "Raamatukogude parandamise skript on käivitatud. Palun sisestage parool, kui seda küsitakse."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Erro"
+msgstr "Viga"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Script de correção não encontrado."
+msgstr "Korrektuur skripti ei leitud."
 # 
 # #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
@@ -1311,9 +1374,78 @@ msgstr "Aktiivne - Seadmeid pole"
 msgid "Connected to {}"
 msgstr "Ühendatud {}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 56
-msgid "Access Information"
-msgstr "Juurdepääsu teave"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
+msgid "🎮 Network Created Successfully!"
+msgstr "🎮 Võrk on edukalt loodud!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 58
+msgid ""
+"Share the info below with your friends so they can join via \"Connect to Private Network\" and play "
+"together!"
+msgstr ""
+"Jaga allpool olevat teavet oma sõpradega, et nad saaksid liituda \"Ühenda privaatvõrguga\" ja koos "
+"mängida!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 86
+msgid "📤 Share with Your Friends"
+msgstr "📤 Jaga oma sõpradega"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 88
+msgid "Your friends only need these 2 items to join your network."
+msgstr "Teie sõbrad vajavad teie võrguga liitumiseks ainult neid 2 eset."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 384
+msgid "Server Domain"
+msgstr "Serveri domeen"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 101
+msgid "Copy domain"
+msgstr "Kopeeri domeen"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
+msgid "Auth Key (Friends)"
+msgstr "Autentimisvõti (Sõbrad)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 115
+msgid "Copy auth key"
+msgstr "Kopeeri autentimisvõti"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 122
+msgid "📋 How to Connect"
+msgstr "📋 Kuidas Ühenduda"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 124
+msgid "Both you AND your friends must connect!"
+msgstr "Nii ja sinu sõbrad peavad ühenduma!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "1. Open \"Connect to Private Network\""
+msgstr "Ava \"Ühenda Privaatvõrguga\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "In the sidebar menu"
+msgstr "Külgmenüüs"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+msgid "2. Enter domain and Auth Key"
+msgstr "2. Sisestage domeen ja autentimisvõti"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "3. Click \"Establish Connection\""
+msgstr "3. Klõpsa \"Looge ühendus\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "Play together over the internet!"
+msgstr "Mängige koos internetis!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 142
+msgid "🔧 Server Details"
+msgstr "🔧 Serveri üksikasjad"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 66
 msgid "Web Interface"
@@ -1331,250 +1463,455 @@ msgstr "Avalik IP"
 msgid "Local IP"
 msgstr "Kohalik IP"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 70
-msgid "API Key (UI)"
-msgstr "API võti (UI)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
-msgid "Auth Key (Friends)"
-msgstr "Autentimisvõti (Sõbrad)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 150
+msgid "API Key (Admin UI)"
+msgstr "API võti (Admin UI)"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 99
 msgid "Save and Finish"
 msgstr "Salvesta ja lõpeta"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 555
-msgid "Install Server"
-msgstr "Installi server"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 204
+msgid "Save to File"
+msgstr "Salvesta faili"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 115
-msgid "1. Domain Registration"
-msgstr "1. Domeeni registreerimine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 215
+msgid "Share"
+msgstr "Jaga"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 117
-msgid "The first step is to have a domain pointed to Cloudflare."
-msgstr "Esimene samm on omada domeeni, mis on suunatud Cloudflare'i."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 226
+msgid "This info is saved in \"Connect to Private Network\" → \"Previous Networks\""
+msgstr "See info on salvestatud \"Ühenda privaatvõrguga\" → \"Eelmised võrgud\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 262
+msgid "Save Connection Info"
+msgstr "Salvesta ühenduse teave"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 275
+msgid "File saved: {}"
+msgstr "Fail salvestatud: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
+msgid "Error saving: {}"
+msgstr "Viga salvestamisel: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 288
+msgid "Connection info copied! Paste it in any app to share."
+msgstr "Ühenduse teave kopeeritud! Kleepige see igasse rakendusse jagamiseks."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 315
+msgid "Preparing connection..."
+msgstr "Valmistamine ühenduse..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 316
+msgid "Checking dependencies..."
+msgstr "Kontrollin sõltuvusi..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
+msgid "Configuring Tailscale client..."
+msgstr "Tailscale'i kliendi seadistamine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 318
+msgid "Logging in to network..."
+msgstr "Sisse logimine võrku..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 319
+msgid "Verifying connection..."
+msgstr "Ühenduse kontrollimine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 320
+msgid "Connection established!"
+msgstr "Ühendus loodud!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 35
+msgid "Create Private Network"
+msgstr "Loo Privaatne Võrk"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 369
+msgid ""
+"Set up your own Headscale VPN server with automatic DNS configuration via Cloudflare. This allows "
+"you and your friends to connect securely over the internet."
+msgstr ""
+"Sead oma enda Headscale VPN server automaatse DNS-i seadistamisega Cloudflare'i kaudu. See "
+"võimaldab sul ja su sõpradel turvaliselt internetis ühenduda."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 376
+msgid "Server Configuration"
+msgstr "Serveri konfiguratsioon"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 377
+msgid "Enter your Cloudflare credentials to automate the installation"
+msgstr "Sisestage oma Cloudflare'i mandaadid, et automatiseerida installimist."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 121
 msgid "Enter your domain"
 msgstr "Sisesta oma domeen"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 122
-msgid "Domain Name"
-msgstr "Domeeninimi"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 380
+msgid "e.g.: myserver.us.kg"
+msgstr "myserver.us.kg"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 125
-msgid "Register Free Domain (DigitalPlat)"
-msgstr "Registreeri tasuta domeen (DigitalPlat)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 382
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 672
+msgid "Zone ID"
+msgstr "Zone ID"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 145
-msgid "2. Cloudflare Setup"
-msgstr "2. Cloudflare'i seadistamine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 383
+msgid "Found in Cloudflare Overview page"
+msgstr "Leitud Cloudflare'i ülevaate lehelt"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 147
-msgid "Detailed tutorial to configure your domain"
-msgstr "Üksikasjalik juhend oma domeeni seadistamiseks"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 385
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 682
+msgid "API Token"
+msgstr "API token"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 153
-msgid "1. Access Cloudflare"
-msgstr "1. Juurdepääs Cloudflare'ile"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 386
+msgid "Token with DNS Edit permission"
+msgstr "Token, mille on DNS-i redigeerimise õigus"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 154
-msgid "Create account and click '+ Add'"
-msgstr "Loo konto ja klõpsa '+ Lisa'"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 442
+msgid "View access information"
+msgstr "Vaata juurdepääsu teavet"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 163
-msgid "2. Enter Domain"
-msgstr "2. Sisestage domeen"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 478
+msgid "Preparing environment..."
+msgstr "Keskkonna ettevalmistamine..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 166
-msgid "Enter your domain: <b>{}</b>"
-msgstr "Sisestage oma domeen: <b>{}</b>"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 479
+msgid "Installing Docker..."
+msgstr "Dockerit installitakse..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 168
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 480
+msgid "Configuring Headscale..."
+msgstr "Peaegu Headscale..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 481
+msgid "Setting up Caddy reverse proxy..."
+msgstr "Caddy pöördproksi seadistamine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 482
+msgid "Configuring DNS records..."
+msgstr "DNS-kirjete seadistamine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 483
+msgid "Generating access keys..."
+msgstr "Ligipääsuvõtmete genereerimine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 484
+msgid "Finalizing installation..."
+msgstr "Paigaldamine lõpetatakse..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 555
+msgid "Install Server"
+msgstr "Installi server"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 508
+msgid "Instructions"
+msgstr "Juhised"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 544
+msgid "Domain is required"
+msgstr "Domeen on kohustuslik"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 530
+msgid "Zone ID is required"
+msgstr "Zone ID on vajalik"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 533
+msgid "API Token is required"
+msgstr "API token on vajalik"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 548
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 557
+msgid "Setup Instructions"
+msgstr "Seadistuse juhised"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 558
+msgid "Step-by-step guide to create your private network"
+msgstr "Sammuti sammuti juhend oma privaatvõrgu loomiseks"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 578
+msgid "1. Register a Free Domain"
+msgstr "1. Registreeri tasuta domeen"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 579
+msgid "Get a free .us.kg domain to use with your server"
+msgstr "Hangi oma tasuta .us.kg domeeni oma serveriga kasutada."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 582
+msgid "Access DigitalPlat Domain"
+msgstr "Juurdepääs DigitalPlat domeenile"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 583
+msgid "Register and get your free domain (e.g.: myserver.us.kg)"
+msgstr "Registreeri ja saa oma tasuta domeen (nt: myserver.us.kg)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 586
+msgid "Open Site"
+msgstr "Ava saitile"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 597
+msgid "Steps at DigitalPlat"
+msgstr "Sammud DigitalPlat'is"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 599
 msgid ""
-"On the next page 'Speed up and secure your site':\n"
-"- Select: Quick DNS Check\n"
-"- Select: Global Block\n"
-"- Disable: AI Bots (robots.txt)\n"
-"- Click 'Continue'"
+"1. Create an account or login\n"
+"2. Choose a .us.kg domain\n"
+"3. Complete the simple registration\n"
+"4. Write down the domain you obtained (e.g.: myserver.us.kg)"
 msgstr ""
-"Järgmises lehes 'Kiirenda ja turva oma saiti':\n"
-"- Valige: Kiire DNS kontroll\n"
-"- Valige: Globaalne blokeering\n"
-"- Keelake: AI robotid (robots.txt)\n"
-"- Klõpsake 'Jätka'"
+"1. Loo konto või logi sisse\n"
+"2. Valige .us.kg domeen\n"
+"3. Täitke lihtne registreerimine\n"
+"4. Kirjutage üles saadud domeen (nt: myserver.us.kg)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 177
-msgid "3. Select Plan"
-msgstr "3. Valige plaan"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 613
+msgid "2. Configure Cloudflare"
+msgstr "2. Konfigureeri Cloudflare"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 178
-msgid "Choose the 'Free Plan' (first card) and click 'Select Plan'"
-msgstr "Vali 'Tasuta plaan' (esimene kaart) ja kliki 'Vali plaan'"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 614
+msgid "Point your domain to Cloudflare for DNS management"
+msgstr "Suuna oma domeen Cloudflare'i DNS-i haldamiseks."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 183
-msgid "4. DNS Records"
-msgstr "4. DNS-i kirjed"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 617
+msgid "Access Cloudflare Dashboard"
+msgstr "Juurdepääs Cloudflare'i armatuurlauale"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 618
+msgid "Create a free account and add your domain"
+msgstr "Loo tasuta konto ja lisa oma domeen."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 621
+msgid "Open Cloudflare"
+msgstr "Ava Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 632
+msgid "Setup Steps"
+msgstr "Seadistamise sammud"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 634
+msgid ""
+"1. Click 'Add a site' → Enter your domain\n"
+"2. Choose the FREE plan\n"
+"3. Write down the 2 nameservers provided\n"
+"4. Go back to your domain provider (DigitalPlat)\n"
+"5. Replace the DNS with Cloudflare's nameservers\n"
+"6. Wait for DNS propagation (may take a few minutes)"
+msgstr ""
+"1. Klõpsa 'Lisa sait' → Sisesta oma domeen\n"
+"2. Vali TASUTA plaan\n"
+"3. Kirjuta üles 2 antud nimiserverit\n"
+"4. Mine tagasi oma domeeni pakkuja juurde (DigitalPlat)\n"
+"5. Asenda DNS Cloudflare'i nimiserveritega\n"
+"6. Oota DNS-i levikut (võib võtta paar minutit)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 646
+msgid "Update Nameservers"
+msgstr "Uuenda nimeteenuseid"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 647
+msgid "Open domain panel to change NS records"
+msgstr "Ava domeeni paneel NS-kirjete muutmiseks"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 650
+msgid "Domain Panel"
+msgstr "Domeeni paneel"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 668
+msgid "3. Get API Credentials"
+msgstr "3. Hangi API manda andmed"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 669
+msgid "Obtain your Zone ID and API Token from Cloudflare"
+msgstr "Hankige oma tsooni ID ja API token Cloudflare'ist."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 674
+msgid ""
+"1. In Cloudflare, click on your domain\n"
+"2. Scroll down to the 'API' section on the right\n"
+"3. Copy the 'Zone ID' value"
+msgstr ""
+"1. Cloudflare'is klõpsake oma domeenil\n"
+"2. Kerige alla 'API' sektsiooni paremal\n"
+"3. Kopeerige 'Zone ID' väärtus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 684
+msgid ""
+"1. Click 'Get your API token' (below Zone ID)\n"
+"2. Click 'Create Token'\n"
+"3. Use template: 'Edit zone DNS' → 'Use template'\n"
+"4. Configure:\n"
+"   • Token name: VPN-Token\n"
+"   • Permissions: Zone - DNS - Edit\n"
+"   • Zone: Select your domain\n"
+"5. Click 'Continue to summary' → 'Create Token'\n"
+"6. Copy token IMMEDIATELY (shown only once!)"
+msgstr ""
+"1. Klõpsa 'Hangi oma API token' (Zone ID all)\n"
+"2. Klõpsa 'Loo token'\n"
+"3. Kasuta mall: 'Muuda tsooni DNS' → 'Kasuta mall'\n"
+"4. Konfigureeri:\n"
+"   • Tokeni nimi: VPN-Token\n"
+"   • Õigused: Tsoon - DNS - Muuda\n"
+"   • Tsoon: Vali oma domeen\n"
+"5. Klõpsa 'Jätka kokkuvõttele' → 'Loo token'\n"
+"6. Kopeeri token KOHE (kuvatakse ainult üks kord!)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 703
+msgid "4. Configure DNS Records in Cloudflare"
+msgstr "4. Konfigureeri DNS-i kirjed Cloudflare'is"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 704
+msgid "Create DNS records pointing to your public IP"
+msgstr "Looge DNS-kirjed, mis osutavad teie avalikule IP-le."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 186
 msgid "Your Public IP"
 msgstr "Teie avalik IP"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Type"
-msgstr "Tüüp"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 709
+msgid "Use this IP for the A record below"
+msgstr "Kasutage seda IP-aadressi alloleva A-kirje jaoks."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Name"
-msgstr "Nimi"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 712
+msgid "Loading..."
+msgstr "Laadimine..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Target / IP"
-msgstr "Siht / IP"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 356
+msgid "Copy IP"
+msgstr "Kopeeri IP"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 200
-msgid "Proxy"
-msgstr "Proxü"
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 208
-msgid "Disabled (Gray)"
-msgstr "Keelatud (Hall)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 776
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1238
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
+msgid "Error"
+msgstr "Viga"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 209
-msgid "-"
-msgstr "-"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 746
+msgid "A Record"
+msgstr "A Record"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 209
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 209
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 209
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 217
-msgid "Click '+ Add Record' and fill as follows:"
-msgstr "Klõpsake '+ Lisa kirje' ja täitke järgmiselt:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 219
-msgid "After that, click 'Continue to activation'."
-msgstr "Seejärel klõpsake 'Jätka aktiveerimisega'."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 225
-msgid "5. Update Nameservers"
-msgstr "5. Uuenda nimeteenuseid"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 226
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 748
 msgid ""
-"- Replace your current NS with Cloudflare's NS1 and NS2\n"
-"- Update them in your registrar panel:"
+"In Cloudflare → DNS → Records → 'Add record':\n"
+"• Type: A\n"
+"• Name: @\n"
+"• Content: YOUR-PUBLIC-IP (shown above)\n"
+"• Proxy: OFF (gray cloud — IMPORTANT!)"
 msgstr ""
-"- Asenda oma praegune NS Cloudflare'i NS1 ja NS2-ga\n"
-"- Uuenda need oma registripidaja paneelis:"
+"Cloudflare → DNS → Kirjed → 'Lisa kirje':\n"
+"• Tüüp: A\n"
+"• Nimi: @\n"
+"• Sisu: TEIE-AVALIK-IP (näidatud ülal)\n"
+"• Proxü: VÄLJA (hall pilv — OLULINE!)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 250
-msgid "3. Credentials"
-msgstr "3. Tunnistustõendid"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 758
+msgid "CNAME Record"
+msgstr "CNAME-kirje"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 252
-msgid "We need your Cloudflare API keys to automate DNS."
-msgstr "Me vajame teie Cloudflare API võtmeid DNS-i automatiseerimiseks."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 258
-msgid "How to generate your API Token"
-msgstr "Kuidas genereerida oma API tokenit"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 265
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 760
 msgid ""
-"<b>Cloudflare API Token (Edit DNS)</b>\n"
-"\n"
-"Para gerar esse API Token com a permissão específica de 'Edit DNS', siga este passo a passo:\n"
-"\n"
-"1. No painel da Cloudflare (Overview), procure <b>Get your API token</b> no canto inferior direito.\n"
-"2. Clique em <b>Create Token</b>.\n"
-"3. Use o primeiro modelo: <b>Edit zone DNS</b> (clique em Use template).\n"
-"4. Configure as permissões exatamente assim:\n"
-"   - Token name: <i>Script-Headscale</i>\n"
-"   - Permissions: <i>Zone - DNS - Edit</i>\n"
-"   - Zone Resources: Include - Specific zone - <b>{}</b>\n"
-"5. Clique em <b>Continue to summary</b> e depois <b>Create Token</b>.\n"
-"\n"
-"<b>Atenção:</b> O Token aparecerá apenas uma vez. Copie e guarde-o bem!"
+"Add another record:\n"
+"• Type: CNAME\n"
+"• Name: www\n"
+"• Target: @\n"
+"• Proxy: OFF"
 msgstr ""
-"<b>Cloudflare API Token (Muuda DNS)</b>\n"
-"\n"
-"API Token'i genereerimiseks, millel on 'Muuda DNS' spetsiifiline luba, järgige neid samme:\n"
-"\n"
-"1. Cloudflare'i armatuurlaud (Ülevaade), otsige <b>Hangi oma API token</b> paremas alanurgas.\n"
-"2. Klõpsake <b>Loo token</b>.\n"
-"3. Kasutage esimest malli: <b>Muuda tsooni DNS</b> (klõpsake Kasuta malli).\n"
-"4. Konfigureerige load täpselt nii:\n"
-"   - Tokeni nimi: <i>Script-Headscale</i>\n"
-"   - Load: <i>Zoon - DNS - Muuda</i>\n"
-"   - Tsooni ressursid: Sisalda - Spetsiifiline tsoon - <b>{}</b>\n"
-"5. Klõpsake <b>Jätka kokkuvõttele</b> ja seejärel <b>Loo token</b>.\n"
-"\n"
-"<b>Tähelepanu:</b> Token ilmub ainult üks kord. Kopeerige ja hoidke seda hästi!"
+"Lisa uus kirje:\n"
+"• Tüüp: CNAME\n"
+"• Nimi: www\n"
+"• Sihtkoht: @\n"
+"• Proxü: VÄLJAS"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 282
-msgid "API Access"
-msgstr "API juurdepääs"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 775
+msgid "5. Configure Router (Port Forwarding)"
+msgstr "5. Konfigureeri ruuter (Porti suunamine)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 291
-msgid "Zone ID is in the 'Overview' page. Token must have 'Zone.DNS' edit permissions."
-msgstr "Zone ID on 'Ülevaade' lehel. Tokenil peavad olema 'Zone.DNS' redigeerimisõigused."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 776
+msgid "Open the required ports on your router"
+msgstr "Ava vajalikud pordid oma ruuteris."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 307
-msgid "4. Network & Ports"
-msgstr "4. Võrgud ja pordid"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 779
+msgid "Access Your Router"
+msgstr "Juurdepääs oma ruuterile"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 309
-msgid "Ensure your router is ready"
-msgstr "Veenduge, et teie ruuter on valmis."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 781
+msgid ""
+"1. Open your browser and go to 192.168.1.1 (or your router's IP)\n"
+"2. Find 'Port Forwarding' or 'NAT' settings"
+msgstr ""
+"1. Avage oma brauser ja minge aadressile 192.168.1.1 (või teie ruuteri IP-le)\n"
+"2. Leidke 'Portide suunamine' või 'NAT' seaded"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 313
-msgid "Required Port Forwarding"
-msgstr "Nõutav pordi edastamine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 788
+msgid "Web Interface and API"
+msgstr "Veebiliides ja API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 315
-msgid "Web and API"
-msgstr "Veeb ja API"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 789
+msgid "Admin Panel (Headscale UI)"
+msgstr "Admin Paneel (Headscale UI)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 316
-msgid "Admin Panel"
-msgstr "Administraatori paneel"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 790
+msgid "Peer-to-peer VPN data"
+msgstr "Peer-to-peer VPN andmed"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
-msgid "Peer-to-peer data"
-msgstr "Peer-to-peer andmed"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 800
+msgid "Find your local IP"
+msgstr "Leia oma kohalik IP."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 327
-msgid "Cloudflare Proxy (Orange Cloud) MUST be DISABLED (Gray)."
-msgstr "Cloudflare'i vahe (oranž pilv) PEAB olema KEELATUD (hall)."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 801
+msgid "Run 'hostname -I' in a terminal to find your local IP address"
+msgstr "Käivita terminalis 'hostname -I', et leida oma kohalik IP-aadress."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 345
-msgid "5. Installation"
-msgstr "5. Paigaldamine"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
+msgid "✅ Quick Summary"
+msgstr "✅ Kiire ülevaade"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 347
-msgid "Setting up Docker, Headscale and Caddy..."
-msgstr "Docker, Headscale ja Caddy seadistamine..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 812
+msgid "Checklist before clicking 'Install Server'"
+msgstr "Kontrollnime enne 'Install Server' klikkimist"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 351
-msgid "Ready to Begin"
-msgstr "Valmis alustama"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 815
+msgid "1. Register free domain at DigitalPlat"
+msgstr "Registreeri tasuta domeen DigitalPlat'is"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 377
-msgid "Connect to Network"
-msgstr "Ühenda võrku"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 816
+msgid "2. Change DNS to Cloudflare nameservers"
+msgstr "2. Muuda DNS Cloudflare'i nimede serveriteks"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 379
-msgid "Join an existing Headscale private network"
-msgstr "Liitu olemasoleva Headscale'i privaatvõrguga"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 817
+msgid "3. Get Zone ID + Create API Token"
+msgstr "3. Hangi tsooni ID + Loo API token"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 384
-msgid "Server Domain"
-msgstr "Serveri domeen"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 818
+msgid "4. Create A record with your IP (proxy OFF)"
+msgstr "4. Looge oma IP (proksi VÄLJAS) jaoks rekord."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 819
+msgid "5. Open ports 8080, 9443, 41641 on router"
+msgstr "Ava portid 8080, 9443, 41641 ruuteris."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 40
+msgid "Connect to Private Network"
+msgstr "Ühenda Privaatvõrguga"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 857
+msgid ""
+"Join an existing Headscale private network. You need a Server Domain and an Auth Key provided by "
+"the network administrator."
+msgstr ""
+"Liitu olemasoleva Headscale privaatvõrguga. Sul on vaja Serveri domeeni ja autentimisvõtit, mille "
+"annab võrguhaldur."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 863
+msgid "Connection Details"
+msgstr "Ühenduse üksikasjad"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 385
 msgid "Auth Key"
@@ -1673,10 +2010,6 @@ msgstr "Salvesta võrgu teave"
 msgid "File saved!"
 msgstr "Fail salvestatud!"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
-msgid "Error saving: {}"
-msgstr "Viga salvestamisel: {}"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
 msgid "Delete History?"
 msgstr "Kustuta ajalugu?"
@@ -1701,21 +2034,27 @@ msgstr "Viga kustutamisel: {}"
 msgid "Copied: {}"
 msgstr "Kopeeritud: {}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 544
-msgid "Domain is required"
-msgstr "Domeen on kohustuslik"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1529
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1542
+msgid "Installation Log"
+msgstr "Installeerimise logi"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 548
-msgid "API Keys are required"
-msgstr "API võtmed on vajalikud"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+msgid "Connection Log"
+msgstr "Ühenduse logi"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 598
-msgid "Finished with code: {}"
-msgstr "Koodiga lõpetatud: {}"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1759
+msgid "✅ Installation complete!"
+msgstr "✅ Paigaldamine lõpetatud!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 599
 msgid "Success!"
 msgstr "Edu!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1767
+msgid "❌ Installation failed"
+msgstr "❌ Paigaldamine ebaõnnestus"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 600
 msgid "Installation failed"
@@ -1741,6 +2080,26 @@ msgstr "Ajaloo salvestamisel tekkis viga: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 606
 msgid "Fill all fields"
 msgstr "Täida kõik väljad"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1848
+msgid "Connecting..."
+msgstr "Ühendamine..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1904
+msgid "✅ Connection established!"
+msgstr "✅ Ühendus loodud!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1907
+msgid "Connected successfully!"
+msgstr "Ühendus õnnestus!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1912
+msgid "❌ Connection failed"
+msgstr "❌ Ühendus ebaõnnestus"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
+msgid "Connection failed"
+msgstr "Ühendus ebaõnnestus"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -1810,17 +2169,9 @@ msgstr "Ühenda hostiga"
 msgid "Private Network"
 msgstr "Privaatvõrk"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 35
-msgid "Create Private Network"
-msgstr "Loo Privaatne Võrk"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 37
 msgid "Setup Headscale server"
 msgstr "Seadista Headscale server"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 40
-msgid "Connect to Private Network"
-msgstr "Ühenda Privaatvõrguga"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 42
 msgid "Join a private network"
@@ -2541,17 +2892,6 @@ msgstr "Väljund muutus: {}"
 msgid "Configuring firewall... (Password may be requested)"
 msgstr "Tuleb konfigureerida tulemüür... (Võib küsida parooli)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 776
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1232
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1238
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1266
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 539
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 567
-msgid "Error"
-msgstr "Viga"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 783
 msgid "Success: {}"
 msgstr "Edu: {}"
@@ -2809,10 +3149,6 @@ msgstr "Otsin hoste..."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 311
 msgid "No hosts found"
 msgstr "Hoste ei leitud"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 356
-msgid "Copy IP"
-msgstr "Kopeeri IP"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 359
 msgid "IP Copied: {}"

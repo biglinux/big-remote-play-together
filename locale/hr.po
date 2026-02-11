@@ -227,6 +227,26 @@ msgstr "Ukloni stare log datoteke"
 msgid "Limpar"
 msgstr "Očisti"
 # 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 109
+msgid "Manutenção do Sistema"
+msgstr "Održavanje sustava"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 110
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "Alati za rješavanje uobičajenih problema"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 113
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "Ispraviti biblioteke (ICU)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 114
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "Riješite nedostatak greške libicuuc.so.7*"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 116
+msgid "Fix Automático"
+msgstr "Automatska ispravka"
+# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Čisti dnevnici"
@@ -242,6 +262,23 @@ msgstr "Stari logovi su uklonjeni."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 735
 msgid "OK"
 msgstr "U redu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "Fix Automático Iniciado"
+msgstr "Automatska ispravka pokrenuta"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 172
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "Skripta za ispravak biblioteka je pokrenuta. Unesite lozinku ako se zatraži."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 177
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Erro"
+msgstr "Greška"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 182
+msgid "Script de correção não encontrado."
+msgstr "Nema skripte za ispravak."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
@@ -1175,9 +1212,78 @@ msgstr "Aktivno - Nema uređaja"
 msgid "Connected to {}"
 msgstr "Povezano s {}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 56
-msgid "Access Information"
-msgstr "Pristup informacijama"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 53
+msgid "🎮 Network Created Successfully!"
+msgstr "🎮 Mreža je uspješno stvorena!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 58
+msgid ""
+"Share the info below with your friends so they can join via \"Connect to Private Network\" and play "
+"together!"
+msgstr ""
+"Podijelite informacije u nastavku sa svojim prijateljima kako bi se mogli pridružiti putem \"Poveži "
+"se na privatnu mrežu\" i igrati zajedno!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 86
+msgid "📤 Share with Your Friends"
+msgstr "📤 Podijelite s prijateljima"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 88
+msgid "Your friends only need these 2 items to join your network."
+msgstr "Vaši prijatelji trebaju samo ove 2 stavke da se pridruže vašoj mreži."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 536
+msgid "Server Domain"
+msgstr "Poslužiteljska domena"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 101
+msgid "Copy domain"
+msgstr "Kopiraj domenu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
+msgid "Auth Key (Friends)"
+msgstr "Ključ za autentifikaciju (Prijatelji)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 115
+msgid "Copy auth key"
+msgstr "Kopiraj ključ za autentifikaciju"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 122
+msgid "📋 How to Connect"
+msgstr "📋 Kako se povezati"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 124
+msgid "Both you AND your friends must connect!"
+msgstr "I vi i vaši prijatelji morate se povezati!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "1. Open \"Connect to Private Network\""
+msgstr "1. Otvorite \"Poveži se na privatnu mrežu\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 129
+msgid "In the sidebar menu"
+msgstr "U izborniku bočne trake"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+msgid "2. Enter domain and Auth Key"
+msgstr "2. Unesite domenu i Auth ključ"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "3. Click \"Establish Connection\""
+msgstr "3. Kliknite \"Uspostavi vezu\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 131
+msgid "Play together over the internet!"
+msgstr "Igrajte zajedno putem interneta!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 142
+msgid "🔧 Server Details"
+msgstr "🔧 Detalji poslužitelja"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 66
 msgid "Web Interface"
@@ -1195,245 +1301,454 @@ msgstr "Javna IP"
 msgid "Local IP"
 msgstr "Lokalna IP"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 70
-msgid "API Key (UI)"
-msgstr "API ključ (UI)"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 71
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 757
-msgid "Auth Key (Friends)"
-msgstr "Ključ za autentifikaciju (Prijatelji)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 150
+msgid "API Key (Admin UI)"
+msgstr "API ključ (Admin UI)"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 99
 msgid "Save and Finish"
 msgstr "Spremi i završi"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 235
-msgid "Install Server"
-msgstr "Instaliraj poslužitelj"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 204
+msgid "Save to File"
+msgstr "Spremi u datoteku"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 250
-msgid "1. Domain Registration"
-msgstr "1. Registracija domene"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 215
+msgid "Share"
+msgstr "Dijeli"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 252
-msgid "The first step is to have a domain pointed to Cloudflare."
-msgstr "Prvi korak je imati domenu usmjerenu na Cloudflare."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 226
+msgid "This info is saved in \"Connect to Private Network\" → \"Previous Networks\""
+msgstr "Ove informacije su pohranjene u \"Poveži se na privatnu mrežu\" → \"Prethodne mreže\""
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 262
+msgid "Save Connection Info"
+msgstr "Spremi informacije o vezi"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 275
+msgid "File saved: {}"
+msgstr "Datoteka spremljena: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
+msgid "Error saving: {}"
+msgstr "Greška pri spremanju: {}"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 288
+msgid "Connection info copied! Paste it in any app to share."
+msgstr "Informacije o vezi su kopirane! Zalijepite ih u bilo koju aplikaciju za dijeljenje."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 315
+msgid "Preparing connection..."
+msgstr "Priprema veze..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 316
+msgid "Checking dependencies..."
+msgstr "Provjera ovisnosti..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
+msgid "Configuring Tailscale client..."
+msgstr "Konfiguriranje Tailscale klijenta..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 318
+msgid "Logging in to network..."
+msgstr "Prijavljivanje na mrežu..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 319
+msgid "Verifying connection..."
+msgstr "Provjera veze..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 320
+msgid "Connection established!"
+msgstr "Veza uspostavljena!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 73
+msgid "Create Private Network"
+msgstr "Kreiraj privatnu mrežu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 369
+msgid ""
+"Set up your own Headscale VPN server with automatic DNS configuration via Cloudflare. This allows "
+"you and your friends to connect securely over the internet."
+msgstr ""
+"Postavite vlastiti Headscale VPN poslužitelj s automatskom DNS konfiguracijom putem Cloudflare-a. "
+"To omogućuje vama i vašim prijateljima da se sigurno povežete putem interneta."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 376
+msgid "Server Configuration"
+msgstr "Konfiguracija poslužitelja"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 377
+msgid "Enter your Cloudflare credentials to automate the installation"
+msgstr "Unesite svoje Cloudflare vjerodajnice za automatizaciju instalacije."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 256
 msgid "Enter your domain"
 msgstr "Unesite svoju domenu"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 257
-msgid "Domain Name"
-msgstr "Naziv domene"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 380
+msgid "e.g.: myserver.us.kg"
+msgstr "myserver.us.kg"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 260
-msgid "Register Free Domain (DigitalPlat)"
-msgstr "Registrirajte besplatnu domenu (DigitalPlat)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 382
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 672
+msgid "Zone ID"
+msgstr "ID zone"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 279
-msgid "2. Cloudflare Setup"
-msgstr "2. Postavke Cloudflare"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 383
+msgid "Found in Cloudflare Overview page"
+msgstr "Pronađeno na stranici Pregled Cloudflare-a"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 281
-msgid "Detailed tutorial to configure your domain"
-msgstr "Detaljan vodič za konfiguriranje vaše domene"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 385
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 682
+msgid "API Token"
+msgstr "API Token"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 287
-msgid "1. Access Cloudflare"
-msgstr "1. Pristupite Cloudflare-u"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 386
+msgid "Token with DNS Edit permission"
+msgstr "Token s dozvolom za uređivanje DNS-a"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 288
-msgid "Create account and click '+ Add'"
-msgstr "Kreirajte račun i kliknite na '+ Dodaj'"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 442
+msgid "View access information"
+msgstr "Pogledajte informacije o pristupu"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 297
-msgid "2. Enter Domain"
-msgstr "2. Unesite domenu"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 478
+msgid "Preparing environment..."
+msgstr "Priprema okruženja..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 300
-msgid "Enter your domain: <b>{}</b>"
-msgstr "Unesite svoju domenu: <b>{}</b>"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 479
+msgid "Installing Docker..."
+msgstr "Instaliranje Dockera..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 302
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 480
+msgid "Configuring Headscale..."
+msgstr "Konfiguriranje Headscale..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 481
+msgid "Setting up Caddy reverse proxy..."
+msgstr "Postavljanje Caddy obrnute proxy usluge..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 482
+msgid "Configuring DNS records..."
+msgstr "Konfiguriranje DNS zapisa..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 483
+msgid "Generating access keys..."
+msgstr "Generiranje pristupnih ključeva..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 484
+msgid "Finalizing installation..."
+msgstr "Završavanje instalacije..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 235
+msgid "Install Server"
+msgstr "Instaliraj poslužitelj"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 508
+msgid "Instructions"
+msgstr "Upute"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1025
+msgid "Domain is required"
+msgstr "Domena je obavezna"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 530
+msgid "Zone ID is required"
+msgstr "Zone ID je obavezan"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 533
+msgid "API Token is required"
+msgstr "API token je obavezan"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 548
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 557
+msgid "Setup Instructions"
+msgstr "Upute za postavljanje"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 558
+msgid "Step-by-step guide to create your private network"
+msgstr "Vodič korak po korak za izradu vaše privatne mreže"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 578
+msgid "1. Register a Free Domain"
+msgstr "Registrirajte besplatnu domenu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 579
+msgid "Get a free .us.kg domain to use with your server"
+msgstr "Dobijte besplatnu .us.kg domenu za korištenje s vašim poslužiteljem."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 582
+msgid "Access DigitalPlat Domain"
+msgstr "Pristupite DigitalPlat domeni"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 583
+msgid "Register and get your free domain (e.g.: myserver.us.kg)"
+msgstr "Registrirajte se i dobijte svoju besplatnu domenu (npr.: myserver.us.kg)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 586
+msgid "Open Site"
+msgstr "Otvorite stranicu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 597
+msgid "Steps at DigitalPlat"
+msgstr "Koraci na DigitalPlat"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 599
 msgid ""
-"On the next page 'Speed up and secure your site':\n"
-"- Select: Quick DNS Check\n"
-"- Select: Global Block\n"
-"- Disable: AI Bots (robots.txt)\n"
-"- Click 'Continue'"
+"1. Create an account or login\n"
+"2. Choose a .us.kg domain\n"
+"3. Complete the simple registration\n"
+"4. Write down the domain you obtained (e.g.: myserver.us.kg)"
 msgstr ""
-"Na sljedećoj stranici 'Povećajte brzinu i osigurajte svoju stranicu':\n"
-"- Odaberite: Brza provjera DNS-a\n"
-"- Odaberite: Globalna blokada\n"
-"- Onemogućite: AI botove (robots.txt)\n"
-"- Kliknite 'Nastavi'"
+"1. Kreirajte račun ili se prijavite\n"
+"2. Odaberite .us.kg domenu\n"
+"3. Ispunite jednostavnu registraciju\n"
+"4. Zapišite domenu koju ste dobili (npr.: myserver.us.kg)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 311
-msgid "3. Select Plan"
-msgstr "3. Odaberite plan"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 613
+msgid "2. Configure Cloudflare"
+msgstr "2. Konfigurirajte Cloudflare"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 312
-msgid "Choose the 'Free Plan' (first card) and click 'Select Plan'"
-msgstr "Odaberite 'Besplatan plan' (prva kartica) i kliknite na 'Odaberi plan'"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 614
+msgid "Point your domain to Cloudflare for DNS management"
+msgstr "Usmjerite svoju domenu na Cloudflare za upravljanje DNS-om."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 317
-msgid "4. DNS Records"
-msgstr "4. DNS zapisi"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 617
+msgid "Access Cloudflare Dashboard"
+msgstr "Pristupite Cloudflare nadzornoj ploči"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 618
+msgid "Create a free account and add your domain"
+msgstr "Kreirajte besplatni račun i dodajte svoju domenu."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 621
+msgid "Open Cloudflare"
+msgstr "Otvorite Cloudflare"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 632
+msgid "Setup Steps"
+msgstr "Koraci postavljanja"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 634
+msgid ""
+"1. Click 'Add a site' → Enter your domain\n"
+"2. Choose the FREE plan\n"
+"3. Write down the 2 nameservers provided\n"
+"4. Go back to your domain provider (DigitalPlat)\n"
+"5. Replace the DNS with Cloudflare's nameservers\n"
+"6. Wait for DNS propagation (may take a few minutes)"
+msgstr ""
+"1. Kliknite 'Dodaj stranicu' → Unesite svoju domenu\n"
+"2. Odaberite BESPLATNI plan\n"
+"3. Zapišite 2 pružatelja imena\n"
+"4. Vratite se svom pružatelju domene (DigitalPlat)\n"
+"5. Zamijenite DNS s Cloudflareovim poslužiteljima imena\n"
+"6. Pričekajte na propagaciju DNS-a (može potrajati nekoliko minuta)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 646
+msgid "Update Nameservers"
+msgstr "Ažuriraj imena poslužitelja"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 647
+msgid "Open domain panel to change NS records"
+msgstr "Otvorite panel domene za promjenu NS zapisa"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 650
+msgid "Domain Panel"
+msgstr "Panel domena"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 668
+msgid "3. Get API Credentials"
+msgstr "3. Dobijte API vjerodajnice"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 669
+msgid "Obtain your Zone ID and API Token from Cloudflare"
+msgstr "Dobijte svoj ID zone i API token iz Cloudflare-a."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 674
+msgid ""
+"1. In Cloudflare, click on your domain\n"
+"2. Scroll down to the 'API' section on the right\n"
+"3. Copy the 'Zone ID' value"
+msgstr ""
+"1. U Cloudflareu, kliknite na svoju domenu\n"
+"2. Pomaknite se dolje do odjeljka 'API' s desne strane\n"
+"3. Kopirajte vrijednost 'Zone ID'"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 684
+msgid ""
+"1. Click 'Get your API token' (below Zone ID)\n"
+"2. Click 'Create Token'\n"
+"3. Use template: 'Edit zone DNS' → 'Use template'\n"
+"4. Configure:\n"
+"   • Token name: VPN-Token\n"
+"   • Permissions: Zone - DNS - Edit\n"
+"   • Zone: Select your domain\n"
+"5. Click 'Continue to summary' → 'Create Token'\n"
+"6. Copy token IMMEDIATELY (shown only once!)"
+msgstr ""
+"1. Kliknite 'Preuzmite svoj API token' (ispod ID zone)\n"
+"2. Kliknite 'Kreiraj token'\n"
+"3. Koristite predložak: 'Uredi DNS zone' → 'Koristi predložak'\n"
+"4. Konfigurirajte:\n"
+"   • Ime tokena: VPN-Token\n"
+"   • Dozvole: Zona - DNS - Uredi\n"
+"   • Zona: Odaberite svoju domenu\n"
+"5. Kliknite 'Nastavi na sažetak' → 'Kreiraj token'\n"
+"6. Kopirajte token ODMAH (prikazan samo jednom!)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 703
+msgid "4. Configure DNS Records in Cloudflare"
+msgstr "4. Konfigurirajte DNS zapise u Cloudflare-u"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 704
+msgid "Create DNS records pointing to your public IP"
+msgstr "Izradite DNS zapise koji upućuju na vašu javnu IP adresu."
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 320
 msgid "Your Public IP"
 msgstr "Vaša javna IP adresa"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 335
-msgid "Type"
-msgstr "Vrsta"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 709
+msgid "Use this IP for the A record below"
+msgstr "Koristite ovu IP adresu za A zapis u nastavku."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 335
-msgid "Name"
-msgstr "Ime"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 712
+msgid "Loading..."
+msgstr "Učitavanje..."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 335
-msgid "Target / IP"
-msgstr "Cilj / IP"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 365
+msgid "Copy IP"
+msgstr "Kopiraj IP"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 335
-msgid "Proxy"
-msgstr "Proxy"
+# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 343
-msgid "Disabled (Gray)"
-msgstr "Onemogućeno (Sivo)"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 787
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1240
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1246
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 550
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 578
+msgid "Error"
+msgstr "Greška"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 344
-msgid "-"
-msgstr "-"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 746
+msgid "A Record"
+msgstr "Zapis"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 352
-msgid "Click '+ Add Record' and fill as follows:"
-msgstr "Kliknite '+ Dodaj zapis' i ispunite kako slijedi:"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 354
-msgid "After that, click 'Continue to activation'."
-msgstr "Nakon toga, kliknite 'Nastavi na aktivaciju'."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 360
-msgid "5. Update Nameservers"
-msgstr "5. Ažurirajte imena poslužitelja"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 361
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 748
 msgid ""
-"- Replace your current NS with Cloudflare's NS1 and NS2\n"
-"- Update them in your registrar panel:"
+"In Cloudflare → DNS → Records → 'Add record':\n"
+"• Type: A\n"
+"• Name: @\n"
+"• Content: YOUR-PUBLIC-IP (shown above)\n"
+"• Proxy: OFF (gray cloud — IMPORTANT!)"
 msgstr ""
-"- Zamijenite svoje trenutne NS s Cloudflareovim NS1 i NS2\n"
-"- Ažurirajte ih u svom registrarskom panelu:"
+"U Cloudflare → DNS → Zapisi → 'Dodaj zapis':\n"
+"• Tip: A\n"
+"• Ime: @\n"
+"• Sadržaj: VAŠA-JAVNA-IP (prikazano iznad)\n"
+"• Proxy: ISKLJUČENO (siva oblak — VAŽNO!)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 384
-msgid "3. Credentials"
-msgstr "3. Akreditivi"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 758
+msgid "CNAME Record"
+msgstr "CNAME zapis"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 386
-msgid "We need your Cloudflare API keys to automate DNS."
-msgstr "Trebaju nam vaši Cloudflare API ključevi za automatizaciju DNS-a."
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 392
-msgid "How to generate your API Token"
-msgstr "Kako generirati svoj API token"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 399
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 760
 msgid ""
-"<b>Cloudflare API Token (Edit DNS)</b>\n"
-"\n"
-"Para gerar esse API Token com a permissão específica de 'Edit DNS', siga este passo a passo:\n"
-"\n"
-"1. No painel da Cloudflare (Overview), procure <b>Get your API token</b> no canto inferior direito.\n"
-"2. Clique em <b>Create Token</b>.\n"
-"3. Use o primeiro modelo: <b>Edit zone DNS</b> (clique em Use template).\n"
-"4. Configure as permissões exatamente assim:\n"
-"   - Token name: <i>Script-Headscale</i>\n"
-"   - Permissions: <i>Zone - DNS - Edit</i>\n"
-"   - Zone Resources: Include - Specific zone - <b>{}</b>\n"
-"5. Clique em <b>Continue to summary</b> e depois <b>Create Token</b>.\n"
-"\n"
-"<b>Atenção:</b> O Token aparecerá apenas uma vez. Copie e guarde-o bem!"
+"Add another record:\n"
+"• Type: CNAME\n"
+"• Name: www\n"
+"• Target: @\n"
+"• Proxy: OFF"
 msgstr ""
-"<b>Cloudflare API Token (Uredi DNS)</b>\n"
-"\n"
-"Da biste generirali ovaj API Token s posebnom dozvolom 'Uredi DNS', slijedite ovaj korak po korak:\n"
-"\n"
-"1. Na Cloudflare nadzornoj ploči (Pregled), potražite <b>Preuzmite svoj API token</b> u donjem "
-"desnom kutu.\n"
-"2. Kliknite na <b>Stvori token</b>.\n"
-"3. Koristite prvi predložak: <b>Uredi zone DNS</b> (kliknite na Koristi predložak).\n"
-"4. Konfigurirajte dozvole točno ovako:\n"
-"   - Ime tokena: <i>Script-Headscale</i>\n"
-"   - Dozvole: <i>Zona - DNS - Uredi</i>\n"
-"   - Resursi zone: Uključi - Specifična zona - <b>{}</b>\n"
-"5. Kliknite na <b>Nastavi na sažetak</b> i zatim <b>Stvori token</b>.\n"
-"\n"
-"<b>Pažnja:</b> Token će se pojaviti samo jednom. Kopirajte ga i dobro ga čuvajte!"
+"Dodajte još jedan zapis:\n"
+"• Tip: CNAME\n"
+"• Ime: www\n"
+"• Cilj: @\n"
+"• Proxy: ISKLJUČENO"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 416
-msgid "API Access"
-msgstr "API pristup"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 775
+msgid "5. Configure Router (Port Forwarding)"
+msgstr "5. Konfigurirajte usmjerivač (Prosljeđivanje portova)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 425
-msgid "Zone ID is in the 'Overview' page. Token must have 'Zone.DNS' edit permissions."
-msgstr "ID zonea je na stranici 'Pregled'. Token mora imati dozvole za uređivanje 'Zone.DNS'."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 776
+msgid "Open the required ports on your router"
+msgstr "Otvorite potrebne portove na svom usmjerivaču."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 440
-msgid "4. Network & Ports"
-msgstr "4. Mreža i portovi"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 779
+msgid "Access Your Router"
+msgstr "Pristupite svom usmjerivaču"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 442
-msgid "Ensure your router is ready"
-msgstr "Osigurajte da je vaš usmjerivač spreman"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 781
+msgid ""
+"1. Open your browser and go to 192.168.1.1 (or your router's IP)\n"
+"2. Find 'Port Forwarding' or 'NAT' settings"
+msgstr ""
+"1. Otvorite svoj preglednik i idite na 192.168.1.1 (ili IP adresu vašeg usmjerivača)\n"
+"2. Pronađite postavke 'Prosljeđivanje portova' ili 'NAT'"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 446
-msgid "Required Port Forwarding"
-msgstr "Potrebno prosljeđivanje porta"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 788
+msgid "Web Interface and API"
+msgstr "Web sučelje i API"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 448
-msgid "Web and API"
-msgstr "Web i API"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 789
+msgid "Admin Panel (Headscale UI)"
+msgstr "Administratorska ploča (Headscale UI)"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 449
-msgid "Admin Panel"
-msgstr "Administratorska ploča"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 790
+msgid "Peer-to-peer VPN data"
+msgstr "Podaci o peer-to-peer VPN-u"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 450
-msgid "Peer-to-peer data"
-msgstr "Podatci između korisnika"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 800
+msgid "Find your local IP"
+msgstr "Pronađite svoju lokalnu IP adresu"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 460
-msgid "Cloudflare Proxy (Orange Cloud) MUST be DISABLED (Gray)."
-msgstr "Cloudflare Proxy (Narančasta Oblak) MORA biti ISKLJUČEN (Siva)."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 801
+msgid "Run 'hostname -I' in a terminal to find your local IP address"
+msgstr "Pokrenite 'hostname -I' u terminalu da biste pronašli svoju lokalnu IP adresu."
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 477
-msgid "5. Installation"
-msgstr "5. Instalacija"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
+msgid "✅ Quick Summary"
+msgstr "✅ Brzi Sažetak"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 479
-msgid "Setting up Docker, Headscale and Caddy..."
-msgstr "Postavljanje Dockera, Headscalea i Caddyja..."
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 812
+msgid "Checklist before clicking 'Install Server'"
+msgstr "Popis prije nego što kliknete 'Instaliraj poslužitelj'"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 483
-msgid "Ready to Begin"
-msgstr "Spreman za početak"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 815
+msgid "1. Register free domain at DigitalPlat"
+msgstr "Registrirajte besplatnu domenu na DigitalPlat"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 529
-msgid "Connect to Network"
-msgstr "Poveži se na mrežu"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 816
+msgid "2. Change DNS to Cloudflare nameservers"
+msgstr "2. Promijenite DNS na Cloudflare poslužitelje imena"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 531
-msgid "Join an existing Headscale private network"
-msgstr "Pridružite se postojećoj Headscale privatnoj mreži"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 817
+msgid "3. Get Zone ID + Create API Token"
+msgstr "3. Dobijte ID zone + Kreirajte API token"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 536
-msgid "Server Domain"
-msgstr "Poslužiteljska domena"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 818
+msgid "4. Create A record with your IP (proxy OFF)"
+msgstr "4. Kreirajte zapis s vašom IP adresom (proxy ISKLJUČEN)"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 819
+msgid "5. Open ports 8080, 9443, 41641 on router"
+msgstr "5. Otvorite portove 8080, 9443, 41641 na usmjerivaču"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 78
+msgid "Connect to Private Network"
+msgstr "Poveži se na privatnu mrežu"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 857
+msgid ""
+"Join an existing Headscale private network. You need a Server Domain and an Auth Key provided by "
+"the network administrator."
+msgstr ""
+"Pridružite se postojećoj Headscale privatnoj mreži. Potrebna su vam domena poslužitelja i "
+"autentifikacijski ključ koji pruža administrator mreže."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 863
+msgid "Connection Details"
+msgstr "Pojedinosti o vezi"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 537
 msgid "Auth Key"
@@ -1535,10 +1850,6 @@ msgstr "Spremi informacije o mreži"
 msgid "File saved!"
 msgstr "Datoteka je spremljena!"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 803
-msgid "Error saving: {}"
-msgstr "Greška pri spremanju: {}"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 811
 msgid "Delete History?"
 msgstr "Izbriši povijest?"
@@ -1563,21 +1874,27 @@ msgstr "Greška pri brisanju: {}"
 msgid "Copied: {}"
 msgstr "Kopirano: {}"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1025
-msgid "Domain is required"
-msgstr "Domena je obavezna"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1529
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1542
+msgid "Installation Log"
+msgstr "Zapisnik instalacije"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1029
-msgid "API Keys are required"
-msgstr "API ključevi su obavezni"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1498
+msgid "Connection Log"
+msgstr "Zapis veze"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1112
-msgid "Finished with code: {}"
-msgstr "Završeno s kodom: {}"
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1759
+msgid "✅ Installation complete!"
+msgstr "✅ Instalacija je završena!"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1114
 msgid "Success!"
 msgstr "Uspjeh!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1767
+msgid "❌ Installation failed"
+msgstr "❌ Instalacija nije uspjela"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1117
 msgid "Installation failed"
@@ -1603,6 +1920,26 @@ msgstr "Greška pri spremanju povijesti: {}"
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1187
 msgid "Fill all fields"
 msgstr "Ispunite sva polja"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1848
+msgid "Connecting..."
+msgstr "Povezivanje..."
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1904
+msgid "✅ Connection established!"
+msgstr "✅ Veza uspostavljena!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1907
+msgid "Connected successfully!"
+msgstr "Uspješno povezano!"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1912
+msgid "❌ Connection failed"
+msgstr "❌ Povezivanje nije uspjelo"
+# 
+# File: big-remote-play-together/usr/share/big-remote-play-together/ui/private_network_view.py, line: 1913
+msgid "Connection failed"
+msgstr "Povezivanje nije uspjelo"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -1672,17 +2009,9 @@ msgstr "Poveži se na poslužitelj"
 msgid "Private Network"
 msgstr "Privatna mreža"
 # 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 73
-msgid "Create Private Network"
-msgstr "Kreiraj privatnu mrežu"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 75
 msgid "Setup Headscale server"
 msgstr "Postavite Headscale poslužitelj"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 78
-msgid "Connect to Private Network"
-msgstr "Poveži se na privatnu mrežu"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/main_window.py, line: 80
 msgid "Join a private network"
@@ -2405,16 +2734,6 @@ msgstr "Izlaz je promijenjen na: {}"
 msgid "Configuring firewall... (Password may be requested)"
 msgstr "Konfiguriranje vatrozida... (Možda će biti zatražena lozinka)"
 # 
-# #-#-#-#-#  big-remote-play-together.pot (big-remote-play-together)  #-#-#-#-#
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 787
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1240
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 1246
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 550
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 578
-msgid "Error"
-msgstr "Greška"
-# 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/host_view.py, line: 794
 msgid "Success: {}"
 msgstr "Uspjeh: {}"
@@ -2672,10 +2991,6 @@ msgstr "Traženje hostova..."
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 319
 msgid "No hosts found"
 msgstr "Nema pronađenih hostova"
-# 
-# File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 365
-msgid "Copy IP"
-msgstr "Kopiraj IP"
 # 
 # File: big-remote-play-together/usr/share/big-remote-play-together/ui/guest_view.py, line: 368
 msgid "IP Copied: {}"
