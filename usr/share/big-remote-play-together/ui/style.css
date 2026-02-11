@@ -332,3 +332,46 @@ entry:focus {
 .bottom-bar {
     padding: 14px 28px 14px 28px;
 }
+
+/* ─── Installation LevelBar ─── */
+levelbar block {
+    border-radius: 6px;
+    min-height: 14px;
+}
+
+levelbar trough {
+    border-radius: 8px;
+    min-height: 14px;
+    background: alpha(@theme_fg_color, 0.08);
+    border: 1px solid alpha(@borders, 0.1);
+}
+
+levelbar block.install-low {
+    background: linear-gradient(to right, #3584e4, #62a0ea);
+    box-shadow: 0 0 8px alpha(#3584e4, 0.3);
+}
+
+levelbar block.install-mid {
+    background: linear-gradient(to right, #3584e4, #33c7de);
+    box-shadow: 0 0 8px alpha(#33c7de, 0.3);
+}
+
+levelbar block.install-high {
+    background: linear-gradient(to right, #33c7de, #2ec27e);
+    box-shadow: 0 0 8px alpha(#2ec27e, 0.3);
+}
+
+levelbar block.install-full {
+    background: linear-gradient(to right, #2ec27e, @accent_bg_color);
+    box-shadow: 0 0 12px alpha(@accent_bg_color, 0.4);
+}
+
+levelbar block.filled {
+    background: @accent_bg_color;
+}
+
+.caption-heading {
+    font-size: 0.85em;
+    font-weight: 700;
+    color: @accent_color;
+}

@@ -1137,9 +1137,8 @@ class HostView(Gtk.Box):
                 if self.audio_manager:
                     # Returns True if success
                     if self.audio_manager.enable_streaming_audio(host_sink):
-                        # Ensure we use the monitor source for pulse
-                        monitor_src = self.audio_manager.get_sink_monitor_source("SunshineGameSink")
-                        sunshine_config['audio_sink'] = monitor_src if monitor_src else "SunshineGameSink.monitor"
+                        # Ensure we use the sink name for Sunshine to capture from its monitor
+                        sunshine_config['audio_sink'] = "SunshineGameSink"
                         
                         print(f"DEBUG: Configured Sunshine audio_sink to: {sunshine_config['audio_sink']}")
                         
