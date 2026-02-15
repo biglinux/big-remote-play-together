@@ -11,6 +11,7 @@ import os
 
 from utils.i18n import _
 from utils.icons import create_icon_widget
+import socket
 
 class SunshineConfigManager:
     def __init__(self):
@@ -58,6 +59,7 @@ class SunshineConfigManager:
 
 class SunshinePreferencesPage(Adw.PreferencesPage):
     def __init__(self, **kwargs):
+        self.main_config = kwargs.pop('main_config', None)
         super().__init__(**kwargs)
         self.set_title(_("Sunshine"))
         self.set_icon_name("preferences-desktop-remote-desktop-symbolic")
@@ -132,7 +134,25 @@ class SunshinePreferencesPage(Adw.PreferencesPage):
             row.set_title(label)
             active = current_val.lower() in ('true', 'enabled', '1', 'on')
             row.set_active(active)
-            row.connect('notify::active', lambda w, p: self.config.set(key, str(w.get_active()).lower()))
+            row.set_active(active)
+            
+            def on_switch_change(w, p):
+                val = str(w.get_active()).lower()
+                self.config.set(key, val)
+                
+                # Sync 'stream_audio' with Main Config Host Audio
+                if key == "stream_audio" and self.main_config:
+                    h = self.main_config.get('host', {})
+                    h['audio'] = w.get_active()
+                    self.main_config.set('host', h)
+                    
+            row.connect('notify::active', on_switch_change)
+            
+        elif type_ == "password":
+            row = Adw.PasswordEntryRow()
+            row.set_title(label)
+            row.set_text(str(current_val))
+            row.connect('changed', lambda w: self.config.set(key, w.get_text()))
             
         elif type_ == "entry":
             row = Adw.EntryRow()
@@ -243,6 +263,15 @@ class SunshinePreferencesPage(Adw.PreferencesPage):
             btn.add_css_class("flat")
             btn.connect('clicked', lambda _, p=path: self.open_file(p))
             
+            # Check if file exists, if not, try to create default
+            if not path.exists():
+                try:
+                    if "credentials" in str(path):
+                        with open(path, 'w') as f: f.write("[]")
+                    elif "state" in str(path):
+                        with open(path, 'w') as f: f.write("{}")
+                except: pass
+
             row.add_suffix(btn)
             group.add(row)
 
@@ -260,9 +289,9 @@ class SunshinePreferencesPage(Adw.PreferencesPage):
                 "it", "ja", "ko", "pl", "pt", "pt_BR", "ru", "sv", "tr", 
                 "uk", "vi", "zh", "zh_TW"
             ], _("The locale used for Sunshine's user interface.")),
-            ("sunshine_name", _("Sunshine Name"), "entry", "Sunshine", None, _("The name of the Sunshine instance as seen by clients.")),
+            ("sunshine_name", _("Sunshine Name"), "entry", socket.gethostname(), None, _("The name of the Sunshine instance as seen by clients.")),
             ("sunshine_user", _("Sunshine User"), "entry", "", None, _("Username for API access (Monitoring)")),
-            ("sunshine_password", _("Sunshine Password"), "entry", "", None, _("Password for API access (Monitoring)")),
+            ("sunshine_password", _("Sunshine Password"), "password", "", None, _("Password for API access (Monitoring)")),
             ("min_log_level", _("Log Level"), "combo", "2", [
                 ("0", "Verbose"), ("1", "Debug"), ("2", "Info"), 
                 ("3", "Warning"), ("4", "Error"), ("5", "Fatal"), ("6", "None")

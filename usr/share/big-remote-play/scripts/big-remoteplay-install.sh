@@ -4,7 +4,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 APP_NAME="big-remoteplay"
-INSTALL_DIR="/opt/big-remote-play"
+INSTALL_DIR="/opt/big-remoteplay-together"
 BIN_DIR="/usr/local/bin"
 DESKTOP_DIR="/usr/share/applications"
 ICON_DIR="/usr/share/icons/hicolor"
@@ -106,7 +106,7 @@ echo "🔗 Criando executável..."
 
 cat > "$BIN_DIR/$APP_NAME" << 'EOF'
 #!/bin/bash
-cd /opt/big-remote-play
+cd /opt/big-remoteplay-together
 exec python3 main.py "$@"
 EOF
 

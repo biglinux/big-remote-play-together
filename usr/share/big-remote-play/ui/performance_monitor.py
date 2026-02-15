@@ -17,6 +17,7 @@ import queue
 import os
 import signal
 import gi
+import socket
 
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
@@ -86,13 +87,16 @@ class PerformanceChartWidget(Gtk.DrawingArea):
             self.device_colors[base_name] = self.color_palette[idx]
         return self.device_colors[base_name]
         
-    def add_data_point(self, latency: float, fps: float, bandwidth: float, users: int = 0, device_latencies: dict = None):
+    def add_data_point(self, latency: float, fps: float, bandwidth: float, users: int = 0, device_latencies: dict = None, bw_text_override: str = None):
         if latency > self.max_latency: self.max_latency = latency * 1.2
         if fps > self.max_fps: self.max_fps = fps * 1.2
         if bandwidth > self.max_bandwidth: self.max_bandwidth = bandwidth * 1.2
         if device_latencies:
             for lat in device_latencies.values():
                 if lat > self.max_latency: self.max_latency = lat * 1.2
+        
+        bw_txt = bw_text_override if bw_text_override else f"{bandwidth:.1f} Mbps"
+        
         point = PerformanceDataPoint(
             latency=latency,
             fps=fps,
@@ -100,7 +104,7 @@ class PerformanceChartWidget(Gtk.DrawingArea):
             device_latencies=device_latencies or {},
             latency_text=f"{latency:.0f} ms",
             fps_text=f"{fps:.0f} FPS",
-            bandwidth_text=f"{bandwidth:.1f} Mbps",
+            bandwidth_text=bw_txt,
             users_count=users
         )
         self._history.append(point)
@@ -305,6 +309,7 @@ class PerformanceMonitor(Gtk.Box):
     def __init__(self, sunshine=None):
         super().__init__(orientation=Gtk.Orientation.VERTICAL)
         self.sunshine = sunshine
+        self.hostname_cache = {}
         self.add_css_class('card')
         self.set_margin_top(12)
         self.set_margin_bottom(12)
@@ -342,6 +347,8 @@ class PerformanceMonitor(Gtk.Box):
         self.append(self.chart)
         
         self.update_timer_active = False
+        self._target_fps = 60.0
+        self._target_bw = 10.0
         self._last_fps = 60.0
         self._last_bandwidth = 10.0
         
@@ -353,6 +360,26 @@ class PerformanceMonitor(Gtk.Box):
         self._worker_thread = None
         self._worker_running = False
         self._worker_event = threading.Event()
+        
+    def set_target_fps(self, fps):
+        """Sets the expected FPS for idle display"""
+        try:
+            val = float(fps)
+            if val > 0:
+                self._target_fps = val
+                # Update current view if idle (fps == 0 or default 60)
+                if self._last_fps == 60.0 or self._last_fps == 0:
+                    self._last_fps = val
+        except: pass
+
+    def set_target_bandwidth(self, mbps):
+        try:
+            val = float(mbps)
+            self._target_bw = val
+            # If idle (default 10), update
+            if self._last_bandwidth == 10.0 or self._last_bandwidth == 0:
+                self._last_bandwidth = val
+        except: pass
 
     def start_monitoring(self):
         if self.update_timer_active: return
@@ -401,8 +428,14 @@ class PerformanceMonitor(Gtk.Box):
             processed_count = 0
             while not self._data_queue.empty() and processed_count < 10:
                 try:
-                    latency, fps, bandwidth, sessions, device_latencies = self._data_queue.get_nowait()
-                    self.update_stats(latency, fps, bandwidth, sessions, device_latencies)
+                    data = self._data_queue.get_nowait()
+                    if len(data) == 6:
+                        latency, fps, bandwidth, sessions, device_latencies, bw_text = data
+                    else:
+                        latency, fps, bandwidth, sessions, device_latencies = data
+                        bw_text = None
+                        
+                    self.update_stats(latency, fps, bandwidth, sessions, device_latencies, bw_text)
                     processed_count += 1
                 except queue.Empty:
                     break
@@ -431,8 +464,81 @@ class PerformanceMonitor(Gtk.Box):
             pass
         return None
 
+    def _resolve_hostname(self, ip):
+        """Resolves hostname with caching to avoid lag"""
+        if not ip or ip in ['0.0.0.0']: return None
+        if ip in ['127.0.0.1', '::1', 'localhost']: return "Localhost"
+        if ip in self.hostname_cache:
+            return self.hostname_cache[ip]
+            
+        try:
+            # Short timeout
+            socket.setdefaulttimeout(0.5)
+            hostname = socket.gethostbyaddr(ip)[0]
+            # Remove domain part if looks like a local domain
+            if '.local' in hostname: hostname = hostname.split('.')[0]
+            self.hostname_cache[ip] = hostname
+            return hostname
+        except:
+            # Cache failure too to avoid retrying constantly
+            self.hostname_cache[ip] = None
+            return None
+            
+    def _disconnect_session(self, session_id, ip):
+        # We need at least an IP or session_id to try something
+        if not ip and not session_id: return
+        
+        self.set_sensitive(False)
+        def do_disconnect():
+            success = False
+            auth = self._get_auth()
+            
+            # METHOD 1: System Level Kill (Radical & Definitive)
+            # We prefer this because Sunshine API seems to crash/kill other sessions
+            # whenever we use terminate_session() in the user's environment.
+            if ip:
+                try:
+                    print(f"DEBUG: Attempting system-level disconnect for IP: {ip}")
+                    base_dir = Path(__file__).parent.parent
+                    script_path = base_dir / 'scripts' / 'drop_guest.sh'
+                    
+                    if script_path.exists():
+                        cmd = ["pkexec", str(script_path), ip]
+                        res = subprocess.run(cmd, capture_output=True, text=True)
+                        if res.returncode == 0:
+                            print("DEBUG: System-level disconnect success")
+                            success = True
+                        else:
+                            print(f"DEBUG: System-level disconnect failed: {res.stderr}")
+                except Exception as e:
+                    print(f"DEBUG: Error in system-level disconnect: {e}")
+
+            # METHOD 2: API Fallback (Only if we haven't succeeded yet and have ID)
+            # We skip this if we successfully killed the socket, because we want to avoid 
+            # the API instability the user reported.
+            if not success and session_id and self.sunshine:
+                try:
+                    print(f"DEBUG: Attempting API disconnect for ID: {session_id}")
+                    # Caution: This might be unstable on user's system
+                    success = self.sunshine.terminate_session(session_id, auth=auth)
+                except: pass
+                
+            GLib.idle_add(self._on_disconnect_done, success)
+            
+        threading.Thread(target=do_disconnect, daemon=True).start()
+        
+    def _on_disconnect_done(self, success):
+        self.set_sensitive(True)
+        if success:
+             # Force immediate update
+             self._process_data_queue()
+        else:
+             # Show error (optional, toast would be better but we are inside widget)
+             pass
+
     def _ping_host(self, ip):
-        if not ip or ip in ['', 'Unknown IP', '0.0.0.0', '127.0.0.1']: return 0.0
+        # Allow pinging localhost or ::1 for local testing
+        if not ip or ip in ['', 'Unknown IP', '0.0.0.0']: return 0.0
         try:
             import platform
             system = platform.system()
@@ -482,7 +588,8 @@ class PerformanceMonitor(Gtk.Box):
                                 ip_match = re.search(r'(\d+\.\d+\.\d+\.\d+)', last_part)
                                 if ip_match:
                                     ip = ip_match.group(1)
-                                    if ip.startswith('127.') or ip.startswith('0.') or ip == 'localhost': continue
+                                    if ip == '0.0.0.0': continue
+                                    # Allow localhost for testing (127.0.0.1)
                                     
                                     if ip not in found_sessions:
                                         found_sessions[ip] = {'ip': ip, 'name': _('Guest'), 'latency': 0, 'fps': 60}
@@ -533,7 +640,13 @@ class PerformanceMonitor(Gtk.Box):
                         if len(ss_sessions_dict) == 1:
                             s_ip = list(ss_sessions_dict.keys())[0]
                     
-                    normalized_api_sessions.append({'ip': s_ip, 'name': s_name, 'source': 'api'})
+                    # Try to resolve hostname if name is generic
+                    if s_name == _('Guest') or s_name == 'Unknown':
+                         if s_ip:
+                             resolved = self._resolve_hostname(s_ip)
+                             if resolved: s_name = resolved
+                    
+                    normalized_api_sessions.append({'ip': s_ip, 'name': s_name, 'source': 'api', 'id': s.get('id')})
 
             # Adicionar sessões do SS que não estão na API
             current_cycle_ips = set()
@@ -545,7 +658,9 @@ class PerformanceMonitor(Gtk.Box):
             # Adicionar do SS (se não estiver na API)
             for ip, data in ss_sessions_dict.items():
                 if ip not in current_cycle_ips:
-                    normalized_api_sessions.append({'ip': ip, 'name': _('Guest'), 'source': 'ss'})
+                    # Resolve hostname for SS sessions too
+                    hname = self._resolve_hostname(ip) or _('Guest')
+                    normalized_api_sessions.append({'ip': ip, 'name': hname, 'source': 'ss', 'id': None})
                     current_cycle_ips.add(ip)
 
             # 4. ATUALIZAR LISTA DE DISPOSITIVOS CONHECIDOS (Persistência)
@@ -621,8 +736,17 @@ class PerformanceMonitor(Gtk.Box):
                 session_obj = {
                     'ip': ip,
                     'name': display_name,
-                    'latency': lat
+                    'latency': lat,
+                    'id': None 
                 }
+                
+                # Find matching session to get ID
+                for s in normalized_api_sessions:
+                    if s['ip'] == ip:
+                        session_obj['id'] = s.get('id')
+                        break
+                
+                # Find ID from api list if ip matches
                 
                 if is_active_cycle:
                     active_sessions_count += 1
@@ -642,28 +766,42 @@ class PerformanceMonitor(Gtk.Box):
                 latency_avg = sum(device_latencies.values()) / len(device_latencies)
 
             # Manter FPS/BW estáveis
-            if fps == 0: fps = self._last_fps if self._last_fps > 0 else 60.0
+            if fps == 0: fps = self._last_fps if self._last_fps > 0 else self._target_fps 
             else: self._last_fps = fps
             
-            if bandwidth == 0: bandwidth = self._last_bandwidth if self._last_bandwidth > 0 else 1.0
-            else: self._last_bandwidth = bandwidth
+            bw_txt_override = None
+            if bandwidth == 0: 
+                bandwidth = self._last_bandwidth if self._last_bandwidth > 0 else (self._target_bw if self._target_bw > 0 else 1.0)
+                if self._target_bw == 0: 
+                     bw_txt_override = "Unlimited"
+                     if bandwidth < 100: bandwidth = 100.0 # Dummy value for visual scale
+            else: 
+                self._last_bandwidth = bandwidth
+                if self._target_bw == 0:
+                     bw_txt_override = f"{bandwidth:.1f} Mbps (Unlim)"
 
             # Enviar para UI
-            self._data_queue.put((latency_avg, fps, bandwidth, final_display_list, device_latencies))
+            self._data_queue.put((latency_avg, fps, bandwidth, final_display_list, device_latencies, bw_txt_override))
             
         except Exception:
             pass
 
-    def update_stats(self, latency, fps, bandwidth, sessions=None, device_latencies=None):
+    def update_stats(self, latency, fps, bandwidth, sessions=None, device_latencies=None, bw_text=None):
         try:
             if not self.update_timer_active: return
             sessions, device_latencies = sessions or [], device_latencies or {}
             
             # O gráfico recebe device_latencies, que contém TODOS que responderam ao ping
-            self.chart.add_data_point(latency, fps, bandwidth, users=len(sessions), device_latencies=device_latencies)
+            self.chart.add_data_point(latency, fps, bandwidth, users=len(sessions), device_latencies=device_latencies, bw_text_override=bw_text)
             
             if len(sessions) > 0:
-                self.set_connection_status("Sunshine", _("{} devices monitoring").format(len(sessions)), True)
+                if len(sessions) == 1:
+                    guest_name = sessions[0].get('name', 'Sunshine')
+                    # Clean name for title
+                    if '(' in guest_name: guest_name = guest_name.split('(')[0].strip()
+                    self.set_connection_status(guest_name, _("Active Connection"), True)
+                else:
+                    self.set_connection_status("Sunshine", _("{} devices monitoring").format(len(sessions)), True)
                 self._details_frame.set_visible(True)
             else:
                 self.set_connection_status("Sunshine", _("Active - No devices"), True)
@@ -716,6 +854,18 @@ class PerformanceMonitor(Gtk.Box):
                 except: pass
             
             row.add_suffix(ping_lbl)
+            
+            # Disconnect button (If we have an ID or IP)
+            if s.get('id') or s.get('ip'):
+                disc_btn = Gtk.Button()
+                disc_btn.set_icon_name("network-offline-symbolic") 
+                disc_btn.add_css_class("flat")
+                disc_btn.add_css_class("destructive-action")
+                disc_btn.set_tooltip_text(_("Disconnect this specific guest (Admin)")) 
+                disc_btn.set_valign(Gtk.Align.CENTER)
+                disc_btn.connect("clicked", lambda b, sid=s.get('id'), sip=s.get('ip'): self._disconnect_session(sid, sip))
+                row.add_suffix(disc_btn)
+                
             self._details_list.append(row)
 
     def set_connection_status(self, name, status, conn=True):

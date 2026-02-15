@@ -165,23 +165,38 @@ class HostView(Gtk.Box):
         self.streaming_expander.set_subtitle(_('Quality and Players'))
         self.streaming_expander.set_icon_name('preferences-desktop-display-symbolic')
         
-        self.quality_row = Adw.ComboRow()
-        self.quality_row.set_title(_('Streaming Quality'))
-        self.quality_row.set_subtitle(_('Higher quality = higher bandwidth usage'))
+        # Resolution Row
+        self.resolution_row = Adw.ComboRow()
+        self.resolution_row.set_title(_("Resolution"))
+        self.resolution_row.set_subtitle(_("Stream resolution"))
+        res_model = Gtk.StringList()
+        for res in ["720p", "1080p", "1440p", "4K", _("Custom")]:
+            res_model.append(res)
+        self.resolution_row.set_model(res_model)
+        self.resolution_row.set_selected(1) # Default 1080p
+        self.streaming_expander.add_row(self.resolution_row)
         
-        quality_model = Gtk.StringList()
-        for q in [_('Low (720p 30fps)'), _('Medium (1080p 30fps)'), _('High (1080p 60fps)'), _('Ultra (1440p 60fps)'), _('Max (4K 60fps)')]:
-            quality_model.append(q)
-        self.quality_row.set_model(quality_model)
-        self.quality_row.set_selected(2)
-        self.streaming_expander.add_row(self.quality_row)
+        # FPS Row
+        self.fps_row = Adw.ComboRow()
+        self.fps_row.set_title(_("Frame Rate (FPS)"))
+        self.fps_row.set_subtitle(_("Frames per second"))
+        fps_model = Gtk.StringList()
+        for fps in ["30", "60", "120", "144", _("Custom")]:
+            fps_model.append(fps)
+        self.fps_row.set_model(fps_model)
+        self.fps_row.set_selected(1) # Default 60
+        self.streaming_expander.add_row(self.fps_row)
         
-        self.players_row = Adw.SpinRow()
-        self.players_row.set_title(_('Max Players'))
-        self.players_row.set_subtitle(_('Maximum number of simultaneous connections'))
-        self.players_row.set_adjustment(Gtk.Adjustment(value=2, lower=1, upper=8, step_increment=1, page_increment=1))
-        self.players_row.set_digits(0)
-        self.streaming_expander.add_row(self.players_row)
+        # Bandwidth Row
+        self.bandwidth_row = Adw.SpinRow()
+        self.bandwidth_row.set_title(_("Bandwidth Limit (Mbps)"))
+        self.bandwidth_row.set_subtitle(_("Max bitrate (0 = Unlimited)"))
+        
+        # Use simple numeric adjustment
+        adj = Gtk.Adjustment(value=0, lower=0, upper=500, step_increment=5, page_increment=10)
+        self.bandwidth_row.set_adjustment(adj)
+        self.streaming_expander.add_row(self.bandwidth_row)
+
         game_group.add(self.streaming_expander)
         
         self.hardware_expander = Adw.ExpanderRow()
@@ -217,6 +232,31 @@ class HostView(Gtk.Box):
         session_type = os.environ.get('XDG_SESSION_TYPE', '').lower()
         self.platform_row.set_selected(1 if session_type == 'wayland' else 2 if session_type == 'x11' else 0)
         self.hardware_expander.add_row(self.platform_row)
+        
+        # New "Performance" settings as requested
+        self.codecs_row = Adw.SwitchRow()
+        self.codecs_row.set_title(_("Efficient Codecs (HEVC/AV1)"))
+        self.codecs_row.set_subtitle(_("Enable H.265/AV1 for better quality at lower bitrate (Requires support)"))
+        self.codecs_row.set_active(True)
+        self.hardware_expander.add_row(self.codecs_row)
+        
+        self.optimization_row = Adw.ComboRow()
+        self.optimization_row.set_title(_("Optimization Mode"))
+        self.optimization_row.set_subtitle(_("Balance between responsiveness and image quality"))
+        opt_model = Gtk.StringList()
+        opt_model.append(_("Low Latency (Fastest)"))
+        opt_model.append(_("Balanced (Default)"))
+        opt_model.append(_("High Quality (Best Image)"))
+        self.optimization_row.set_model(opt_model)
+        self.optimization_row.set_selected(1) # Balanced default
+        self.hardware_expander.add_row(self.optimization_row)
+        
+        self.wifi_row = Adw.SwitchRow()
+        self.wifi_row.set_title(_("Wi-Fi / Unstable Network Mode"))
+        self.wifi_row.set_subtitle(_("Increases error correction (FEC) to prevent glitches"))
+        self.wifi_row.set_active(False)
+        self.hardware_expander.add_row(self.wifi_row)
+        
         game_group.add(self.hardware_expander)
         
         # --- Audio Group ---
@@ -255,12 +295,6 @@ class HostView(Gtk.Box):
         self.advanced_expander.set_title(_('Advanced Settings'))
         self.advanced_expander.set_subtitle(_('Input, Network, and Access'))
         self.advanced_expander.set_icon_name('preferences-system-symbolic')
-        
-        self.input_row = Adw.SwitchRow()
-        self.input_row.set_title(_('Share Controls'))
-        self.input_row.set_subtitle(_('Allow guests to control the game'))
-        self.input_row.set_active(True)
-        self.advanced_expander.add_row(self.input_row)
         
         self.upnp_row = Adw.SwitchRow()
         self.upnp_row.set_title(_('Automatic UPnP'))
@@ -716,14 +750,21 @@ class HostView(Gtk.Box):
         self.summary_box.set_title(_("Server Information"))
         self.summary_box.set_header_suffix(create_icon_widget('dialog-information-symbolic', size=24))
         self.summary_box.set_visible(False); self.field_widgets = {}
-        for l, k, i, r in [('Host', 'hostname', 'computer-symbolic', True), ('IPv4', 'ipv4', 'network-wired-symbolic', True), ('IPv6', 'ipv6', 'network-wired-symbolic', True), ('IPv4 Global', 'ipv4_global', 'network-transmit-receive-symbolic', True), ('IPv6 Global', 'ipv6_global', 'network-transmit-receive-symbolic', True)]: self.create_masked_row(l, k, i, r)
+        for l, k, i, r in [('Host', 'hostname', 'computer-symbolic', True), ('IPv4', 'ipv4', 'network-wired-symbolic', False), ('IPv6', 'ipv6', 'network-wired-symbolic', False), ('IPv4 Global', 'ipv4_global', 'network-transmit-receive-symbolic', False), ('IPv6 Global', 'ipv6_global', 'network-transmit-receive-symbolic', False)]: self.create_masked_row(l, k, i, r)
 
     def on_streaming_toggled(self, row, param):
         is_active = row.get_active()
         self.audio_mixer_expander.set_visible(is_active)
-        # If hosting, apply dynamically (optional, may require restart)
+        
+        # If hosting, just trigger the enforcer to re-route audio
         if self.is_hosting:
-             self.show_toast(_("Restart server to apply complex audio changes."))
+            if is_active:
+                self.show_toast(_("Audio streaming enabled"))
+            else:
+                self.show_toast(_("Audio streaming stopped"))
+            
+            # Trigger enforcer immediately
+            self._run_audio_enforcer()
 
     def load_audio_outputs(self):
         try:
@@ -961,11 +1002,16 @@ class HostView(Gtk.Box):
         # Force routing:
         # Apps in self.private_audio_apps -> Host Sink (Local Only)
         # Others -> SunshineGameSink (Stream + Host)
-        if not self.is_hosting or not self.audio_mixer_expander.get_visible(): return True
+        if not self.is_hosting: return True
+        # Removed expander visibility check to allow enforcer to run even if hidden (to force local routing)
+        
         if not hasattr(self, 'active_host_sink') or not self.active_host_sink: return True
         
         shared_sink = "SunshineGameSink"
         private_sink = self.active_host_sink
+        
+        # Check if streaming is actually enabled in UI
+        streaming_enabled = self.streaming_audio_row.get_active()
         
         if hasattr(self, 'audio_manager'):
             try:
@@ -989,7 +1035,11 @@ class HostView(Gtk.Box):
                     if 'sunshine' in name.lower() or 'loopback' in name.lower() or 'moonlight' in name.lower(): continue
 
                     # Define target
-                    target = private_sink if name in self.private_audio_apps else shared_sink
+                    # If streaming is DISABLED, everything goes to Private (Local)
+                    if not streaming_enabled:
+                         target = private_sink
+                    else:
+                         target = private_sink if name in self.private_audio_apps else shared_sink
                     
                     # Check current sink
                     current_sink = app.get('sink_name', '')
@@ -1099,8 +1149,17 @@ class HostView(Gtk.Box):
             else:
                 if mode_idx == 0: self.sunshine.update_apps([{"name": "Desktop", "detached": True, "cmd": "sleep infinity"}])
                      
-            quality_map = {0: (5000, 30), 1: (10000, 30), 2: (20000, 60), 3: (30000, 60), 4: (40000, 60)}
-            bitrate, fps = quality_map.get(self.quality_row.get_selected(), (20000, 60))
+            # Determine FPS
+            fps_idx = self.fps_row.get_selected()
+            fps_map = {0: 30, 1: 60, 2: 120, 3: 144, 4: 60} # Custom defaults to 60
+            fps = fps_map.get(fps_idx, 60)
+            
+            # Determine Bitrate (Kbps)
+            # Sunshine uses min_bitrate in config, but we can pass 'bitrate' (CBR target) here if needed.
+            # However, Sunshine v0.20+ generally prefers min_bitrate in config for VBR floor.
+            # If bandwidth_row > 0, set bitrate. Else default.
+            bw_mbps = self.bandwidth_row.get_value()
+            bitrate = int(bw_mbps * 1000) if bw_mbps > 0 else 20000 # Default 20Mbps if unlim
             
             selected_gpu_info = self.available_gpus[self.gpu_row.get_selected()]
             sunshine_config = {
@@ -1120,44 +1179,41 @@ class HostView(Gtk.Box):
             
 
             # Audio Configuration
-            if self.streaming_audio_row.get_active():
-                sunshine_config['audio'] = 'pulse'
-                
-                # Identify Host Sink
-                host_sink_idx = self.audio_output_row.get_selected()
-                if self.audio_devices and 0 <= host_sink_idx < len(self.audio_devices):
-                    host_sink = self.audio_devices[host_sink_idx]['name']
-                else:
-                    host_sink = self.audio_manager.get_default_sink()
-                
-                # Store it for the enforcer
-                self.active_host_sink = host_sink
-
-                # Enable Host+Guest Streaming
-                if self.audio_manager:
-                    # Returns True if success
-                    if self.audio_manager.enable_streaming_audio(host_sink):
-                        # Ensure we use the sink name for Sunshine to capture from its monitor
-                        sunshine_config['audio_sink'] = "SunshineGameSink"
-                        
-                        print(f"DEBUG: Configured Sunshine audio_sink to: {sunshine_config['audio_sink']}")
-                        
-                        # Start Mixer UI updates
-                        self.start_audio_mixer_refresh()
-
-                        # Default: Restore Host Sink after 500ms so user controls local volume,
-                        # while Enforcer routes games to SunshineGameSink.
-                        GLib.timeout_add(500, lambda: (self.audio_manager.set_default_sink(host_sink), self.show_toast(f"Padrão restaurado: {host_sink}"))[1])
-                    else:
-                         print("Failed to enable streaming sinks, falling back to default")
-                         self.show_toast(_("Failed to create Virtual Audio"))
-                         self.audio_manager.disable_streaming_audio(None)
+            # Audio Configuration - ALWAYS setup PulseAudio infrastructure
+            # This allows toggling streaming on/off without restarting server or destroying sinks
+            sunshine_config['audio'] = 'pulse'
+            
+            # Identify Host Sink
+            host_sink_idx = self.audio_output_row.get_selected()
+            if self.audio_devices and 0 <= host_sink_idx < len(self.audio_devices):
+                host_sink = self.audio_devices[host_sink_idx]['name']
             else:
-                sunshine_config['audio'] = 'none' # Disable audio streaming per requirement
-                if self.audio_manager:
-                    # Ensure cleanly disabled
-                    self.audio_manager.disable_streaming_audio(None)
-                self.stop_audio_mixer_refresh()
+                host_sink = self.audio_manager.get_default_sink()
+            
+            # Store it for the enforcer
+            self.active_host_sink = host_sink
+
+            # Enable Host+Guest Streaming (Create Sink)
+            if self.audio_manager:
+                # Returns True if success
+                if self.audio_manager.enable_streaming_audio(host_sink):
+                    # Ensure we use the sink name for Sunshine to capture from its monitor
+                    sunshine_config['audio_sink'] = "SunshineGameSink"
+                    
+                    print(f"DEBUG: Configured Sunshine audio_sink to: {sunshine_config['audio_sink']}")
+                    
+                    # Start Mixer UI updates
+                    self.start_audio_mixer_refresh()
+
+                    # Default: Restore Host Sink after 500ms so user controls local volume,
+                    # while Enforcer routes games to SunshineGameSink.
+                    GLib.timeout_add(500, lambda: (self.audio_manager.set_default_sink(host_sink), self.show_toast(f"Padrão restaurado: {host_sink}"))[1])
+                else:
+                     print("Failed to enable streaming sinks, falling back to default")
+                     self.show_toast(_("Failed to create Virtual Audio"))
+                     # Fallback to none if creation failed
+                     sunshine_config['audio'] = 'none' 
+                     self.audio_manager.disable_streaming_audio(None)
 
             platforms = ['auto', 'wayland', 'x11', 'kms']
             platform = platforms[self.platform_row.get_selected()]
@@ -1387,30 +1443,143 @@ class HostView(Gtk.Box):
             'mode_idx': self.game_mode_row.get_selected(),
             'custom_name': self.custom_name_entry.get_text(),
             'custom_cmd': self.custom_cmd_entry.get_text(),
-            'quality_idx': self.quality_row.get_selected(),
-            'players': int(self.players_row.get_value()),
+            
+            # New Separate Settings
+            'resolution_idx': self.resolution_row.get_selected(),
+            'fps_idx': self.fps_row.get_selected(),
+            'bandwidth_mbps': self.bandwidth_row.get_value(),
             'monitor_idx': self.monitor_row.get_selected(),
             'gpu_idx': self.gpu_row.get_selected(),
             'platform_idx': self.platform_row.get_selected(),
             'audio': self.streaming_audio_row.get_active(), # Now maps to Streaming Audio
             'audio_output_idx': self.audio_output_row.get_selected(),
-            'input_sharing': self.input_row.get_active(),
             'upnp': self.upnp_row.get_active(),
             'ipv6': self.ipv6_row.get_active(),
-            'webui_anyone': self.webui_anyone_row.get_active()
+            'webui_anyone': self.webui_anyone_row.get_active(),
+            # New settings
+            'efficient_codecs': self.codecs_row.get_active(),
+            'optimization_mode': self.optimization_row.get_selected(),
+            'wifi_mode': self.wifi_row.get_active()
         })
         self.config.set('host', h)
+        
+        # Update monitor target FPS live
+        fps_idx = self.fps_row.get_selected()
+        fps_val = {0: 30, 1: 60, 2: 120, 3: 144, 4: 60}.get(fps_idx, 60.0)
+        self.perf_monitor.set_target_fps(fps_val)
+        
+        # Update monitor target Bandwidth live
+        self.perf_monitor.set_target_bandwidth(self.bandwidth_row.get_value())
+        
+        # Sync to Sunshine Config
+        try:
+            from ui.sunshine_preferences import SunshineConfigManager
+            scm = SunshineConfigManager()
+            
+            # Map Host Settings -> Sunshine Settings
+            scm.set('upnp', 'enabled' if self.upnp_row.get_active() else 'disabled')
+            scm.set('address_family', 'both' if self.ipv6_row.get_active() else 'ipv4')
+            scm.set('origin_web_ui_allowed', 'wan' if self.webui_anyone_row.get_active() else 'lan')
+            scm.set('stream_audio', 'true' if self.streaming_audio_row.get_active() else 'false')
+            
+            # Map Codecs
+            # If enabled -> advertised(1). If disabled -> disabled(0)
+            codec_val = '1' if self.codecs_row.get_active() else '0'
+            scm.set('hevc_mode', codec_val)
+            scm.set('av1_mode', codec_val)
+            
+            # Map Wi-Fi Mode (FEC)
+            # Enabled -> 20%. Disabled -> 5%
+            scm.set('fec_percentage', '20' if self.wifi_row.get_active() else '5')
+            
+            # Map Optimization Mode
+            # 0=Low Latency, 1=Balanced, 2=High Quality
+            opt_idx = self.optimization_row.get_selected()
+            if opt_idx == 0: # Low Latency
+                scm.set('nvenc_preset', '1') # P1
+                scm.set('amd_quality', 'speed')
+                scm.set('sw_preset', 'ultrafast')
+                scm.set('nvenc_twopass', 'disabled')
+            elif opt_idx == 2: # High Quality
+                scm.set('nvenc_preset', '7') # P7
+                scm.set('amd_quality', 'quality')
+                scm.set('sw_preset', 'medium')
+                scm.set('nvenc_twopass', 'quarter_res')
+            else: # Balanced
+                scm.set('nvenc_preset', '4') # P4
+                scm.set('amd_quality', 'balanced')
+                scm.set('sw_preset', 'veryfast')
+                scm.set('nvenc_twopass', 'disabled') # Or quarter_res depending on preference
+            
+            # Map Bandwidth to min_bitrate
+            # 0 = Unlimited (default 0 or very high)
+            bw = int(self.bandwidth_row.get_value() * 1000) # Mbps -> Kbps
+            scm.set('min_bitrate', str(bw) if bw > 0 else '0')
+                
+        except Exception as e:
+            print(f"Error syncing to Sunshine config: {e}")
 
     def load_settings(self):
         self.loading_settings = True
         try:
+            # Sync from Sunshine Config first
+            try:
+                from ui.sunshine_preferences import SunshineConfigManager
+                scm = SunshineConfigManager()
+                
+                # Update Host Config based on Sunshine Config (Source of Truth for these fields)
+                h = self.config.get('host', {})
+                h['upnp'] = scm.get('upnp', 'enabled') == 'enabled'
+                h['ipv6'] = scm.get('address_family', 'both') == 'both'
+                h['webui_anyone'] = scm.get('origin_web_ui_allowed', 'lan') == 'wan'
+                h['audio'] = scm.get('stream_audio', 'true').lower() == 'true'
+                
+                # Reverse Map Codecs
+                # If hevc_mode >= 1 OR av1_mode >= 1 -> Enabled
+                hevc = scm.get('hevc_mode', '0')
+                av1 = scm.get('av1_mode', '0')
+                h['efficient_codecs'] = (hevc != '0' or av1 != '0')
+                
+                # Reverse Map Wi-Fi (FEC)
+                # If FEC >= 15 -> Enabled
+                fec = int(scm.get('fec_percentage', '10'))
+                h['wifi_mode'] = (fec >= 15)
+                
+                # Reverse Map Optimization
+                # Heuristic based on nvenc_preset
+                nv_preset = scm.get('nvenc_preset', '4')
+                if nv_preset in ['1', '2']: h['optimization_mode'] = 0 # Low Latency
+                elif nv_preset in ['5', '6', '7']: h['optimization_mode'] = 2 # High Quality
+                else: h['optimization_mode'] = 1 # Balanced
+                
+                # Reverse Map Bandwidth
+                bw_kbps = int(scm.get('min_bitrate', '0'))
+                h['bandwidth_mbps'] = bw_kbps / 1000.0
+                
+                self.config.set('host', h)
+            except Exception as e:
+                print(f"Error syncing from Sunshine config: {e}") 
+
+
             h = self.config.get('host', {})
             if not h: return
             self.game_mode_row.set_selected(h.get('mode_idx', 0))
             self.custom_name_entry.set_text(h.get('custom_name', ''))
             self.custom_cmd_entry.set_text(h.get('custom_cmd', ''))
-            self.quality_row.set_selected(h.get('quality_idx', 2))
-            self.players_row.set_value(h.get('players', 2))
+            
+            # New Separate Settings
+            self.resolution_row.set_selected(h.get('resolution_idx', 1)) # Default 1080p
+            fps_idx = h.get('fps_idx', 1)
+            self.fps_row.set_selected(fps_idx) 
+            
+            # Update monitor target FPS
+            fps_val = {0: 30, 1: 60, 2: 120, 3: 144, 4: 60}.get(fps_idx, 60.0)
+            self.perf_monitor.set_target_fps(fps_val)
+            
+            bw_val = h.get('bandwidth_mbps', 0)
+            self.bandwidth_row.set_value(bw_val) 
+            self.perf_monitor.set_target_bandwidth(bw_val)
+            
             self.monitor_row.set_selected(h.get('monitor_idx', 0))
             self.gpu_row.set_selected(h.get('gpu_idx', 0))
             self.platform_row.set_selected(h.get('platform_idx', 0))
@@ -1422,21 +1591,26 @@ class HostView(Gtk.Box):
             
             self.audio_output_row.set_selected(h.get('audio_output_idx', 0))
             
-            self.input_row.set_active(h.get('input_sharing', True))
             self.upnp_row.set_active(h.get('upnp', True))
             self.ipv6_row.set_active(h.get('ipv6', True))
             self.webui_anyone_row.set_active(h.get('webui_anyone', False))
+            
+            # New settings
+            self.codecs_row.set_active(h.get('efficient_codecs', True))
+            self.optimization_row.set_selected(h.get('optimization_mode', 1))
+            self.wifi_row.set_active(h.get('wifi_mode', False))
         finally:
             self.loading_settings = False
 
     def connect_settings_signals(self):
-        for r in [self.game_mode_row, self.quality_row, self.monitor_row, self.gpu_row, self.platform_row, self.audio_output_row]:
-            r.connect('notify::selected', self.save_host_settings)
-        for r in [self.streaming_audio_row, self.input_row, self.upnp_row, self.ipv6_row, self.webui_anyone_row]:
+        for r in [self.streaming_audio_row, self.upnp_row, self.ipv6_row, self.webui_anyone_row, self.codecs_row, self.wifi_row]:
             r.connect('notify::active', self.save_host_settings)
+        for r in [self.game_mode_row, self.monitor_row, self.gpu_row, self.platform_row, self.audio_output_row, self.optimization_row, self.resolution_row, self.fps_row]:
+            r.connect('notify::selected', self.save_host_settings)
+        for r in [self.bandwidth_row]:
+            r.connect('notify::value', self.save_host_settings)
         for r in [self.custom_name_entry, self.custom_cmd_entry]:
             r.connect('notify::text', self.save_host_settings)
-        self.players_row.get_adjustment().connect('value-changed', self.save_host_settings)
 
     def on_reset_clicked(self, button):
         diag = Adw.MessageDialog(heading=_('Restore Defaults'), body=_('Do you want to restore default settings?'))
@@ -1452,6 +1626,9 @@ class HostView(Gtk.Box):
 
     def cleanup(self):
         if hasattr(self, 'perf_monitor'): self.perf_monitor.stop_monitoring()
-        if self.is_hosting: self.stop_hosting()
+        # RADICAL FIX: Do NOT stop hosting on cleanup. 
+        # The server should persist in the background even if the UI closes.
+        # if self.is_hosting: self.stop_hosting()
+        
         if hasattr(self, 'stop_pin_listener'): self.stop_pin_listener()
         if hasattr(self, 'audio_manager'): self.audio_manager.cleanup()

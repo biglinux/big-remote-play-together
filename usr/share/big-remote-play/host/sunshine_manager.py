@@ -77,7 +77,7 @@ class SunshineHost:
                         if lines:
                             # Look for shared library errors in the last 10 lines
                             for line in lines[-10:]:
-                                if "error while loading shared libraries" in line:
+                                if "error while loading shared libraries" in line or "symbol lookup error" in line:
                                     error_detail = line.strip()
                                     break
                 except:
@@ -349,6 +349,37 @@ class SunshineHost:
             return False, _("API Error: {} - {}").format(e.code, msg)
         except Exception as e:
             return False, _("Connection Error: {}").format(e)
+    def terminate_session(self, session_id: str, auth: tuple[str, str] = None) -> bool:
+        """Terminates a specific session via Sunshine API"""
+        if not session_id:
+             print("DEBUG: terminate_session called with empty ID")
+             return False
+
+        print(f"DEBUG: SunshineManager.terminate_session called for ID: {session_id}")
+        import urllib.request, ssl, base64
+        
+        # Use 127.0.0.1 to avoid IPv6 issues
+        url = f"https://127.0.0.1:47990/api/sessions/{session_id}"
+        print(f"DEBUG: Sending DELETE to {url}")
+        
+        headers = {}
+        if auth:
+            u, p = auth
+            headers["Authorization"] = f"Basic {base64.b64encode(f'{u}:{p}'.encode()).decode()}"
+        
+        ctx = ssl.create_default_context()
+        ctx.check_hostname = False
+        ctx.verify_mode = ssl.CERT_NONE
+        
+        try:
+            req = urllib.request.Request(url, headers=headers, method='DELETE')
+            with urllib.request.urlopen(req, context=ctx, timeout=5) as response:
+                print(f"DEBUG: Terminate response code: {response.status}")
+                return response.status in [200, 204]
+        except Exception as e:
+            print(f"Error terminating session {session_id}: {e}")
+            return False
+
     def get_performance_stats(self, auth=None) -> dict:
         """Fetches performance stats from Sunshine API"""
         import urllib.request, ssl, json, base64

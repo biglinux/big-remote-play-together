@@ -121,6 +121,9 @@ class SystemCheck:
             if result.returncode == 0:
                 return result.stdout.strip()
             else:
+                # Check for standard library error
+                if "libicuuc.so.76" in result.stderr:
+                    return _("Error: Missing ICU 76")
                 return _("Unknown")
                 
         except:
@@ -186,3 +189,17 @@ class SystemCheck:
             
         except:
             return False
+
+    def check_icu(self) -> bool:
+        """Checks if required libicuuc is present"""
+        import os
+        # Sunshine often expects .76 or .7*
+        paths = [
+            '/usr/lib/libicuuc.so.76',
+            '/usr/lib/libicuuc.so.77',
+            '/usr/lib/libicuuc.so.78'
+        ]
+        for p in paths:
+            if os.path.exists(p):
+                return True
+        return False

@@ -11,6 +11,7 @@ from utils.config import Config
 from guest.moonlight_client import MoonlightClient
 from utils.i18n import _
 from utils.icons import create_icon_widget
+from utils.moonlight_config import MoonlightConfigManager
 
 class GuestView(Gtk.Box):
     def __init__(self):
@@ -27,6 +28,9 @@ class GuestView(Gtk.Box):
         if self.config.get('verbose_logging', False):
             self.logger = Logger()
             
+            self.logger = Logger()
+            
+        self.moonlight_config = MoonlightConfigManager()
         self.moonlight = MoonlightClient(logger=self.logger)
         self.setup_ui()
         self.discover_hosts()
@@ -54,7 +58,18 @@ class GuestView(Gtk.Box):
         self.header = Adw.PreferencesGroup()
         self.header.set_title(_('Connect to Server'))
         self.header.set_description(_('Find and connect to the host using the options below.'))
-        self.header.set_header_suffix(create_icon_widget('network-workgroup-symbolic', size=24))
+        # Custom Header Suffix with Help Button
+        suffix_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=8)
+        suffix_box.set_valign(Gtk.Align.CENTER)
+        
+        help_btn = Gtk.Button(icon_name="help-about-symbolic")
+        help_btn.add_css_class("flat")
+        help_btn.set_tooltip_text(_("Shortcuts & Instructions"))
+        help_btn.connect("clicked", lambda b: self.show_shortcuts_dialog())
+        suffix_box.append(help_btn)
+        
+        suffix_box.append(create_icon_widget('network-workgroup-symbolic', size=24))
+        self.header.set_header_suffix(suffix_box)
         
         content.append(self.header)
         content.append(self.perf_monitor)
@@ -557,7 +572,7 @@ class GuestView(Gtk.Box):
             }
             
             if self.moonlight.connect(host['ip'], **opts): 
-                GLib.idle_add(lambda: (self.show_loading(False), self.perf_monitor.set_connection_status(host['name'], _("Active Stream"), True), self.perf_monitor.start_monitoring(), self.show_shortcuts_dialog()))
+                GLib.idle_add(lambda: (self.show_loading(False), self.perf_monitor.set_connection_status(host['name'], _("Active Stream"), True), self.perf_monitor.start_monitoring()))
             else: 
                 GLib.idle_add(lambda: (self.show_loading(False), self.show_error_dialog(_('Error'), _('Failed to connect. Verify if Moonlight is paired.'))))
         
@@ -595,7 +610,7 @@ class GuestView(Gtk.Box):
                  if not getattr(self, 'is_connecting', False): return
 
                  if self.moonlight.connect(host['ip'], **opts): 
-                    GLib.idle_add(lambda: (self.show_loading(False), self.perf_monitor.set_connection_status(host['name'], _("Active Stream"), True), self.perf_monitor.start_monitoring(), self.show_shortcuts_dialog()))
+                    GLib.idle_add(lambda: (self.show_loading(False), self.perf_monitor.set_connection_status(host['name'], _("Active Stream"), True), self.perf_monitor.start_monitoring()))
                  else: 
                     GLib.idle_add(lambda: (self.show_loading(False), self.show_error_dialog(_('Error'), _('Failed to connect'))))
              
@@ -798,16 +813,108 @@ class GuestView(Gtk.Box):
         self.bitrate_scale.connect("value-changed", lambda w: self.save_guest_settings())
         for r in [self.display_mode_row, self.audio_row, self.hw_decode_row]: r.connect("notify::selected-item" if isinstance(r, Adw.ComboRow) else "notify::active", lambda *x: self.save_guest_settings())
     def save_guest_settings(self):
-        s = {'quality':'custom','resolution_idx':self.resolution_row.get_selected(),'custom_resolution':getattr(self,'custom_resolution_val',''),'scale_native':self.scale_row.get_active(),'fps_idx':self.fps_row.get_selected(),'custom_fps':getattr(self,'custom_fps_val',''),'bitrate':self.bitrate_scale.get_value(),'display_mode_idx':self.display_mode_row.get_selected(),'audio':self.audio_row.get_active(),'hw_decode':self.hw_decode_row.get_active()}
-        self.config.set('guest', s)
-    def load_guest_settings(self):
+        # 1. Save to Moonlight.conf (Global Sync)
+        
+        # Resolution
+        idx = self.resolution_row.get_selected()
+        w, h = "1920", "1080"
+        if idx == 0: w, h = "1280", "720"
+        elif idx == 1: w, h = "1920", "1080"
+        elif idx == 2: w, h = "2560", "1440"
+        elif idx == 3: w, h = "3840", "2160"
+        elif idx == 4:
+             if hasattr(self, 'custom_resolution_val') and 'x' in str(self.custom_resolution_val):
+                 parts = str(self.custom_resolution_val).split('x')
+                 if len(parts) >= 2: w, h = parts[0], parts[1]
+        
+        self.moonlight_config.set('width', w)
+        self.moonlight_config.set('height', h)
+        
+        # FPS
+        f_idx = self.fps_row.get_selected()
+        fps = "60"
+        if f_idx == 0: fps = "30"
+        elif f_idx == 1: fps = "60"
+        elif f_idx == 2: fps = "120"
+        elif f_idx == 3: fps = getattr(self, 'custom_fps_val', "60")
+        
+        self.moonlight_config.set('fps', fps)
+        
+        # Bitrate (kbps)
+        br = int(self.bitrate_scale.get_value() * 1000)
+        self.moonlight_config.set('bitrate', br)
+        
+        # Display Mode
+        # UI: 0=Borderless, 1=Full, 2=Windowed
+        # Conf: 3=Borderless, 1=Full, 2=Windowed
+        m_idx = self.display_mode_row.get_selected()
+        mode = "3"
+        if m_idx == 1: mode = "1"
+        elif m_idx == 2: mode = "2"
+        self.moonlight_config.set('windowMode', mode)
+        
+        # HW Decode
+        # Conf: 0=Auto, 1=HW, 2=SW
+        # If UI ON -> 0 (Auto), If OFF -> 2 (SW)
+        hw = self.hw_decode_row.get_active()
+        self.moonlight_config.set('videoDecoder', '0' if hw else '2')
+        
+        # 2. Save Local Settings (Not in Moonlight.conf or specific to GuestView)
         s = self.config.get('guest', {})
-        if not s: return
+        s['scale_native'] = self.scale_row.get_active()
+        s['audio'] = self.audio_row.get_active()
+        self.config.set('guest', s)
+
+    def load_guest_settings(self):
+        # Force reload from file to catch external changes (e.g. from Preferences)
+        self.moonlight_config.reload()
+        
+        # 1. Load from Moonlight.conf
         try:
-            self.scale_row.set_active(s.get('scale_native', False)); self.resolution_row.set_selected(s.get('resolution_idx', 1))
-            self.custom_resolution_val = s.get('custom_resolution', ''); self.fps_row.set_selected(s.get('fps_idx', 1))
-            self.custom_fps_val = s.get('custom_fps', ''); self.bitrate_scale.set_value(s.get('bitrate', 20.0))
-            self.display_mode_row.set_selected(s.get('display_mode_idx', 0)); self.audio_row.set_active(s.get('audio', True)); self.hw_decode_row.set_active(s.get('hw_decode', True))
+            # Resolution
+            w = int(float(self.moonlight_config.get('width', 1920)))
+            h = int(float(self.moonlight_config.get('height', 1080)))
+            
+            # Map back to index
+            if h == 720: self.resolution_row.set_selected(0)
+            elif h == 1080: self.resolution_row.set_selected(1)
+            elif h == 1440: self.resolution_row.set_selected(2)
+            elif h == 2160: self.resolution_row.set_selected(3)
+            else:
+                 self.resolution_row.set_selected(4) # Custom
+                 self.custom_resolution_val = f"{w}x{h}"
+                 
+            # FPS
+            fps = int(float(self.moonlight_config.get('fps', 60)))
+            if fps == 30: self.fps_row.set_selected(0)
+            elif fps == 60: self.fps_row.set_selected(1)
+            elif fps == 120: self.fps_row.set_selected(2)
+            else:
+                 self.fps_row.set_selected(3)
+                 self.custom_fps_val = str(fps)
+                 
+            # Bitrate
+            br = int(float(self.moonlight_config.get('bitrate', 10000))) / 1000.0
+            self.bitrate_scale.set_value(br)
+            
+            # Display Mode (3=Borderless, 1=Full, 2=Windowed) -> UI (0, 1, 2)
+            mode = self.moonlight_config.get('windowMode', '3')
+            if mode == '3': self.display_mode_row.set_selected(0)
+            elif mode == '1': self.display_mode_row.set_selected(1)
+            elif mode == '2': self.display_mode_row.set_selected(2)
+            
+            # HW Decode
+            dec = self.moonlight_config.get('videoDecoder', '0')
+            self.hw_decode_row.set_active(dec != '2')
+
+        except Exception as e:
+            print(f"Error loading Moonlight global settings: {e}")
+            
+        # 2. Load Local Settings
+        try:
+            s = self.config.get('guest', {})
+            self.scale_row.set_active(s.get('scale_native', False))
+            self.audio_row.set_active(s.get('audio', True))
         except: pass
     def on_reset_clicked(self, _widget):
         dialog = Adw.MessageDialog(heading=_("Reset defaults?"), body=_("All client settings will be restored."))
@@ -829,34 +936,88 @@ class GuestView(Gtk.Box):
     def reset_to_defaults(self):
         self.scale_row.set_active(False); self.resolution_row.set_selected(1); self.fps_row.set_selected(1); self.bitrate_scale.set_value(20.0); self.display_mode_row.set_selected(0); self.audio_row.set_active(True); self.hw_decode_row.set_active(True)
         self.custom_resolution_val = self.custom_fps_val = ''; self.show_toast(_("Restored")); self.save_guest_settings()
-    def show_shortcuts_dialog(self):
-        dialog = Adw.MessageDialog(heading=_("Streaming Shortcuts"), body=_("Useful keyboard shortcuts while streaming:"))
-        dialog.set_default_size(500, 400)
-        
-        content = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=12)
-        content.set_margin_top(12); content.set_margin_bottom(12)
-        content.set_margin_start(12); content.set_margin_end(12)
-        
-        shortcuts = [
-            ("Ctrl + Alt + Shift + Q", _("Quit Stream")),
-            ("Ctrl + Alt + Shift + Z", _("Toggle Mouse Capture")),
-            ("Ctrl + Alt + Shift + S", _("Performance Stats")),
-            ("Ctrl + Alt + Shift + F1..F12", _("Switch Host Monitor")),
-        ]
-        
-        for keys, desc in shortcuts:
-            row = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
-            k = Gtk.Label(label=keys); k.add_css_class("accent"); k.set_halign(Gtk.Align.START); k.set_hexpand(True)
-            d = Gtk.Label(label=desc); d.add_css_class("dim-label"); d.set_halign(Gtk.Align.END)
-            row.append(k); row.append(d)
-            content.append(row)
-            
-        dialog.set_extra_child(content)
-        dialog.add_response("ok", _("Got it!"))
-        # dialog.set_transient_for(self.get_root()) # Can be risky if root not ready
-        dialog.present()
-
     def show_toast(self, m):
         w = self.get_root()
         if hasattr(w, 'show_toast'): w.show_toast(m)
         else: print(f"Toast: {m}")
+
+    def show_shortcuts_dialog(self):
+        dialog = Adw.Window(transient_for=self.get_root())
+        dialog.set_modal(True)
+        dialog.set_title(_("Shortcuts & Instructions"))
+        dialog.set_default_size(500, 600)
+        
+        content = Adw.ToolbarView()
+        
+        # Header
+        header = Adw.HeaderBar()
+        content.add_top_bar(header)
+        
+        # Body
+        scroll = Gtk.ScrolledWindow()
+        scroll.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC)
+        
+        clamp = Adw.Clamp()
+        clamp.set_maximum_size(600)
+        for m in ['top', 'bottom', 'start', 'end']: getattr(clamp, f'set_margin_{m}')(16)
+        
+        box = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=24)
+        
+        # Shortcuts Group
+        grp = Adw.PreferencesGroup()
+        grp.set_title(_("Keyboard Shortcuts"))
+        grp.set_description(_("Common shortcuts used during streaming"))
+        
+        shortcuts = [
+            ("Ctrl+Alt+Shift+Q", _("Quit Stream")),
+            ("Ctrl+Alt+Shift+Z", _("Toggle Mouse Capture")),
+            ("Ctrl+Alt+Shift+S", _("Toggle Stats Overlay")),
+            ("Ctrl+Alt+Shift+M", _("Toggle Mouse Mode (Remote/Absolute)")),
+            ("Ctrl+Alt+Shift+F1..F12", _("Switch Monitor (Multi-Head Host)")),
+            ("Ctrl+Alt+Shift+X", _("Toggle Fullscreen")),
+        ]
+        
+        for keys, desc in shortcuts:
+            row = Adw.ActionRow()
+            row.set_title(keys)
+            row.set_subtitle(desc)
+            # Make keys bold/styled
+            # We can't style title easily without custom child, but title is fine.
+            grp.add(row)
+            
+        box.append(grp)
+        
+        # Instructions Group (Multi-Monitor)
+        grp_mon = Adw.PreferencesGroup()
+        grp_mon.set_title(_("Multi-Monitor Support"))
+        grp_mon.set_description(_("Instructions for hosts with multiple displays"))
+        
+        # Monitor Switching explanation
+        row_mon = Adw.ActionRow()
+        row_mon.set_title(_("Switching Monitors"))
+        row_mon.set_subtitle(
+            _("If the Host PC has multiple monitors, you can switch between them easily.\n\n"
+              "1. Use Ctrl+Alt+Shift + F1 (Screen 1), F2 (Screen 2), etc.\n"
+              "2. If this shortcut doesn't work, ensure 'Grab Input' is active (Ctrl+Alt+Shift + Z).\n"
+              "3. Why did F1/F2 stop working? The system likely updated and now requires the full shortcut combo to avoid conflicts.")
+        )
+        grp_mon.add(row_mon)
+        
+        row_trouble = Adw.ActionRow()
+        row_trouble.set_title(_("Troubleshooting: Shortcuts Not Working?"))
+        row_trouble.set_subtitle(
+            _("If shortcuts like F1/F2/F3 are not switching screens:\n"
+              "• Press Ctrl+Alt+Shift + Z to toggle Mouse/Keyboard Capture.\n"
+              "• When capture is ON, your F-keys are sent to the remote PC.\n"
+              "• When capture is OFF, your local PC intercepts them.")
+        )
+        grp_mon.add(row_trouble)
+        
+        box.append(grp_mon)
+        
+        clamp.set_child(box)
+        scroll.set_child(clamp)
+        content.set_content(scroll)
+        
+        dialog.set_content(content)
+        dialog.present()

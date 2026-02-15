@@ -119,7 +119,15 @@ class MainWindow(Adw.ApplicationWindow):
         tb = Adw.ToolbarView(); hb = Adw.HeaderBar()
         btn = Gtk.Button(); btn.set_child(create_icon_widget('big-remote-play')); btn.add_css_class('flat')
         btn.connect('clicked', lambda b: self.get_application().activate_action('about', None))
-        hb.pack_start(btn); hb.set_title_widget(Adw.WindowTitle.new('Big Remote Play', ''))
+        hb.pack_start(btn)
+        
+        # Title on the left
+        title_lbl = Gtk.Label(label="Big Remote Play")
+        title_lbl.add_css_class("heading")
+        hb.pack_start(title_lbl)
+        
+        # Empty center
+        hb.set_title_widget(Adw.WindowTitle.new('', ''))
         tb.add_top_bar(hb); main = Gtk.Box(orientation=Gtk.Orientation.VERTICAL); main.set_vexpand(True)
         scroll = Gtk.ScrolledWindow(); scroll.set_policy(Gtk.PolicyType.NEVER, Gtk.PolicyType.AUTOMATIC); scroll.set_vexpand(True)
         self.nav_list = Gtk.ListBox(); self.nav_list.add_css_class('navigation-sidebar')
@@ -269,9 +277,10 @@ class MainWindow(Adw.ApplicationWindow):
 
         
     def setup_content(self):
-        ct = Adw.ToolbarView(); hb = Adw.HeaderBar(); hb.set_show_title(False); m = Gio.Menu()
+        ct = Adw.ToolbarView(); hb = Adw.HeaderBar(); m = Gio.Menu()
         m.append(_('Preferences'), 'app.preferences'); m.append(_('About'), 'app.about')
         hb.pack_end(Gtk.MenuButton(icon_name='open-menu-symbolic', menu_model=m))
+        hb.set_title_widget(Adw.WindowTitle.new('', ''))
         ct.add_top_bar(hb); self.content_stack = Gtk.Stack()
         self.content_stack.set_transition_type(Gtk.StackTransitionType.CROSSFADE); self.content_stack.set_transition_duration(200)
         self.content_stack.add_named(self.create_welcome_page(), 'welcome')

@@ -5,7 +5,7 @@ import shutil
 from pathlib import Path
 
 # --- Configuration ---
-SOURCE_DIR = Path("/home/ruscher/Documentos/Git/big-remote-play/src")
+SOURCE_DIR = Path("/home/ruscher/Documentos/Git/big-remote-play/usr/share/big-remote-play")
 DEST_DIR = SOURCE_DIR / "icons"
 SEARCH_PATHS = [
     Path("/usr/share/icons"),
