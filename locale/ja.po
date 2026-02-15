@@ -884,6 +884,10 @@ msgstr "切断されました"
 msgid "Guest"
 msgstr "ゲスト"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 802
+msgid "Active Connection"
+msgstr "アクティブ接続"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 666
 msgid "{} devices monitoring"
 msgstr "{} デバイス監視"
@@ -891,6 +895,10 @@ msgstr "{} デバイス監視"
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 669
 msgid "Active - No devices"
 msgstr "アクティブ - デバイスはありません"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 864
+msgid "Disconnect this specific guest (Admin)"
+msgstr "この特定のゲスト（管理者）を切断します。"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 722
 msgid "Connected to {}"
@@ -985,6 +993,10 @@ msgid "Installation completed successfully!"
 msgstr "インストールが成功しました！"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+msgid "Finish"
+msgstr "完了"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
@@ -1051,6 +1063,10 @@ msgstr "サイドバーメニューにて"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. ドメインと認証キーを入力してください。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1782,6 +1798,29 @@ msgstr "クリア"
 msgid "Escuro"
 msgstr "ダーク"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 81
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 249
+msgid "Restaurar"
+msgstr "復元"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 78
+msgid "Restaurar Padrões"
+msgstr "パターンを復元する"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 79
+msgid "Redefinir todas as configurações para o padrão"
+msgstr "すべての設定をデフォルトにリセットする"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 89
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
+msgid "Limpar Tudo"
+msgstr "すべてをクリア"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 90
+msgid "Remover logs, configurações, servidores e dados salvos"
+msgstr "ログ、設定、サーバー、および保存されたデータを削除する"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 64
 msgid "Avançado"
 msgstr "進んだ"
@@ -1822,6 +1861,26 @@ msgstr "古いログファイルを削除する"
 msgid "Limpar"
 msgstr "クリア"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
+msgid "Manutenção do Sistema"
+msgstr "システムメンテナンス"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "一般的な問題を解決するためのツール"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "ライブラリを修正する (ICU)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "libicuuc.so.7* が見つかりません。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
+msgid "Fix Automático"
+msgstr "自動修正"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Logs Limpos"
 msgstr "クリーンログ"
@@ -1829,6 +1888,43 @@ msgstr "クリーンログ"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Arquivos de log antigos foram removidos."
 msgstr "古いログファイルは削除されました。"
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "Fix Automático Iniciado"
+msgstr "自動修正が開始されました"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "ライブラリ修正スクリプトが開始されました。要求された場合はパスワードを入力してください。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Erro"
+msgstr "エラー"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Script de correção não encontrado."
+msgstr "スクリプトが見つかりません。"
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -1845,6 +1941,56 @@ msgstr "古いログファイルは削除されました。"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 190
 msgid "Caminho copiado!"
 msgstr "パスがコピーされました！"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid "Restaurar Padrões?"
+msgstr "パターンを復元しますか？"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid ""
+"Isso redefinirá todas as configurações do aplicativo para os valores originais. Dados de pareamento "
+"não serão perdidos."
+msgstr "これはアプリのすべての設定を元の値にリセットします。ペアリングデータは失われません。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 248
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 286
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 295
+msgid "Cancelar"
+msgstr "キャンセル"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 277
+msgid "Configurações Restauradas!"
+msgstr "設定が復元されました！"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid "Limpar TUDO?"
+msgstr "すべてをクリアしますか？"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid ""
+"ATENÇÃO: Isso apagará TODOS os dados, logs, configurações e servidores salvos. O aplicativo será "
+"fechado."
+msgstr "注意: これにより、すべてのデータ、ログ、設定、および保存されたサーバーが削除されます。アプリケーションは終了します。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 287
+msgid "Apagar Tudo"
+msgstr "すべてを消去"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Tem Certeza Absoluta?"
+msgstr "申し訳ありませんが、その文字列を翻訳することはできません。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Esta ação é IRREVERSÍVEL. Você perderá todos os dados configurados."
+msgstr "この操作は元に戻せません。設定されたすべてのデータが失われます。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 296
+msgid "Sim, Apagar Tudo"
+msgstr "はい、すべて削除します"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 339
+msgid "Erro ao Limpar"
+msgstr "クリア中のエラー"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2253,6 +2399,11 @@ msgstr "推奨ビットレート: {} Mbps"
 msgid "Find and connect to the host using the options below."
 msgstr "以下のオプションを使用してホストを見つけて接続します。"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 67
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 947
+msgid "Shortcuts & Instructions"
+msgstr "ショートカットと指示"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 64
 msgid "Discover"
 msgstr "発見する"
@@ -2577,6 +2728,81 @@ msgstr "はい"
 msgid "Restored"
 msgstr "復元されました"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 968
+msgid "Keyboard Shortcuts"
+msgstr "キーボードショートカット"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 969
+msgid "Common shortcuts used during streaming"
+msgstr "ストリーミング中に使用される一般的なショートカット"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 972
+msgid "Quit Stream"
+msgstr "ストリームを終了する"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 973
+msgid "Toggle Mouse Capture"
+msgstr "マウスキャプチャを切り替える"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 974
+msgid "Toggle Stats Overlay"
+msgstr "統計オーバーレイを切り替える"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 975
+msgid "Toggle Mouse Mode (Remote/Absolute)"
+msgstr "マウスモードを切り替える（リモート/絶対）"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 976
+msgid "Switch Monitor (Multi-Head Host)"
+msgstr "スイッチモニター（マルチヘッドホスト）"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 977
+msgid "Toggle Fullscreen"
+msgstr "フルスクリーン切替"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 992
+msgid "Multi-Monitor Support"
+msgstr "マルチモニターサポート"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 993
+msgid "Instructions for hosts with multiple displays"
+msgstr "複数のディスプレイを持つホストのための指示"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 997
+msgid "Switching Monitors"
+msgstr "モニターの切り替え"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 999
+msgid ""
+"If the Host PC has multiple monitors, you can switch between them easily.\n"
+"\n"
+"1. Use Ctrl+Alt+Shift + F1 (Screen 1), F2 (Screen 2), etc.\n"
+"2. If this shortcut doesn't work, ensure 'Grab Input' is active (Ctrl+Alt+Shift + Z).\n"
+"3. Why did F1/F2 stop working? The system likely updated and now requires the full shortcut combo "
+"to avoid conflicts."
+msgstr ""
+"ホストPCに複数のモニターがある場合、簡単に切り替えることができます。\n"
+"\n"
+"1. Ctrl+Alt+Shift + F1（スクリーン1）、F2（スクリーン2）などを使用します。\n"
+"2. このショートカットが機能しない場合は、「入力を取得」がアクティブであることを確認してください（Ctrl+Alt+Shift + Z）。\n"
+"3. なぜF1/F2が機能しなくなったのですか？システムが更新され、競合を避けるために完全なショートカットコンボが必要になった可能性があります。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1007
+msgid "Troubleshooting: Shortcuts Not Working?"
+msgstr "トラブルシューティング：ショートカットが機能しない？"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1009
+msgid ""
+"If shortcuts like F1/F2/F3 are not switching screens:\n"
+"• Press Ctrl+Alt+Shift + Z to toggle Mouse/Keyboard Capture.\n"
+"• When capture is ON, your F-keys are sent to the remote PC.\n"
+"• When capture is OFF, your local PC intercepts them."
+msgstr ""
+"ショートカットキーのF1/F2/F3で画面が切り替わらない場合：\n"
+"• Ctrl+Alt+Shift + Zを押してマウス/キーボードキャプチャを切り替えます。\n"
+"• キャプチャがONのとき、FキーはリモートPCに送信されます。\n"
+"• キャプチャがOFFのとき、ローカルPCがそれを受け取ります。"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 113
 msgid "Sunshine Offline"
 msgstr "サンシャインオフライン"
@@ -2643,41 +2869,17 @@ msgstr "ストリーミング設定"
 msgid "Quality and Players"
 msgstr "品質とプレイヤー"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 169
-msgid "Streaming Quality"
-msgstr "ストリーミング品質"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 182
+msgid "Frames per second"
+msgstr "フレーム毎秒"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 170
-msgid "Higher quality = higher bandwidth usage"
-msgstr "高品質 = 高帯域幅使用量"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 192
+msgid "Bandwidth Limit (Mbps)"
+msgstr "帯域幅制限 (Mbps)"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Low (720p 30fps)"
-msgstr "低 (720p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Medium (1080p 30fps)"
-msgstr "中程度 (1080p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "High (1080p 60fps)"
-msgstr "高 (1080p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Ultra (1440p 60fps)"
-msgstr "ウルトラ (1440p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Max (4K 60fps)"
-msgstr "マックス (4K 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 180
-msgid "Max Players"
-msgstr "最大プレイヤー数"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 181
-msgid "Maximum number of simultaneous connections"
-msgstr "同時接続の最大数"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 193
+msgid "Max bitrate (0 = Unlimited)"
+msgstr "最大ビットレート (0 = 無制限)"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 188
 msgid "Hardware and Capture"
@@ -2715,6 +2917,42 @@ msgstr "Wayland（推奨）、X11（レガシー）、またはKMS（直接）"
 msgid "KMS (Direct)"
 msgstr "KMS（ダイレクト）"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
+msgid "Efficient Codecs (HEVC/AV1)"
+msgstr "効率的なコーデック (HEVC/AV1)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 239
+msgid "Enable H.265/AV1 for better quality at lower bitrate (Requires support)"
+msgstr "H.265/AV1を有効にして、低ビットレートでより良い品質を実現します（サポートが必要です）。"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 244
+msgid "Optimization Mode"
+msgstr "最適化モード"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
+msgid "Balance between responsiveness and image quality"
+msgstr "応答性と画像品質のバランス"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 247
+msgid "Low Latency (Fastest)"
+msgstr "低遅延（最速）"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 248
+msgid "Balanced (Default)"
+msgstr "バランス（デフォルト）"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 249
+msgid "High Quality (Best Image)"
+msgstr "高品質（最高の画像）"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
+msgid "Wi-Fi / Unstable Network Mode"
+msgstr "Wi-Fi / 不安定なネットワークモード"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
+msgid "Increases error correction (FEC) to prevent glitches"
+msgstr "グリッチを防ぐために誤り訂正（FEC）を増加させます"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 225
 msgid "Sound settings"
 msgstr "サウンド設定"
@@ -2746,14 +2984,6 @@ msgstr "オーディオソースを管理する"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
 msgid "Input, Network, and Access"
 msgstr "入力、ネットワーク、アクセス"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 260
-msgid "Share Controls"
-msgstr "共有コントロール"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 261
-msgid "Allow guests to control the game"
-msgstr "ゲストがゲームを操作できるようにする"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 266
 msgid "Automatic UPnP"
@@ -2931,9 +3161,13 @@ msgstr "資格情報の取得に失敗しました。"
 msgid "Server Information"
 msgstr "サーバー情報"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 726
-msgid "Restart server to apply complex audio changes."
-msgstr "サーバーを再起動して複雑なオーディオ変更を適用します。"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
+msgid "Audio streaming enabled"
+msgstr "オーディオストリーミングが有効になりました"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
+msgid "Audio streaming stopped"
+msgstr "オーディオストリーミングが停止しました"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
@@ -3081,13 +3315,56 @@ msgstr "設定が復元されました"
 msgid "Icon loaded"
 msgstr "アイコンが読み込まれました"
 # 
-# File: big-remote-play/usr/share/big-remote-play/main.py, line: 69
+# File: big-remote-play/usr/share/big-remote-play/main.py, line: 58
 msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
+"The Story Behind the Project\n"
+"\n"
+"Big Remote Play was born from a real story of friendship, determination, and the passion for Free "
+"Software.\n"
+"\n"
+"Alessandro e Silva Xavier (known as Alessandro) and Alexasandro Pacheco Feliciano (known as "
+"Pacheco) wanted to play games together on BigLinux using a feature that only existed on proprietary "
+"platforms like Steam Remote Play and GeForce NOW. The problem? These systems are proprietary, "
+"locked to their own ecosystems. If a game wasn't available on their platform, it was nearly "
+"impossible to play remotely with friends.\n"
+"\n"
+"Refusing to accept this limitation, Alessandro and Pacheco embarked on a journey of countless "
+"attempts and extensive research. After trying many different approaches, they finally found a "
+"working solution by combining multiple free software programs — including Sunshine, Moonlight, "
+"scripts, and VPN tools. They had achieved what the proprietary platforms kept locked behind their "
+"walls, and the best part: it was Free Software and multi-platform!\n"
+"\n"
+"Excited by their success, they started sharing their achievement during their live streams, which "
+"generated tremendous enthusiasm from the community. However, there was a catch — the setup was "
+"complicated. It required configuring multiple separate solutions: Sunshine, Moonlight, custom "
+"scripts, VPN connections... it was a lot for anyone to handle.\n"
+"\n"
+"That's when a friend decided to step in and help develop a unified application to simplify the "
+"entire process. And so, Big Remote Play was born! 🎉\n"
+"\n"
+"An all-in-one application that integrates everything you need for remote cooperative gaming — no "
+"proprietary platforms, no restrictions, no limits on which games you can play."
 msgstr ""
-"統合リモート協力ゲームシステム  \n"
-"Steamリモートプレイトゥギャザーに触発されました"
+"プロジェクトの背後にあるストーリー\n"
+"\n"
+"Big Remote Playは、友情、決意、そしてフリーソフトウェアへの情熱から生まれました。\n"
+"\n"
+"アレッサンドロ・エ・シルバ・ハビエル（アレッサンドロとして知られる）とアレクサンドロ・パチェコ・フェリシアーノ（パチェコとして知られる）は、BigLinux上でゲームを一緒にプレイしたいと考え、Ste"
+"am Remote PlayやGeForce "
+"NOWのような独自のプラットフォームにしか存在しない機能を利用しようとしました。問題は？これらのシステムは独自のエコシステムにロックされているため、プラットフォームにゲームがなければ、友達とリモートで"
+"プレイすることはほぼ不可能でした。\n"
+"\n"
+"この制限を受け入れないことにしたアレッサンドロとパチェコは、数え切れないほどの試行錯誤と広範な研究の旅に出ました。さまざまなアプローチを試した後、彼らはSunshine、Moonlight、スクリプト"
+"、VPNツールなど、複数のフリーソフトウェアプログラムを組み合わせることで、ついに機能するソリューションを見つけました。彼らは、独自のプラットフォームが壁の後ろに閉じ込めていたものを達成し、最も素晴ら"
+"しい点は、それがフリーソフトウェアであり、マルチプラットフォームであったことです！\n"
+"\n"
+"成功に興奮した彼らは、ライブストリーム中に成果を共有し始め、コミュニティから大きな熱意を生み出しました。しかし、問題がありました — "
+"セットアップが複雑だったのです。Sunshine、Moonlight、カスタムスクリプト、VPN接続など、複数の別々のソリューションを設定する必要がありました... "
+"誰にとっても扱うには多すぎました。\n"
+"\n"
+"そこで、友人が介入し、プロセス全体を簡素化する統合アプリケーションの開発を手伝うことに決めました。そして、Big Remote Playが誕生したのです！ 🎉\n"
+"\n"
+"リモート協力ゲームに必要なすべてを統合したオールインワンアプリケーション — 独自のプラットフォームは不要、制限なし、プレイできるゲームに制限はありません。"
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3111,6 +3388,10 @@ msgstr "（IPv6 グローバル）"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "ホスト ({})"
+# 
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
+msgid "Error: Missing ICU 76"
+msgstr "エラー: ICU 76 が見つかりません"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"

@@ -15,332 +15,332 @@ msgstr  "Project-Id-Version: big-remote-play\n"
         "Content-Transfer-Encoding: 8bit\n"
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 62
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 64
 msgid   "Sunshine"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 76
 msgid   "General"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 76
 msgid   "Server general settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 75
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 77
 msgid   "Input"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 75
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 77
 msgid   "Keyboard, mouse and gamepad"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 76
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 78
 msgid   "Audio/Video"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 76
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 78
 msgid   "Resolution, bitrate and quality"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 77
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 79
 msgid   "Network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 77
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 79
 msgid   "Ports and connectivity"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 78
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 98
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 109
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 80
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 100
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 111
 msgid   "Config Files"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 78
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 80
 msgid   "Configuration files and logs"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 79
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 81
 msgid   "Advanced"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 79
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 81
 msgid   "Advanced options"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 82
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 84
 msgid   "NVIDIA NVENC"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 82
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 84
 msgid   "NVIDIA Encoder"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 83
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 85
 msgid   "Intel QuickSync"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 83
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 85
 msgid   "Intel Encoder"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 84
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 86
 msgid   "AMD AMF"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 84
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 86
 msgid   "AMD Encoder"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 85
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 87
 msgid   "VideoToolbox"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 85
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 87
 msgid   "Apple Encoder"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 86
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 88
 msgid   "VA-API"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 86
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 88
 msgid   "VA-API Encoder (Linux)"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 87
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 180
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 89
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 138
 msgid   "Software"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 87
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 89
 msgid   "CPU Encoding"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 112
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 114
 msgid   "No options available"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 220
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 240
 msgid   "Apps File"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 220
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 240
 msgid   "The file where current apps of Sunshine are stored."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 221
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 241
 msgid   "Credentials File"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 221
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 241
 msgid   "Store Username/Password separately from Sunshine's state file."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 222
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 242
 msgid   "Logfile Path"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 222
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 242
 msgid   "The file where the current logs of Sunshine are stored."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 223
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 243
 msgid   "Private Key"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 223
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 243
 msgid   "The private key used for the web UI and Moonlight client pairing. "
         "For best compatibility, this should be an RSA-2048 private key."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 224
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 244
 msgid   "Certificate"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 224
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 244
 msgid   "The certificate used for the web UI and Moonlight client pairing. "
         "For best compatibility, this should have an RSA-2048 public key."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 225
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 245
 msgid   "State File"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 225
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 245
 msgid   "The file where current state of Sunshine is stored"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 246
 msgid   "Configuration File"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 246
 msgid   "The main configuration file for Sunshine."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 258
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 287
 msgid   "Locale"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 262
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 291
 msgid   "The locale used for Sunshine's user interface."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 263
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 292
 msgid   "Sunshine Name"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 263
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 292
 msgid   "The name of the Sunshine instance as seen by clients."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 264
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 293
 msgid   "Sunshine User"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 264
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 293
 msgid   "Username for API access (Monitoring)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 265
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 294
 msgid   "Sunshine Password"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 265
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 294
 msgid   "Password for API access (Monitoring)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 266
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 295
 msgid   "Log Level"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 269
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 298
 msgid   "The minimum log level printed to standard out"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 270
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 299
 msgid   "Pre-Release Notifications"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 270
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 299
 msgid   "Whether to be notified of new pre-release versions of Sunshine"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 271
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 300
 msgid   "Enable System Tray"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 271
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 300
 msgid   "Show icon in system tray and display desktop notifications"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 276
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 305
 msgid   "UPnP"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 276
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 305
 msgid   "Automatically configure port forwarding for streaming over the "
         "Internet"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 277
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 306
 msgid   "Address Family"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 279
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 308
 msgid   "Set the address family used by Sunshine"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 280
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 309
 msgid   "Bind Address"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 280
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 309
 msgid   "IP address to bind the service to"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 281
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 310
 msgid   "Port (Moonlight)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 281
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 310
 msgid   "Set the family of ports used by Sunshine.\n"
         "TCP: 47984, 47989, 47990 (Web UI), 48010\n"
         "UDP: 47998 - 48012"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 282
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 311
 msgid   "Web UI Access"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 284
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 313
 msgid   "The origin of the remote endpoint address that is not denied access "
         "to Web UI.\n"
         "Warning: Exposing the Web UI to the internet is a security risk! "
@@ -348,85 +348,85 @@ msgid   "The origin of the remote endpoint address that is not denied access "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 285
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 314
 msgid   "External IP"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 285
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 314
 msgid   "If no external IP address is given, Sunshine will automatically "
         "detect external IP"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 286
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 315
 msgid   "LAN Encryption"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 287
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 290
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 330
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 333
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 352
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 398
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 359
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 362
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 381
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 427
 msgid   "Disabled"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 287
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 290
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
 msgid   "Mode 1"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 287
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 290
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
 msgid   "Mode 2"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 288
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
 msgid   "This determines when encryption will be used when streaming over "
         "your local network. Encryption can reduce streaming performance, "
         "particularly on less powerful hosts and clients."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 289
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
 msgid   "WAN Encryption"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 291
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 320
 msgid   "This determines when encryption will be used when streaming over the "
         "Internet. Encryption can reduce streaming performance, particularly "
         "on less powerful hosts and clients."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 292
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 321
 msgid   "Ping Timeout (ms)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 292
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 321
 msgid   "How long to wait in milliseconds for data from moonlight before "
         "shutting down the stream"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 297
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 326
 msgid   "Enable Gamepad Input"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 297
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 326
 msgid   "Allows guests to control the host system with a gamepad / controller"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 298
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 327
 msgid   "Emulated Gamepad Type"
 msgstr  ""
 
@@ -435,157 +435,157 @@ msgstr  ""
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 299
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 772
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 328
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 787
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 48
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 214
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 229
 msgid   "Automatic"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 301
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 330
 msgid   "Choose which type of gamepad to emulate on the host"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 331
 msgid   "Motion as DS4"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 302
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 331
 msgid   "Emulate motion controls as DS4"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 303
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 332
 msgid   "Touchpad as DS4"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 303
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 332
 msgid   "Emulate touchpad as DS4"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 304
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 333
 msgid   "Back Button as Touchpad Click"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 304
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 333
 msgid   "Use Back button for touchpad click on DS4"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 305
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 334
 msgid   "Randomize MAC (DS5)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 305
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 334
 msgid   "Randomize virtual MAC address for DS5"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 306
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 335
 msgid   "Home/Guide Timeout (ms)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 306
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 335
 msgid   "Hold Back/Select to emulate Guide button. &lt; 0 to disable."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 307
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 336
 msgid   "Enable Keyboard Input"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 307
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 336
 msgid   "Allows guests to control the host system with the keyboard"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 308
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 337
 msgid   "Enable Mouse Input"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 308
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 337
 msgid   "Allows guests to control the host system with the mouse"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 309
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 338
 msgid   "Always Send Scancodes"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 309
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 338
 msgid   "Always send raw key scancodes"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 310
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 339
 msgid   "Map Right Alt to Windows"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 310
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 339
 msgid   "Make Sunshine think the Right Alt key is the Windows key"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 311
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 340
 msgid   "High Resolution Scrolling"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 311
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 340
 msgid   "Pass through high resolution scroll events from Moonlight clients"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 345
 msgid   "Audio Sink"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 316
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 345
 msgid   "Listing all available audio sinks is possible by running `pactl list "
         "short sinks` (PulseAudio) or `wpctl status` (PipeWire)."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 346
 msgid   "Stream Audio"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 346
 msgid   "Whether to stream audio or not. Disabling this can be useful for "
         "streaming headless displays as second monitors."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 347
 msgid   "Graphics Adapter"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 318
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 347
 msgid   "Specific GPU to use"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 348
 msgid   "Display Name"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 319
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 348
 msgid   "During Sunshine startup, you should see the list of detected "
         "displays. Note: You need to use the id value inside the parenthesis. "
         "Below is an example; the actual output can be found in the "
@@ -593,60 +593,60 @@ msgid   "During Sunshine startup, you should see the list of detected "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 320
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 349
 msgid   "Maximum Bitrate"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 320
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 349
 msgid   "The maximum bitrate (in Kbps) that Sunshine will encode the stream "
         "at. If set to 0, it will always use the bitrate requested by "
         "Moonlight."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 321
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 350
 msgid   "Minimum FPS Target"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 321
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 350
 msgid   "The lowest effective FPS a stream can reach. A value of 0 is treated "
         "as roughly half of the stream's FPS. A setting of 20 is recommended "
         "if you stream 24 or 30fps content."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 326
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 355
 msgid   "FEC Percentage"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 326
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 355
 msgid   "Percentage of error correcting packets per data packet in each video "
         "frame. Higher values can correct for more network packet loss, but "
         "at the cost of increasing bandwidth usage."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 327
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 356
 msgid   "Quantization Parameter"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 327
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 356
 msgid   "Some devices may not support Constant Bit Rate. For those devices, "
         "QP is used instead. Higher value means more compression, but less "
         "quality."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 328
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 357
 msgid   "Minimum CPU Thread Count"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 328
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 357
 msgid   "Increasing the value slightly reduces encoding efficiency, but the "
         "tradeoff is usually worth it to gain the use of more CPU cores for "
         "encoding. The ideal value is the lowest value that can reliably "
@@ -654,75 +654,75 @@ msgid   "Increasing the value slightly reduces encoding efficiency, but the "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 329
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 358
 msgid   "HEVC Support"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 330
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 333
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 359
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 362
 msgid   "Advertised (Recommended)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 331
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 360
 msgid   "Allows the client to request HEVC Main or HEVC Main10 video streams. "
         "HEVC is more CPU-intensive to encode, so enabling this may reduce "
         "performance when using software encoding."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 332
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 361
 msgid   "AV1 Support"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 334
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 363
 msgid   "Allows the client to request AV1 Main 8-bit or 10-bit video streams. "
         "AV1 is more CPU-intensive to encode, so enabling this may reduce "
         "performance when using software encoding."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 335
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 364
 msgid   "Force a Specific Capture Method"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 336
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
 msgid   "Autodetect (Recommended)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 337
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 366
 msgid   "On automatic mode Sunshine will use the first one that works. NvFBC "
         "requires patched nvidia drivers."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 338
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 367
 msgid   "Force a Specific Encoder"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 339
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 368
 msgid   "Autodetect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 342
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 371
 msgid   "Force a specific encoder, otherwise Sunshine will select the best "
         "available option. Note: If you specify a hardware encoder on "
         "Windows, it must match the GPU where the display is connected."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 347
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 376
 msgid   "Performance Preset"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 350
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 379
 msgid   "Higher numbers improve compression (quality at given bitrate) at the "
         "cost of increased encoding latency. Recommended to change only when "
         "limited by network or decoder, otherwise similar effect can be "
@@ -730,22 +730,22 @@ msgid   "Higher numbers improve compression (quality at given bitrate) at the "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 351
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 380
 msgid   "Two-Pass Mode"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 352
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 381
 msgid   "Quarter Resolution"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 352
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 381
 msgid   "Full Resolution"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 353
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 382
 msgid   "Adds preliminary encoding pass. This allows to detect more motion "
         "vectors, better distribute bitrate across the frame and more "
         "strictly adhere to bitrate limits. Disabling it is not recommended "
@@ -754,23 +754,23 @@ msgid   "Adds preliminary encoding pass. This allows to detect more motion "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 354
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
 msgid   "Spatial AQ"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 354
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
 msgid   "Assign higher QP values to flat regions of the video. Recommended to "
         "enable when streaming at lower bitrates."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 355
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid   "Single-frame VBV/HRD percentage increase"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 355
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
 msgid   "By default sunshine uses single-frame VBV/HRD, which means any "
         "encoded video frame size is not expected to exceed requested bitrate "
         "divided by requested frame rate. Relaxing this restriction can be "
@@ -781,63 +781,63 @@ msgid   "By default sunshine uses single-frame VBV/HRD, which means any "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 356
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 385
 msgid   "Prefer CAVLC over CABAC in H.264"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 356
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 385
 msgid   "Simpler form of entropy coding. CAVLC needs around 10% more bitrate "
         "for same quality. Only relevant for really old decoding devices."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 361
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 390
 msgid   "QuickSync Preset"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 363
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 392
 msgid   "Performance preset"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 364
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 393
 msgid   "QuickSync Coder (H264)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 365
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 388
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 395
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 398
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 394
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 417
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 424
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 427
 msgid   "Auto"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 366
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 396
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 395
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 425
 msgid   "Entropy coding mode"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 367
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 396
 msgid   "Allow Slow HEVC Encoding"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 367
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 396
 msgid   "This can enable HEVC encoding on older Intel GPUs, at the cost of "
         "higher GPU usage and worse performance."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 372
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 401
 msgid   "AMF Usage"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 376
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 405
 msgid   "This sets the base encoding profile. All options presented below "
         "will override a subset of the usage profile, but there are "
         "additional hidden settings applied that cannot be configured "
@@ -845,12 +845,12 @@ msgid   "This sets the base encoding profile. All options presented below "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 377
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 406
 msgid   "AMF Rate Control"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 380
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 409
 msgid   "This controls the rate control method to ensure we are not exceeding "
         "the client bitrate target. 'cqp' is not suitable for bitrate "
         "targeting, and other options besides 'vbr_latency' depend on HRD "
@@ -858,60 +858,60 @@ msgid   "This controls the rate control method to ensure we are not exceeding "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 381
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 410
 msgid   "AMF Hypothetical Reference Decoder (HRD) Enforcement"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 381
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 410
 msgid   "Increases the constraints on rate control to meet HRD model "
         "requirements. This greatly reduces bitrate overflows, but may cause "
         "encoding artifacts or reduced quality on certain cards."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 382
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 411
 msgid   "AMF Quality"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 412
 msgid   "Speed"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 412
 msgid   "Balanced"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 383
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 412
 msgid   "Quality"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 384
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 413
 msgid   "This controls the balance between encoding speed and quality."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 385
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 414
 msgid   "AMF Preanalysis"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 385
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 414
 msgid   "This enables rate-control preanalysis, which may increase quality at "
         "the expense of increased encoding latency."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 386
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 415
 msgid   "AMF Variance Based Adaptive Quantization (VBAQ)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 386
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 415
 msgid   "The human visual system is typically less sensitive to artifacts in "
         "highly textured areas. In VBAQ mode, pixel variance is used to "
         "indicate the complexity of spatial textures, allowing the encoder to "
@@ -920,135 +920,146 @@ msgid   "The human visual system is typically less sensitive to artifacts in "
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 387
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 416
 msgid   "AMF Coder (H264)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 389
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 418
 msgid   "Allows you to select the entropy encoding to prioritize quality or "
         "encoding speed. H.264 only."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 394
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 423
 msgid   "VideoToolbox Coder"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 397
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 426
 msgid   "VideoToolbox Software Encoding"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 398
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 427
 msgid   "Allowed"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 398
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 427
 msgid   "Forced"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 399
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 428
 msgid   "Allow fallback to software encoding"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 400
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 429
 msgid   "VideoToolbox Realtime Encoding"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 400
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 429
 msgid   "Realtime encoding priority"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 405
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 434
 msgid   "Strictly enforce frame bitrate limits for H.264/HEVC on AMD GPUs"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 405
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 434
 msgid   "Enabling this option can avoid dropped frames over the network "
         "during scene changes, but video quality may be reduced during motion."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 410
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 439
 msgid   "SW Presets"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 413
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 442
 msgid   "Optimize the trade-off between encoding speed (encoded frames per "
         "second) and compression efficiency (quality per bit in the "
         "bitstream). Defaults to superfast."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 414
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 443
 msgid   "SW Tune"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 416
+# File: big-remote-play/usr/share/big-remote-play/ui/sunshine_preferences.py, line: 445
 msgid   "Tuning options, which are applied after the preset. Defaults to "
         "zerolatency."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 166
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 170
 msgid   "Waiting for data..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 198
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 202
 msgid   "{} Active Devices"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 252
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 256
 msgid   "Latency"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 318
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 723
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 323
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 873
 msgid   "Real-time Monitoring"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 325
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 159
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 330
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 174
 msgid   "Disconnected"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 488
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 528
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 548
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 565
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 681
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 595
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 635
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 644
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 662
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 680
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 819
 msgid   "Guest"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 666
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 802
+msgid   "Active Connection"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 804
 msgid   "{} devices monitoring"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 669
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 807
 msgid   "Active - No devices"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 722
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 864
+msgid   "Disconnect this specific guest (Admin)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 872
 msgid   "Connected to {}"
 msgstr  ""
 
@@ -1085,14 +1096,14 @@ msgstr  ""
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 70
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 1262
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 464
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 672
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 784
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 587
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 620
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 648
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 692
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1443
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 473
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 687
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 799
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 621
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 654
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 682
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 726
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1617
 msgid   "Cancel"
 msgstr  ""
 
@@ -1111,7 +1122,7 @@ msgstr  ""
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 85
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 126
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1232
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1288
 msgid   "Close"
 msgstr  ""
 
@@ -1630,7 +1641,7 @@ msgstr  ""
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 720
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 365
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 380
 msgid   "Copy IP"
 msgstr  ""
 
@@ -1641,11 +1652,11 @@ msgstr  ""
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 740
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 741
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 562
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 600
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 787
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1239
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1245
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 577
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 615
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 828
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1295
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1301
 msgid   "Error"
 msgstr  ""
 
@@ -1792,8 +1803,8 @@ msgstr  ""
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 962
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 224
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 417
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 239
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 432
 msgid   "Connect"
 msgstr  ""
 
@@ -2025,117 +2036,255 @@ msgid   "Connection failed"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 22
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 24
 msgid   "Preferências"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 38
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 40
 msgid   "Geral"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 43
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 45
 msgid   "Aparência"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 47
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 49
 msgid   "Tema"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 48
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 50
 msgid   "Escolha o esquema de cores"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 51
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 53
 msgid   "Automático"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
 msgid   "Claro"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 53
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 55
 msgid   "Escuro"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 64
-msgid   "Avançado"
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 81
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 249
+msgid   "Restaurar"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 69
-msgid   "Caminhos"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 72
-msgid   "Diretório de Configuração"
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 78
+msgid   "Restaurar Padrões"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 79
+msgid   "Redefinir todas as configurações para o padrão"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 89
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
+msgid   "Limpar Tudo"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 90
+msgid   "Remover logs, configurações, servidores e dados salvos"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 104
+msgid   "Avançado"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 109
+msgid   "Caminhos"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 112
+msgid   "Diretório de Configuração"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 119
 msgid   "Copiar Caminho"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 88
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 128
 msgid   "Logs e Depuração"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 91
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 131
 msgid   "Logs Detalhados"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 132
 msgid   "Ativar logging verbose para depuração"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 97
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 137
 msgid   "Limpar Logs"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 98
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 138
 msgid   "Remover arquivos de log antigos"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 100
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid   "Limpar"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
+msgid   "Manutenção do Sistema"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
+msgid   "Ferramentas para resolver problemas comuns"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
+msgid   "Corrigir Bibliotecas (ICU)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
+msgid   "Resolve o erro libicuuc.so.7* ausente"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
+msgid   "Fix Automático"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 211
 msgid   "Logs Limpos"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 211
 msgid   "Arquivos de log antigos foram removidos."
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 141
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 686
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 750
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
 msgid   "OK"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 148
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid   "Fix Automático Iniciado"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid   "O script de correção de bibliotecas foi iniciado. Forneça a senha se "
+        "solicitado."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid   "Erro"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid   "Script de correção não encontrado."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 243
 msgid   "Caminho copiado!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid   "Restaurar Padrões?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid   "Isso redefinirá todas as configurações do aplicativo para os valores "
+        "originais. Dados de pareamento não serão perdidos."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 248
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 286
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 295
+msgid   "Cancelar"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 277
+msgid   "Configurações Restauradas!"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid   "Limpar TUDO?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid   "ATENÇÃO: Isso apagará TODOS os dados, logs, configurações e "
+        "servidores salvos. O aplicativo será fechado."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 287
+msgid   "Apagar Tudo"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid   "Tem Certeza Absoluta?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid   "Esta ação é IRREVERSÍVEL. Você perderá todos os dados configurados."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 296
+msgid   "Sim, Apagar Tudo"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 339
+msgid   "Erro ao Limpar"
 msgstr  ""
 
 #
@@ -2192,7 +2341,7 @@ msgstr  ""
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 59
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 330
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 339
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 117
 msgid   "Host Server"
 msgstr  ""
@@ -2206,8 +2355,8 @@ msgstr  ""
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 64
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 338
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 55
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 347
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 59
 msgid   "Connect to Server"
 msgstr  ""
 
@@ -2232,108 +2381,108 @@ msgid   "Join a private network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 194
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 202
 msgid   "Service Status"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 224
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 232
 msgid   "Checking..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 259
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 267
 msgid   "Installed"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 259
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 267
 msgid   "Missing"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 265
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 273
 msgid   "host"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 265
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 273
 msgid   "connect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 266
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 274
 msgid   "Need to install {} to {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 273
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 281
 msgid   "Preferences"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 273
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 281
 msgid   "About"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 312
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 321
 msgid   "Play cooperatively over the local network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 331
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 340
 msgid   "Share your games with other players on the network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 339
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 348
 msgid   "Connect to a game server on the network"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 351
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 360
 msgid   "<span size=\"small\">Based on <b>Sunshine</b> and <b>Moonlight</b></"
         "span>"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 463
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 472
 msgid   "Missing Components"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 463
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 472
 msgid   "Sunshine and Moonlight are required. Install now?"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 464
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 473
 msgid   "Install"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 513
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 522
 msgid   "Running"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 513
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 522
 msgid   "Stopped"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 541
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 550
 msgid   "Moonlight not found"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 557
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 566
 msgid   "Action {} sent to {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 561
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 570
 msgid   "Error executing command: {}"
 msgstr  ""
 
@@ -2342,574 +2491,593 @@ msgstr  ""
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 564
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 198
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 206
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 868
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 573
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 213
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 221
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 909
 msgid   "Stop"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 564
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 573
 msgid   "Start"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 570
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 579
 msgid   "Restart"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 576
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 585
 msgid   "Disable"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 576
+# File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 585
 msgid   "Enable"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 63
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 20
 msgid   "Moonlight"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 73
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 31
 msgid   "Basic Settings"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 78
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 85
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 36
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 100
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 170
 msgid   "Resolution"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 90
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 96
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 48
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 111
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 181
 msgid   "Frame Rate (FPS)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 102
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 60
 msgid   "Video Bitrate"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 114
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 123
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 72
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 138
 msgid   "Display Mode"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 116
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 125
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 140
 msgid   "Borderless Window"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 116
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 125
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 140
 msgid   "Fullscreen"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 116
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 125
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 140
 msgid   "Windowed"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 124
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 82
 msgid   "V-Sync"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 124
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 82
 msgid   "Visual Synchronization"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 125
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 83
 msgid   "Frame Pacing"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 125
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 83
 msgid   "Improve smoothness"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 129
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 87
 msgid   "Input Settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 131
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 89
 msgid   "Optimize mouse for Remote Desktop"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 132
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 90
 msgid   "Capture system shortcuts"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 133
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 91
 msgid   "Use touchscreen as virtual trackpad"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 134
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 92
 msgid   "Invert mouse left/right buttons"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 135
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 93
 msgid   "Invert scroll wheel direction"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 139
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 97
 msgid   "Audio Settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 143
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 101
 msgid   "Audio Configuration"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 145
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 103
 msgid   "Stereo"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 153
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 111
 msgid   "Mute host PC speakers while streaming"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 154
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 112
 msgid   "Mute audio when Moonlight is not the active window"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 158
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 116
 msgid   "Controller Settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 160
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 118
 msgid   "Swap A/B and X/Y buttons"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 161
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 119
 msgid   "Force controller #1 always connected"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 162
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 120
 msgid   "Enable mouse control with gamepad"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 163
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 121
 msgid   "Process controller input in background"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 167
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 125
 msgid   "Host Settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 169
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 127
 msgid   "Optimize game settings for streaming"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 170
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 128
 msgid   "Quit app on host after streaming ends"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 174
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 132
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 295
 msgid   "Advanced Settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 178
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 136
 msgid   "Video Decoder"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 180
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 191
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 138
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 149
 msgid   "Automatic (Recommended)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 180
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 138
 msgid   "Hardware"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 189
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 147
 msgid   "Video Codec"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 199
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 157
 msgid   "Enable HDR (Experimental)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 200
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 158
 msgid   "Enable YUV 4:4:4 (Experimental)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 201
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 159
 msgid   "Unlock bitrate limit (Experimental)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 202
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 160
 msgid   "Discover PCs automatically"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 203
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 161
 msgid   "Check for blocked connections automatically"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 204
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 162
 msgid   "Show performance stats while streaming"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 208
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 166
 msgid   "UI Settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 210
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 168
 msgid   "Show connection quality warnings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 211
+# File: big-remote-play/usr/share/big-remote-play/ui/moonlight_preferences.py, line: 169
 msgid   "Keep display active during streaming"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 36
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 40
 msgid   "Detecting bandwidth..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 42
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 46
 msgid   "Suggested bitrate: {} Mbps"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 56
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 158
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 177
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 60
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 173
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 192
 msgid   "Find and connect to the host using the options below."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 64
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 67
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 947
+msgid   "Shortcuts & Instructions"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 79
 msgid   "Discover"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 67
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 82
 msgid   "Manual"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 70
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 438
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 361
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 382
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 85
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 453
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 395
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 416
 msgid   "PIN Code"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 82
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 97
 msgid   "Client Settings"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 83
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 98
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 127
 msgid   "Reset to Defaults"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 85
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 100
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 171
 msgid   "Stream resolution"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 87
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 98
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 754
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 102
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 113
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 769
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 780
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 184
 msgid   "Custom"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 91
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 106
 msgid   "Native Resolution (Adaptive)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 91
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 106
 msgid   "Use screen/window resolution"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 96
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 111
 msgid   "Video smoothness"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 109
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 124
 msgid   "Apply and Reconnect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 115
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 130
 msgid   "Bitrate (Quality)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 115
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 130
 msgid   "Adjust bandwidth (0.5 - 150 Mbps)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 119
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 134
 msgid   "Detect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 123
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 138
 msgid   "How the window will be displayed"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 128
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 224
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 352
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 143
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 264
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 386
 msgid   "Audio"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 128
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 143
 msgid   "Receive audio streaming"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 130
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 145
 msgid   "Hardware Decoding"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 130
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 145
 msgid   "Use GPU for decoding"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 148
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 163
 msgid   "Host connected: {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 149
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 164
 msgid   "Active Session"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 163
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 178
 msgid   "Moonlight closed"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 177
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 192
 msgid   "Host connected. Click Stop to disconnect."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 220
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 235
 msgid   "Connect to {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 220
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 278
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 235
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 293
 msgid   "Connect to Selected"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 227
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 434
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 458
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 242
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 449
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 473
 msgid   "Connect with PIN"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 246
 msgid   "Applying settings..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 255
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 270
 msgid   "Discovered Hosts"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 256
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 271
 msgid   "Scroll to list all found devices."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 307
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 322
 msgid   "Searching for hosts..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 319
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 334
 msgid   "No hosts found"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 368
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 383
 msgid   "IP Copied: {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 381
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 396
 msgid   "Connection Data"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 382
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 397
 msgid   "Enter server IP and port"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 385
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 400
 msgid   "IP/Hostname"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 389
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 404
 msgid   "Port"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 393
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 408
 msgid   "Use IPv6"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 435
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 450
 msgid   "Enter the 6-digit PIN code provided by the host"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 472
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 487
 msgid   "Clicked Connect..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 560
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 598
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 575
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 613
 msgid   "Active Stream"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 562
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 577
 msgid   "Failed to connect. Verify if Moonlight is paired."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 600
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 615
 msgid   "Failed to connect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 620
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 635
 msgid   "Attempting automatic pairing PIN: {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 623
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 638
 msgid   "Automatic pairing sent!"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 634
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 649
 msgid   "Starting pairing..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 651
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 666
 msgid   "Paired successfully!"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 653
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 668
 msgid   "Pairing Error"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 653
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 668
 msgid   "Could not pair with host.\n"
         "Verify the PIN was entered correctly."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 663
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 678
 msgid   "Canceling connection..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 671
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 686
 msgid   "Pairing Required"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 671
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 686
 msgid   "Moonlight needs to be paired.\n"
         "\n"
         "<span size=\"xx-large\" weight=\"bold\" color=\"accent-color\">{}</"
@@ -2917,8 +3085,8 @@ msgid   "Moonlight needs to be paired.\n"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 678
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 682
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 693
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 697
 msgid   "Follow instructions.\n"
         "\n"
         "1. Provide PIN and Host <b>{}</b> to the server.\n"
@@ -2928,95 +3096,175 @@ msgid   "Follow instructions.\n"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 684
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 699
 msgid   "Pairing Started"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 719
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 734
 msgid   "Invalid PIN"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 719
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 734
 msgid   "Must contain 6 digits."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 740
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 755
 msgid   "Host found: {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 745
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 760
 msgid   "Host Not Found"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 745
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 760
 msgid   "Could not find a host with this PIN on the local network..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 757
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 767
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 772
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 782
 msgid   "Set: {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 759
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 774
 msgid   "Custom Resolution"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 759
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 774
 msgid   "Enter WxH:"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 768
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 783
 msgid   "Custom FPS"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 768
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 783
 msgid   "Use a number"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 780
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 795
 msgid   "Value"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 785
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 800
 msgid   "Apply"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 813
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 920
 msgid   "Reset defaults?"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 813
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 920
 msgid   "All client settings will be restored."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 815
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 922
 msgid   "No"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 816
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 923
 msgid   "Yes"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 825
-# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 831
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 932
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 938
 msgid   "Restored"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 968
+msgid   "Keyboard Shortcuts"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 969
+msgid   "Common shortcuts used during streaming"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 972
+msgid   "Quit Stream"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 973
+msgid   "Toggle Mouse Capture"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 974
+msgid   "Toggle Stats Overlay"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 975
+msgid   "Toggle Mouse Mode (Remote/Absolute)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 976
+msgid   "Switch Monitor (Multi-Head Host)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 977
+msgid   "Toggle Fullscreen"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 992
+msgid   "Multi-Monitor Support"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 993
+msgid   "Instructions for hosts with multiple displays"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 997
+msgid   "Switching Monitors"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 999
+msgid   "If the Host PC has multiple monitors, you can switch between them "
+        "easily.\n"
+        "\n"
+        "1. Use Ctrl+Alt+Shift + F1 (Screen 1), F2 (Screen 2), etc.\n"
+        "2. If this shortcut doesn't work, ensure 'Grab Input' is active "
+        "(Ctrl+Alt+Shift + Z).\n"
+        "3. Why did F1/F2 stop working? The system likely updated and now "
+        "requires the full shortcut combo to avoid conflicts."
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1007
+msgid   "Troubleshooting: Shortcuts Not Working?"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1009
+msgid   "If shortcuts like F1/F2/F3 are not switching screens:\n"
+        "• Press Ctrl+Alt+Shift + Z to toggle Mouse/Keyboard Capture.\n"
+        "• When capture is ON, your F-keys are sent to the remote PC.\n"
+        "• When capture is OFF, your local PC intercepts them."
 msgstr  ""
 
 #
@@ -3026,7 +3274,7 @@ msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 118
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 889
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 930
 msgid   "Configure and share your game for friends to connect"
 msgstr  ""
 
@@ -3102,529 +3350,540 @@ msgid   "Quality and Players"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 169
-msgid   "Streaming Quality"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 182
+msgid   "Frames per second"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 170
-msgid   "Higher quality = higher bandwidth usage"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid   "Low (720p 30fps)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid   "Medium (1080p 30fps)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid   "High (1080p 60fps)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid   "Ultra (1440p 60fps)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid   "Max (4K 60fps)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 180
-msgid   "Max Players"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 181
-msgid   "Maximum number of simultaneous connections"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 188
-msgid   "Hardware and Capture"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 189
-msgid   "Monitor, GPU, and Capture Method"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 192
+msgid   "Bandwidth Limit (Mbps)"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 193
-msgid   "Monitor / Display"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 194
-msgid   "Select the display to capture"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 202
-msgid   "Graphics Card / Encoder"
+msgid   "Max bitrate (0 = Unlimited)"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 203
+msgid   "Hardware and Capture"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 204
+msgid   "Monitor, GPU, and Capture Method"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 208
+msgid   "Monitor / Display"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 209
+msgid   "Select the display to capture"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 217
+msgid   "Graphics Card / Encoder"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 218
 msgid   "Choose hardware for video encoding"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 211
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 226
 msgid   "Capture Method"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 227
 msgid   "Wayland (recommended), X11 (legacy), or KMS (direct)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 214
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 229
 msgid   "KMS (Direct)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 225
-msgid   "Sound settings"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 229
-msgid   "Host Audio Output"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 230
-msgid   "Where YOU will hear the game sound"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 237
-msgid   "Audio Streaming"
-msgstr  ""
-
-#
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
-msgid   "Enable audio on client (Sound on Host + Guest)"
+msgid   "Efficient Codecs (HEVC/AV1)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 239
+msgid   "Enable H.265/AV1 for better quality at lower bitrate (Requires "
+        "support)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 244
+msgid   "Optimization Mode"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
-msgid   "Audio Mixer (Sources)"
+msgid   "Balance between responsiveness and image quality"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 246
-msgid   "Manage audio sources"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 247
+msgid   "Low Latency (Fastest)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 248
+msgid   "Balanced (Default)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 249
+msgid   "High Quality (Best Image)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
+msgid   "Wi-Fi / Unstable Network Mode"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
-msgid   "Input, Network, and Access"
+msgid   "Increases error correction (FEC) to prevent glitches"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 260
-msgid   "Share Controls"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 265
+msgid   "Sound settings"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 261
-msgid   "Allow guests to control the game"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 269
+msgid   "Host Audio Output"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 266
-msgid   "Automatic UPnP"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 270
+msgid   "Where YOU will hear the game sound"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 267
-msgid   "Automatically configure router ports"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 272
-msgid   "Address Family (IPv4 + IPv6)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 273
-msgid   "Enable simultaneous IPv4 and IPv6 support on server"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 277
+msgid   "Audio Streaming"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 278
-msgid   "Origin Web UI Allowed (WAN)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 279
-msgid   "Allows anyone to access the web interface (Anyone may access Web UI)"
-msgstr  ""
-
-#
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 284
-msgid   "Configure Firewall (IPv6)"
+msgid   "Enable audio on client (Sound on Host + Guest)"
 msgstr  ""
 
 #
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 285
+msgid   "Audio Mixer (Sources)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 286
+msgid   "Manage audio sources"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 296
+msgid   "Input, Network, and Access"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 300
+msgid   "Automatic UPnP"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 301
+msgid   "Automatically configure router ports"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 306
+msgid   "Address Family (IPv4 + IPv6)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 307
+msgid   "Enable simultaneous IPv4 and IPv6 support on server"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 312
+msgid   "Origin Web UI Allowed (WAN)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 313
+msgid   "Allows anyone to access the web interface (Anyone may access Web UI)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 318
+msgid   "Configure Firewall (IPv6)"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 319
 msgid   "Open TCP/UDP ports required for external connection"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 288
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 322
 msgid   "Configure"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 310
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 909
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 344
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 950
 msgid   "Start Server"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 317
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 351
 msgid   "Configure Sunshine"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 325
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 359
 msgid   "Enter PIN"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 342
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 376
 msgid   "Information"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 347
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 381
 msgid   "Game"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 357
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 391
 msgid   "Use PIN Code to Connect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 358
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 392
 msgid   "Share this with the guest. Local network is required."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 372
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 406
 msgid   "Copy PIN"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 569
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 603
 msgid   "Insert PIN"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 570
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 604
 msgid   "Enter the PIN displayed on the client device (Moonlight)."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 577
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 611
 msgid   "PIN"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 580
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 614
 msgid   "Device Name (Optional)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 588
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 622
 msgid   "Send"
 msgstr  ""
 
 #
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 601
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 665
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 705
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 635
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 699
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 307
 msgid   "PIN sent successfully"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 609
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 643
 msgid   "PIN Error"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 616
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 650
 msgid   "User Not Found"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 617
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 651
 msgid   "No user has been created in Sunshine. It is necessary to configure a "
         "user through the browser."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 621
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 655
 msgid   "Open Configuration"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 635
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 669
 msgid   "Create Sunshine User"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 636
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 670
 msgid   "Define a username and password for Sunshine."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 641
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 675
 msgid   "New User"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 643
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 677
 msgid   "New Password"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 649
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 683
 msgid   "Save and Continue"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 660
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 694
 msgid   "User created!"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 666
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 700
 msgid   "Error sending PIN after creation"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 668
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 702
 msgid   "Error creating user"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 679
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 713
 msgid   "Sunshine Authentication"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 680
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 714
 msgid   "Sunshine requires login. Enter your credentials (default: admin / "
         "password created during installation)."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 685
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 719
 msgid   "Username"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 687
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 721
 msgid   "Password"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 693
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 727
 msgid   "Confirm"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 709
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 743
 msgid   "Failed with credentials"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 716
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 750
 msgid   "Server Information"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 726
-msgid   "Restart server to apply complex audio changes."
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
+msgid   "Audio streaming enabled"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
+msgid   "Audio streaming stopped"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 780
 msgid   "System Default"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 752
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 793
 msgid   "Error loading audio"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 771
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 812
 msgid   "Output changed to: {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 776
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 817
 msgid   "Configuring firewall... (Password may be requested)"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 794
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 835
 msgid   "Success: {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 795
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 836
 msgid   "Firewall Error"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 795
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 836
 msgid   "Execution failed or cancelled."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 807
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 848
 msgid   "Error executing script: {}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 843
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 884
 msgid   "Copied!"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 847
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 888
 msgid   "Clicked Start Server..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 863
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 904
 msgid   "Server Active - Guests can now connect"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 864
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 905
 msgid   "Active - Waiting for Connections"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 890
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 931
 msgid   "Inactive"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1041
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1045
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1068
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1091
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1095
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1118
 msgid   "Host + Guest"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1041
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1045
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1068
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1091
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1095
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1118
 msgid   "Host Only"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1153
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1213
 msgid   "Failed to create Virtual Audio"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1196
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1252
 msgid   "Server started"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1202
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1258
 msgid   "Check logs for details."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1213
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1269
 msgid   "Missing library: {}\n"
         "\n"
         "Would you like to try to fix it automatically?"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1222
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1278
 msgid   "Missing library: {}\n"
         "\n"
         "Please check your Sunshine installation."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1225
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1281
 msgid   "Port already in use. Check if another instance is running."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1229
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1285
 msgid   "Failed to start"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1229
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1285
 msgid   "The server failed to start.\n"
         "{}"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1231
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1287
 msgid   "Fix Automatically"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1256
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1312
 msgid   "Stopping server..."
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1287
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1343
 msgid   "Server stopped"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1297
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1353
 msgid   "Sunshine stopped unexpectedly"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1442
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1616
 msgid   "Restore Defaults"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1442
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1616
 msgid   "Do you want to restore default settings?"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1443
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1617
 msgid   "Restore"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1451
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 1625
 msgid   "Settings Restored"
 msgstr  ""
 
@@ -3634,9 +3893,42 @@ msgid   "Icon loaded"
 msgstr  ""
 
 #
-# File: big-remote-play/usr/share/big-remote-play/main.py, line: 69
-msgid   "Integrated remote cooperative gaming system\n"
-        "Inspired by Steam Remote Play Together"
+# File: big-remote-play/usr/share/big-remote-play/main.py, line: 58
+msgid   "The Story Behind the Project\n"
+        "\n"
+        "Big Remote Play was born from a real story of friendship, "
+        "determination, and the passion for Free Software.\n"
+        "\n"
+        "Alessandro e Silva Xavier (known as Alessandro) and Alexasandro "
+        "Pacheco Feliciano (known as Pacheco) wanted to play games together "
+        "on BigLinux using a feature that only existed on proprietary "
+        "platforms like Steam Remote Play and GeForce NOW. The problem? These "
+        "systems are proprietary, locked to their own ecosystems. If a game "
+        "wasn't available on their platform, it was nearly impossible to play "
+        "remotely with friends.\n"
+        "\n"
+        "Refusing to accept this limitation, Alessandro and Pacheco embarked "
+        "on a journey of countless attempts and extensive research. After "
+        "trying many different approaches, they finally found a working "
+        "solution by combining multiple free software programs — including "
+        "Sunshine, Moonlight, scripts, and VPN tools. They had achieved what "
+        "the proprietary platforms kept locked behind their walls, and the "
+        "best part: it was Free Software and multi-platform!\n"
+        "\n"
+        "Excited by their success, they started sharing their achievement "
+        "during their live streams, which generated tremendous enthusiasm "
+        "from the community. However, there was a catch — the setup was "
+        "complicated. It required configuring multiple separate solutions: "
+        "Sunshine, Moonlight, custom scripts, VPN connections... it was a lot "
+        "for anyone to handle.\n"
+        "\n"
+        "That's when a friend decided to step in and help develop a unified "
+        "application to simplify the entire process. And so, Big Remote Play "
+        "was born! 🎉\n"
+        "\n"
+        "An all-in-one application that integrates everything you need for "
+        "remote cooperative gaming — no proprietary platforms, no "
+        "restrictions, no limits on which games you can play."
 msgstr  ""
 
 #
@@ -3644,10 +3936,10 @@ msgstr  ""
 #
 # File: big-remote-play/usr/share/big-remote-play/utils/audio.py, line: 215
 # File: big-remote-play/usr/share/big-remote-play/utils/audio.py, line: 226
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 124
 # File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 127
-# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 144
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 130
 # File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 147
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 150
 msgid   "Unknown"
 msgstr  ""
 
@@ -3664,6 +3956,11 @@ msgstr  ""
 #
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid   "Host ({})"
+msgstr  ""
+
+#
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
+msgid   "Error: Missing ICU 76"
 msgstr  ""
 
 #

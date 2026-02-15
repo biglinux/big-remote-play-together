@@ -929,6 +929,10 @@ msgstr "Ühendus katkestatud"
 msgid "Guest"
 msgstr "Külastaja"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 802
+msgid "Active Connection"
+msgstr "Aktiivne Ühendus"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 666
 msgid "{} devices monitoring"
 msgstr "{} seadmete jälgimine"
@@ -936,6 +940,10 @@ msgstr "{} seadmete jälgimine"
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 669
 msgid "Active - No devices"
 msgstr "Aktiivne - Seadmeid pole"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 864
+msgid "Disconnect this specific guest (Admin)"
+msgstr "Katkesta see konkreetne külaline (Admin)"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 773
 msgid "Connected to {}"
@@ -1066,6 +1074,10 @@ msgstr "Installeerimine lõpetati edukalt!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Installeerimine ebaõnnestus. Väljumiskood: {}"
@@ -1126,6 +1138,10 @@ msgstr "Külgmenüüs"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Sisestage domeen ja autentimisvõti"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1837,6 +1853,33 @@ msgstr "Selge"
 msgid "Escuro"
 msgstr "Tume"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 81
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 249
+msgid "Restaurar"
+msgstr "Taasta"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 78
+msgid "Restaurar Padrões"
+msgstr "Taasta seaded"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 79
+msgid "Redefinir todas as configurações para o padrão"
+msgstr "Taasta kõik seaded vaikeseadetele."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 89
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
+msgid "Limpar Tudo"
+msgstr "Kustuta kõik"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 90
+msgid "Remover logs, configurações, servidores e dados salvos"
+msgstr "Eemaldage logid, seaded, serverid ja salvestatud andmed"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 104
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 104
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 64
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 64
@@ -1913,6 +1956,26 @@ msgstr "Eemaldage vanad logifailid"
 msgid "Limpar"
 msgstr "Puhastama"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
+msgid "Manutenção do Sistema"
+msgstr "Süsteemi hooldus"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "Tavalised probleemide lahendamise tööriistad"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "Korrigeeri raamatukogud (ICU)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "Lahenda puuduv viga libicuuc.so.7*"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
+msgid "Fix Automático"
+msgstr "Automaatne parandamine"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 100
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
@@ -1922,6 +1985,43 @@ msgstr "Puhas logid"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Vana logifailid on eemaldatud."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "Fix Automático Iniciado"
+msgstr "Automaatne parandamine algatatud"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "Teekonnakorrigeerimise skript on käivitatud. Palun esitage parool, kui seda küsitakse."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Erro"
+msgstr "Viga"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Script de correção não encontrado."
+msgstr "Korrektuur skripti ei leitud."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -2034,6 +2134,56 @@ msgstr "Vana logifailid on eemaldatud."
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
 msgstr "Teekond on kopeeritud!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid "Restaurar Padrões?"
+msgstr "Taasta seaded?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid ""
+"Isso redefinirá todas as configurações do aplicativo para os valores originais. Dados de pareamento "
+"não serão perdidos."
+msgstr "See lähtestab kõik rakenduse seaded algväärtustele. Paarimisandmed ei kao."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 248
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 286
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 295
+msgid "Cancelar"
+msgstr "Tühista"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 277
+msgid "Configurações Restauradas!"
+msgstr "Seaded taastatud!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid "Limpar TUDO?"
+msgstr "Kustuta KÕIK?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid ""
+"ATENÇÃO: Isso apagará TODOS os dados, logs, configurações e servidores salvos. O aplicativo será "
+"fechado."
+msgstr "TEADE: See kustutab KÕIK andmed, logid, seaded ja salvestatud serverid. Rakendus suletakse."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 287
+msgid "Apagar Tudo"
+msgstr "Kustuta kõik"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Tem Certeza Absoluta?"
+msgstr "Kas olete täiesti kindel?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Esta ação é IRREVERSÍVEL. Você perderá todos os dados configurados."
+msgstr "See string for translation."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 296
+msgid "Sim, Apagar Tudo"
+msgstr "Jah, Kustuta Kõik"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 339
+msgid "Erro ao Limpar"
+msgstr "Viga puhastamisel"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2440,6 +2590,11 @@ msgstr "Soovitatud bitikiirus: {} Mbps"
 msgid "Find and connect to the host using the options below."
 msgstr "Leidke ja ühendage host allolevate valikute abil."
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 67
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 947
+msgid "Shortcuts & Instructions"
+msgstr "Lühendid ja juhised"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 62
 msgid "Discover"
 msgstr "Avasta"
@@ -2761,6 +2916,82 @@ msgstr "Jah"
 msgid "Restored"
 msgstr "Taastatud"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 968
+msgid "Keyboard Shortcuts"
+msgstr "Klaviatuuri otseteed"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 969
+msgid "Common shortcuts used during streaming"
+msgstr "Tavalised otseteed voogedastuse ajal"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 972
+msgid "Quit Stream"
+msgstr "Lõpeta voog"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 973
+msgid "Toggle Mouse Capture"
+msgstr "Lülita hiire salvestamine"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 974
+msgid "Toggle Stats Overlay"
+msgstr "Lülita statistika ülevaade"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 975
+msgid "Toggle Mouse Mode (Remote/Absolute)"
+msgstr "Lülita hiiremood (Kaug/Absoluutne)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 976
+msgid "Switch Monitor (Multi-Head Host)"
+msgstr "Lülita monitor (mitmepealine host)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 977
+msgid "Toggle Fullscreen"
+msgstr "Lülita täisekraanile"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 992
+msgid "Multi-Monitor Support"
+msgstr "Mitme monitori tugi"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 993
+msgid "Instructions for hosts with multiple displays"
+msgstr "Juhistele mitme ekraaniga hostidele"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 997
+msgid "Switching Monitors"
+msgstr "Monitorite vahetamine"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 999
+msgid ""
+"If the Host PC has multiple monitors, you can switch between them easily.\n"
+"\n"
+"1. Use Ctrl+Alt+Shift + F1 (Screen 1), F2 (Screen 2), etc.\n"
+"2. If this shortcut doesn't work, ensure 'Grab Input' is active (Ctrl+Alt+Shift + Z).\n"
+"3. Why did F1/F2 stop working? The system likely updated and now requires the full shortcut combo "
+"to avoid conflicts."
+msgstr ""
+"Kui Host PC-l on mitu monitori, saate nende vahel hõlpsasti vahetada.\n"
+"\n"
+"1. Kasutage Ctrl+Alt+Shift + F1 (Ekraan 1), F2 (Ekraan 2) jne.\n"
+"2. Kui see otsetee ei tööta, veenduge, et 'Grab Input' on aktiivne (Ctrl+Alt+Shift + Z).\n"
+"3. Miks F1/F2 lõpetas töötamise? Süsteem on tõenäoliselt uuendatud ja nüüd nõuab täielikku otsetee "
+"kombinatsiooni konfliktide vältimiseks."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1007
+msgid "Troubleshooting: Shortcuts Not Working?"
+msgstr "Tõrkeotsing: Otseteed ei tööta?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1009
+msgid ""
+"If shortcuts like F1/F2/F3 are not switching screens:\n"
+"• Press Ctrl+Alt+Shift + Z to toggle Mouse/Keyboard Capture.\n"
+"• When capture is ON, your F-keys are sent to the remote PC.\n"
+"• When capture is OFF, your local PC intercepts them."
+msgstr ""
+"Kui otseteed nagu F1/F2/F3 ei vaheta ekraane:\n"
+"• Vajutage Ctrl+Alt+Shift + Z, et lülitada hiire/klaviatuuri salvestamine sisse/välja.\n"
+"• Kui salvestamine on SEES, saadetakse teie F-klahvid kaug-PC-le.\n"
+"• Kui salvestamine on VÄLJAS, katkestab teie kohalik PC need."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 111
 msgid "Sunshine Offline"
 msgstr "Päikesevalgus Offline"
@@ -2827,41 +3058,17 @@ msgstr "Voogesetete seaded"
 msgid "Quality and Players"
 msgstr "Kvaliteet ja Mängijad"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 164
-msgid "Streaming Quality"
-msgstr "Vooged kvaliteet"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 182
+msgid "Frames per second"
+msgstr "Kaadreid sekundis"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 165
-msgid "Higher quality = higher bandwidth usage"
-msgstr "Kvaliteet kõrgem = suurem ribalaiuse kasutus"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 192
+msgid "Bandwidth Limit (Mbps)"
+msgstr "Bandiwidthi piirang (Mbps)"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 168
-msgid "Low (720p 30fps)"
-msgstr "Madal (720p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 168
-msgid "Medium (1080p 30fps)"
-msgstr "Keskmine (1080p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 168
-msgid "High (1080p 60fps)"
-msgstr "Kõrge (1080p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 168
-msgid "Ultra (1440p 60fps)"
-msgstr "Ultra (1440p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 168
-msgid "Max (4K 60fps)"
-msgstr "Max (4K 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 175
-msgid "Max Players"
-msgstr "Maksimaalne mängijate arv"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 176
-msgid "Maximum number of simultaneous connections"
-msgstr "Samaaegsete ühenduste maksimaalne arv"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 193
+msgid "Max bitrate (0 = Unlimited)"
+msgstr "Maksimaalne bitikiirus (0 = Piiramatu)"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 183
 msgid "Hardware and Capture"
@@ -2899,6 +3106,42 @@ msgstr "Wayland (soovitatav), X11 (pärand), või KMS (otsene)"
 msgid "KMS (Direct)"
 msgstr "KMS (Otsene)"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
+msgid "Efficient Codecs (HEVC/AV1)"
+msgstr "Tõhusad koodekid (HEVC/AV1)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 239
+msgid "Enable H.265/AV1 for better quality at lower bitrate (Requires support)"
+msgstr "Luba H.265/AV1 parema kvaliteedi saavutamiseks madalama bitikiirusena (Nõuab tuge)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 244
+msgid "Optimization Mode"
+msgstr "Optimeerimisrežiim"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
+msgid "Balance between responsiveness and image quality"
+msgstr "Tasakaal reageerimise ja pildikvaliteedi vahel"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 247
+msgid "Low Latency (Fastest)"
+msgstr "Madal Latentsus (Kiireim)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 248
+msgid "Balanced (Default)"
+msgstr "Tasakaalustatud (vaikimisi)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 249
+msgid "High Quality (Best Image)"
+msgstr "Kõrge kvaliteet (parim pilt)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
+msgid "Wi-Fi / Unstable Network Mode"
+msgstr "Wi-Fi / Ebastuv võrgurežiim"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
+msgid "Increases error correction (FEC) to prevent glitches"
+msgstr "Suurendab veaparandust (FEC), et vältida tõrkeid."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 220
 msgid "Sound settings"
 msgstr "Heli seaded"
@@ -2930,14 +3173,6 @@ msgstr "Haldage helisid."
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 251
 msgid "Input, Network, and Access"
 msgstr "Sisend, Võrk ja Juurdepääs"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
-msgid "Share Controls"
-msgstr "Jagamise juhtnupud"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
-msgid "Allow guests to control the game"
-msgstr "Luba külalistele mängu juhtimist."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 261
 msgid "Automatic UPnP"
@@ -3117,9 +3352,13 @@ msgstr "Eba andmetega."
 msgid "Server Information"
 msgstr "Serveri teave"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 718
-msgid "Restart server to apply complex audio changes."
-msgstr "Taaskäivita server, et rakendada keerulisi helimuudatusi."
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
+msgid "Audio streaming enabled"
+msgstr "Audio vooged on."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
+msgid "Audio streaming stopped"
+msgstr "Heli voogedastus peatatud"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 731
 msgid "System Default"
@@ -3267,13 +3506,62 @@ msgstr "Seaded taastatud"
 msgid "Icon loaded"
 msgstr "Ikon laaditud"
 # 
-# File: big-remote-play/usr/share/big-remote-play/main.py, line: 66
+# File: big-remote-play/usr/share/big-remote-play/main.py, line: 58
 msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
+"The Story Behind the Project\n"
+"\n"
+"Big Remote Play was born from a real story of friendship, determination, and the passion for Free "
+"Software.\n"
+"\n"
+"Alessandro e Silva Xavier (known as Alessandro) and Alexasandro Pacheco Feliciano (known as "
+"Pacheco) wanted to play games together on BigLinux using a feature that only existed on proprietary "
+"platforms like Steam Remote Play and GeForce NOW. The problem? These systems are proprietary, "
+"locked to their own ecosystems. If a game wasn't available on their platform, it was nearly "
+"impossible to play remotely with friends.\n"
+"\n"
+"Refusing to accept this limitation, Alessandro and Pacheco embarked on a journey of countless "
+"attempts and extensive research. After trying many different approaches, they finally found a "
+"working solution by combining multiple free software programs — including Sunshine, Moonlight, "
+"scripts, and VPN tools. They had achieved what the proprietary platforms kept locked behind their "
+"walls, and the best part: it was Free Software and multi-platform!\n"
+"\n"
+"Excited by their success, they started sharing their achievement during their live streams, which "
+"generated tremendous enthusiasm from the community. However, there was a catch — the setup was "
+"complicated. It required configuring multiple separate solutions: Sunshine, Moonlight, custom "
+"scripts, VPN connections... it was a lot for anyone to handle.\n"
+"\n"
+"That's when a friend decided to step in and help develop a unified application to simplify the "
+"entire process. And so, Big Remote Play was born! 🎉\n"
+"\n"
+"An all-in-one application that integrates everything you need for remote cooperative gaming — no "
+"proprietary platforms, no restrictions, no limits on which games you can play."
 msgstr ""
-"Integreeritud kaugkoostöö mängusüsteem  \n"
-"Inspireeritud Steam Remote Play Together'ist"
+"Projekti Lugu\n"
+"\n"
+"Big Remote Play sündis tõelisest sõprusest, sihikindlusest ja armastusest avatud tarkvara vastu.\n"
+"\n"
+"Alessandro e Silva Xavier (tuntud kui Alessandro) ja Alexasandro Pacheco Feliciano (tuntud kui "
+"Pacheco) soovisid mängida koos BigLinuxis funktsiooni abil, mis eksisteeris ainult omandiõigusega "
+"platvormidel nagu Steam Remote Play ja GeForce NOW. Probleem? Need süsteemid on omandiõigusega, "
+"lukustatud oma ökosüsteemidesse. Kui mäng ei olnud nende platvormil saadaval, oli peaaegu võimatu "
+"mängida kaugel sõpradega.\n"
+"\n"
+"Selle piirangu aktsepteerimisest keeldudes asusid Alessandro ja Pacheco teele, mis hõlmas "
+"lugematuid katseid ja ulatuslikku uurimistööd. Pärast paljude erinevate lähenemisviiside proovimist "
+"leidsid nad lõpuks töötava lahenduse, kombineerides mitmeid avatud tarkvara programme — sealhulgas "
+"Sunshine, Moonlight, skripte ja VPN-tööriistu. Nad olid saavutanud selle, mida omandiõigusega "
+"platvormid hoidsid oma seinte taga, ja parim osa: see oli avatud tarkvara ja mitme platvormiga!\n"
+"\n"
+"Oma edust innustatuna hakkasid nad jagama oma saavutust oma otseülekannetes, mis tekitas kogukonnas "
+"tohutut entusiasm. Kuid oli üks probleem — seadistamine oli keeruline. See nõudis mitme eraldi "
+"lahenduse konfigureerimist: Sunshine, Moonlight, kohandatud skriptid, VPN-ühendused... see oli "
+"palju, millega igaühel toime tulla.\n"
+"\n"
+"Siis otsustas üks sõber sekkuda ja aidata välja töötada ühtse rakenduse, et kogu protsessi "
+"lihtsustada. Nii sündis Big Remote Play! 🎉\n"
+"\n"
+"Kõik-ühes rakendus, mis integreerib kõik, mida vajad kaugtöö mängimiseks — ei mingit omandiõigusega "
+"platvormi, ei mingeid piiranguid, ei mingeid piire, milliseid mänge sa saad mängida."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3297,6 +3585,10 @@ msgstr "(IPv6 Globaal)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Host ({})"
+# 
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
+msgid "Error: Missing ICU 76"
+msgstr "Viga: Puudub ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 80
 msgid "Sunshine failed to start (Exit code {}).\n"

@@ -935,6 +935,10 @@ msgstr "Bağlantı kesildi"
 msgid "Guest"
 msgstr "Misafir"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 802
+msgid "Active Connection"
+msgstr "Aktif Bağlantı"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 666
 msgid "{} devices monitoring"
 msgstr "{} cihaz izleme"
@@ -942,6 +946,10 @@ msgstr "{} cihaz izleme"
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 669
 msgid "Active - No devices"
 msgstr "Aktif - Cihaz yok"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 864
+msgid "Disconnect this specific guest (Admin)"
+msgstr "Bu belirli misafiri (Yönetici) bağlantısını kes."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 722
 msgid "Connected to {}"
@@ -1102,6 +1110,10 @@ msgstr "Yan menüde"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Alan adı ve Yetki Anahtarını girin"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1831,6 +1843,29 @@ msgstr "Evet"
 msgid "Escuro"
 msgstr "Karanlık"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 81
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 249
+msgid "Restaurar"
+msgstr "Restore"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 78
+msgid "Restaurar Padrões"
+msgstr "Standartları Geri Yükle"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 79
+msgid "Redefinir todas as configurações para o padrão"
+msgstr "Tüm ayarları varsayılan olarak yeniden tanımla."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 89
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
+msgid "Limpar Tudo"
+msgstr "Her şeyi temizle"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 90
+msgid "Remover logs, configurações, servidores e dados salvos"
+msgstr "Logları, ayarları, sunucuları ve kaydedilmiş verileri kaldır."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 64
 msgid "Avançado"
 msgstr "Gelişmiş"
@@ -1871,6 +1906,26 @@ msgstr "Eski günlük dosyalarını kaldırın"
 msgid "Limpar"
 msgstr "Temizle"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
+msgid "Manutenção do Sistema"
+msgstr "Sistem Bakımı"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "Yaygın sorunları çözmek için araçlar"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "Kütüphaneleri Düzelt (ICU)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "libicuuc.so.7* hatası çözüldü."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
+msgid "Fix Automático"
+msgstr "Otomatik Düzeltme"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Temiz Kayıtlar"
@@ -1878,6 +1933,43 @@ msgstr "Temiz Kayıtlar"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Eski günlük dosyaları kaldırıldı."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "Fix Automático Iniciado"
+msgstr "Otomatik Onarım Başlatıldı"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "Kütüphane düzeltme betiği başlatıldı. İstenirse şifreyi girin."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Erro"
+msgstr "Hata"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Script de correção não encontrado."
+msgstr "Düzeltme betiği bulunamadı."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -1894,6 +1986,58 @@ msgstr "Eski günlük dosyaları kaldırıldı."
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
 msgstr "Yol kopyalandı!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid "Restaurar Padrões?"
+msgstr "Standartları Geri Yükle?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid ""
+"Isso redefinirá todas as configurações do aplicativo para os valores originais. Dados de pareamento "
+"não serão perdidos."
+msgstr "Uygulamanın tüm ayarlarını varsayılan değerlere sıfırlar. Eşleştirme verileri kaybolmayacaktır."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 248
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 286
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 295
+msgid "Cancelar"
+msgstr "İptal et"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 277
+msgid "Configurações Restauradas!"
+msgstr "Ayarlar Geri Yüklendi!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid "Limpar TUDO?"
+msgstr "TÜMÜNÜ TEMİZLE?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid ""
+"ATENÇÃO: Isso apagará TODOS os dados, logs, configurações e servidores salvos. O aplicativo será "
+"fechado."
+msgstr ""
+"DİKKAT: Bu, KAYDEDİLMİŞ TÜM verileri, günlükleri, ayarları ve sunucuları silecektir. Uygulama "
+"kapatılacaktır."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 287
+msgid "Apagar Tudo"
+msgstr "Tümünü Kapat"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Tem Certeza Absoluta?"
+msgstr "Kesinlikle Emin Misiniz?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Esta ação é IRREVERSÍVEL. Você perderá todos os dados configurados."
+msgstr "Bu işlem GERİ DÖNÜLEMEZ. Tüm yapılandırılmış verileri kaybedeceksiniz."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 296
+msgid "Sim, Apagar Tudo"
+msgstr "Evet, Hepsini Sil"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 339
+msgid "Erro ao Limpar"
+msgstr "Hata temizleniyor."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2302,6 +2446,11 @@ msgstr "Önerilen bit hızı: {} Mbps"
 msgid "Find and connect to the host using the options below."
 msgstr "Aşağıdaki seçenekleri kullanarak ana bilgisayarı bulun ve bağlanın."
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 67
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 947
+msgid "Shortcuts & Instructions"
+msgstr "Kısayollar ve Talimatlar"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 64
 msgid "Discover"
 msgstr "Keşfet"
@@ -2621,6 +2770,83 @@ msgstr "Evet"
 msgid "Restored"
 msgstr "Geri Yüklenmiş"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 968
+msgid "Keyboard Shortcuts"
+msgstr "Klavye Kısayolları"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 969
+msgid "Common shortcuts used during streaming"
+msgstr "Yaygın olarak akış sırasında kullanılan kısayollar"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 972
+msgid "Quit Stream"
+msgstr "Akışı Durdur"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 973
+msgid "Toggle Mouse Capture"
+msgstr "Fareti Fareti Yakalama'yı Değiştir"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 974
+msgid "Toggle Stats Overlay"
+msgstr "İstatistikler Kapağını Aç/Kapat"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 975
+msgid "Toggle Mouse Mode (Remote/Absolute)"
+msgstr "Fareti Modunu Değiştir (Uzaktan/Mutlak)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 976
+msgid "Switch Monitor (Multi-Head Host)"
+msgstr "Monitörü Değiştir (Çoklu Başlık Ana Bilgisayarı)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 977
+msgid "Toggle Fullscreen"
+msgstr "Tam Ekranı Aç/Kapat"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 992
+msgid "Multi-Monitor Support"
+msgstr "Çoklu Monitör Desteği"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 993
+msgid "Instructions for hosts with multiple displays"
+msgstr "Birden fazla ekranı olan ev sahipleri için talimatlar"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 997
+msgid "Switching Monitors"
+msgstr "Monitörleri Değiştirme"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 999
+msgid ""
+"If the Host PC has multiple monitors, you can switch between them easily.\n"
+"\n"
+"1. Use Ctrl+Alt+Shift + F1 (Screen 1), F2 (Screen 2), etc.\n"
+"2. If this shortcut doesn't work, ensure 'Grab Input' is active (Ctrl+Alt+Shift + Z).\n"
+"3. Why did F1/F2 stop working? The system likely updated and now requires the full shortcut combo "
+"to avoid conflicts."
+msgstr ""
+"Eğer Ana Bilgisayar PC'sinde birden fazla monitör varsa, bunlar arasında kolayca geçiş "
+"yapabilirsiniz.\n"
+"\n"
+"1. Ctrl+Alt+Shift + F1 (Ekran 1), F2 (Ekran 2) vb. tuşlarına basın.\n"
+"2. Bu kısayol çalışmıyorsa, 'Girişi Yakala'nın aktif olduğundan emin olun (Ctrl+Alt+Shift + Z).\n"
+"3. F1/F2 neden çalışmayı durdurdu? Sistem muhtemelen güncellendi ve artık çakışmaları önlemek için "
+"tam kısayol kombinasyonunu gerektiriyor."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1007
+msgid "Troubleshooting: Shortcuts Not Working?"
+msgstr "Sorun Giderme: Kısayollar Çalışmıyor mu?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1009
+msgid ""
+"If shortcuts like F1/F2/F3 are not switching screens:\n"
+"• Press Ctrl+Alt+Shift + Z to toggle Mouse/Keyboard Capture.\n"
+"• When capture is ON, your F-keys are sent to the remote PC.\n"
+"• When capture is OFF, your local PC intercepts them."
+msgstr ""
+"Eğer F1/F2/F3 gibi kısayollar ekranları değiştirmiyorsa:\n"
+"• Fare/Klavye Yakalama'yı açıp kapatmak için Ctrl+Alt+Shift + Z tuşlarına basın.\n"
+"• Yakalama AÇIK olduğunda, F tuşlarınız uzak PC'ye gönderilir.\n"
+"• Yakalama KAPALI olduğunda, yerel PC'niz bunları engeller."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 113
 msgid "Sunshine Offline"
 msgstr "Güneş Işıkları Çevrimdışı"
@@ -2687,41 +2913,17 @@ msgstr "Akış Ayarları"
 msgid "Quality and Players"
 msgstr "Kalite ve Oyuncular"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 169
-msgid "Streaming Quality"
-msgstr "Akış Kalitesi"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 182
+msgid "Frames per second"
+msgstr "Kare hızı"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 170
-msgid "Higher quality = higher bandwidth usage"
-msgstr "Daha yüksek kalite = daha yüksek bant genişliği kullanımı"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 192
+msgid "Bandwidth Limit (Mbps)"
+msgstr "Bant Genişliği Limiti (Mbps)"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Low (720p 30fps)"
-msgstr "Düşük (720p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Medium (1080p 30fps)"
-msgstr "Orta (1080p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "High (1080p 60fps)"
-msgstr "Yüksek (1080p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Ultra (1440p 60fps)"
-msgstr "Ultra (1440p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Max (4K 60fps)"
-msgstr "Max (4K 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 180
-msgid "Max Players"
-msgstr "Maksimum Oyuncu Sayısı"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 181
-msgid "Maximum number of simultaneous connections"
-msgstr "Maksimum eşzamanlı bağlantı sayısı"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 193
+msgid "Max bitrate (0 = Unlimited)"
+msgstr "Maksimum bit hızı (0 = Sınırsız)"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 188
 msgid "Hardware and Capture"
@@ -2759,6 +2961,42 @@ msgstr "Wayland (önerilen), X11 (eski), veya KMS (doğrudan)"
 msgid "KMS (Direct)"
 msgstr "KMS (Doğrudan)"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
+msgid "Efficient Codecs (HEVC/AV1)"
+msgstr "Verimli Kodlayıcılar (HEVC/AV1)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 239
+msgid "Enable H.265/AV1 for better quality at lower bitrate (Requires support)"
+msgstr "Daha düşük bit hızıyla daha iyi kalite için H.265/AV1'i etkinleştir (Destek gerektirir)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 244
+msgid "Optimization Mode"
+msgstr "Optimizasyon Modu"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
+msgid "Balance between responsiveness and image quality"
+msgstr "Hızlanma ve görüntü kalitesi arasında denge"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 247
+msgid "Low Latency (Fastest)"
+msgstr "Düşük Gecikme (En Hızlı)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 248
+msgid "Balanced (Default)"
+msgstr "Dengeli (Varsayılan)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 249
+msgid "High Quality (Best Image)"
+msgstr "Yüksek Kalite (En İyi Görüntü)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
+msgid "Wi-Fi / Unstable Network Mode"
+msgstr "Wi-Fi / Dengesiz Ağ Modu"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
+msgid "Increases error correction (FEC) to prevent glitches"
+msgstr "Hataları düzeltme (FEC) artışını sağlar, aksaklıkları önler."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 225
 msgid "Sound settings"
 msgstr "Ses ayarları"
@@ -2790,14 +3028,6 @@ msgstr "Ses kaynaklarını yönetin"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
 msgid "Input, Network, and Access"
 msgstr "Giriş, Ağ ve Erişim"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 260
-msgid "Share Controls"
-msgstr "Paylaşım Kontrolleri"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 261
-msgid "Allow guests to control the game"
-msgstr "Misafirlerin oyunu kontrol etmesine izin verin."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 266
 msgid "Automatic UPnP"
@@ -2979,9 +3209,13 @@ msgstr "Kimlik bilgileriyle başarısız oldu."
 msgid "Server Information"
 msgstr "Sunucu Bilgisi"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 726
-msgid "Restart server to apply complex audio changes."
-msgstr "Sunucu karmaşık ses değişikliklerini uygulamak için yeniden başlatılmalıdır."
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
+msgid "Audio streaming enabled"
+msgstr "Ses akışı etkinleştirildi"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
+msgid "Audio streaming stopped"
+msgstr "Ses akışı durdu"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
@@ -3131,13 +3365,63 @@ msgstr "Ayarlar Geri Yüklendi"
 msgid "Icon loaded"
 msgstr "Simge yüklendi"
 # 
-# File: big-remote-play/usr/share/big-remote-play/main.py, line: 69
+# File: big-remote-play/usr/share/big-remote-play/main.py, line: 58
 msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
+"The Story Behind the Project\n"
+"\n"
+"Big Remote Play was born from a real story of friendship, determination, and the passion for Free "
+"Software.\n"
+"\n"
+"Alessandro e Silva Xavier (known as Alessandro) and Alexasandro Pacheco Feliciano (known as "
+"Pacheco) wanted to play games together on BigLinux using a feature that only existed on proprietary "
+"platforms like Steam Remote Play and GeForce NOW. The problem? These systems are proprietary, "
+"locked to their own ecosystems. If a game wasn't available on their platform, it was nearly "
+"impossible to play remotely with friends.\n"
+"\n"
+"Refusing to accept this limitation, Alessandro and Pacheco embarked on a journey of countless "
+"attempts and extensive research. After trying many different approaches, they finally found a "
+"working solution by combining multiple free software programs — including Sunshine, Moonlight, "
+"scripts, and VPN tools. They had achieved what the proprietary platforms kept locked behind their "
+"walls, and the best part: it was Free Software and multi-platform!\n"
+"\n"
+"Excited by their success, they started sharing their achievement during their live streams, which "
+"generated tremendous enthusiasm from the community. However, there was a catch — the setup was "
+"complicated. It required configuring multiple separate solutions: Sunshine, Moonlight, custom "
+"scripts, VPN connections... it was a lot for anyone to handle.\n"
+"\n"
+"That's when a friend decided to step in and help develop a unified application to simplify the "
+"entire process. And so, Big Remote Play was born! 🎉\n"
+"\n"
+"An all-in-one application that integrates everything you need for remote cooperative gaming — no "
+"proprietary platforms, no restrictions, no limits on which games you can play."
 msgstr ""
-"Entegre uzaktan işbirlikçi oyun sistemi  \n"
-"Steam Uzaktan Oynama Birlikte'den ilham almıştır"
+"Projenin Arkasındaki Hikaye\n"
+"\n"
+"Big Remote Play, dostluk, kararlılık ve Ücretsiz Yazılım tutkusuna dayanan gerçek bir hikayeden "
+"doğdu.\n"
+"\n"
+"Alessandro e Silva Xavier (Alessandro olarak bilinir) ve Alexasandro Pacheco Feliciano (Pacheco "
+"olarak bilinir) BigLinux'ta birlikte oyun oynamak istediler; ancak bu, yalnızca Steam Remote Play "
+"ve GeForce NOW gibi tescilli platformlarda bulunan bir özellikti. Sorun neydi? Bu sistemler "
+"tescilli, kendi ekosistemlerine kilitlenmişti. Bir oyun kendi platformlarında mevcut değilse, "
+"arkadaşlarla uzaktan oynamak neredeyse imkansızdı.\n"
+"\n"
+"Bu sınırlamayı kabul etmeyi reddeden Alessandro ve Pacheco, sayısız deneme ve kapsamlı araştırma "
+"yolculuğuna çıktılar. Birçok farklı yaklaşımı denedikten sonra, nihayet Sunshine, Moonlight, "
+"betikler ve VPN araçlarını birleştirerek çalışan bir çözüm buldular. Tescilli platformların "
+"duvarlarının arkasında kilitli tuttuğu şeyi başardılar ve en iyi kısım: Bu Ücretsiz Yazılım ve "
+"çoklu platformdu!\n"
+"\n"
+"Başarılarından heyecan duyan ikili, canlı yayınları sırasında bu başarıyı paylaşmaya başladılar ve "
+"bu, toplulukta büyük bir heyecan yarattı. Ancak bir sorun vardı — kurulum karmaşıktı. Sunshine, "
+"Moonlight, özel betikler, VPN bağlantıları gibi birçok ayrı çözümün yapılandırılmasını "
+"gerektiriyordu... bu, herkesin üstesinden gelebileceği bir şey değildi.\n"
+"\n"
+"İşte o zaman bir arkadaş devreye girmeye ve tüm süreci basitleştirmek için birleşik bir uygulama "
+"geliştirmeye karar verdi. Ve böylece Big Remote Play doğdu! 🎉\n"
+"\n"
+"Uzaktan işbirlikçi oyun oynamak için ihtiyaç duyduğunuz her şeyi entegre eden hepsi bir arada bir "
+"uygulama — tescilli platform yok, kısıtlama yok, hangi oyunları oynayabileceğinizde sınır yok."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3161,6 +3445,10 @@ msgstr "(IPv6 Küresel)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Ana Bilgisayar ({})"
+# 
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
+msgid "Error: Missing ICU 76"
+msgstr "Hata: Eksik ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"

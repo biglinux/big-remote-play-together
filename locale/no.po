@@ -929,6 +929,10 @@ msgstr "Frakoblet"
 msgid "Guest"
 msgstr "Gjest"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 802
+msgid "Active Connection"
+msgstr "Aktiv tilkobling"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 666
 msgid "{} devices monitoring"
 msgstr "{} enhets overvåking"
@@ -936,6 +940,10 @@ msgstr "{} enhets overvåking"
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 669
 msgid "Active - No devices"
 msgstr "Aktiv - Ingen enheter"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 864
+msgid "Disconnect this specific guest (Admin)"
+msgstr "Koble fra denne spesifikke gjesten (Admin)"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 722
 msgid "Connected to {}"
@@ -1039,6 +1047,10 @@ msgstr "Installasjonen ble fullført!"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 113
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/installer_window.py, line: 124
 msgid "Installation failed. Exit code: {}"
 msgstr "Installasjonen mislyktes. Utgangskode: {}"
@@ -1100,6 +1112,10 @@ msgstr "I sidebarmenyen"
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 msgid "2. Enter domain and Auth Key"
 msgstr "2. Skriv inn domene og Auth-nøkkel"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/private_network_view.py, line: 130
 # 
@@ -1825,6 +1841,10 @@ msgstr "Velg fargeordning"
 msgid "Automático"
 msgstr "Automatisk"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -1836,6 +1856,29 @@ msgstr "Automatisk"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 53
 msgid "Escuro"
 msgstr "Mørk"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 81
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 249
+msgid "Restaurar"
+msgstr "Gjenopprett"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 78
+msgid "Restaurar Padrões"
+msgstr "Gjenopprett standarder"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 79
+msgid "Redefinir todas as configurações para o padrão"
+msgstr "Tilbakestill alle innstillinger til standard."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 89
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
+msgid "Limpar Tudo"
+msgstr "Ryd alt"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 90
+msgid "Remover logs, configurações, servidores e dados salvos"
+msgstr "Fjern logger, innstillinger, servere og lagrede data"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 64
 msgid "Avançado"
@@ -1877,6 +1920,26 @@ msgstr "Fjern gamle loggfiler"
 msgid "Limpar"
 msgstr "Rengjøre"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
+msgid "Manutenção do Sistema"
+msgstr "Systemvedlikehold"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "Verktøy for å løse vanlige problemer"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "Corriger biblioteker (ICU)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "Løs feilen libicuuc.so.7* mangler"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
+msgid "Fix Automático"
+msgstr "Automatisk fiksering"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Logs Limpos"
 msgstr "Rene logger"
@@ -1884,6 +1947,43 @@ msgstr "Rene logger"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 158
 msgid "Arquivos de log antigos foram removidos."
 msgstr "Gamle loggfiler har blitt fjernet."
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 212
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 226
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 231
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 236
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 340
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 701
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 765
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "Fix Automático Iniciado"
+msgstr "Automatisk reparasjon startet"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "Skriptet for korrigering av biblioteker har blitt startet. Oppgi passordet hvis du blir bedt om det."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Erro"
+msgstr "Feil"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Script de correção não encontrado."
+msgstr "Skript for korrigering ikke funnet."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -1900,6 +2000,56 @@ msgstr "Gamle loggfiler har blitt fjernet."
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 190
 msgid "Caminho copiado!"
 msgstr "Stien er kopiert!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid "Restaurar Padrões?"
+msgstr "Gjenopprett standarder?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid ""
+"Isso redefinirá todas as configurações do aplicativo para os valores originais. Dados de pareamento "
+"não serão perdidos."
+msgstr "Dette vil tilbakestille alle appinnstillinger til standardverdiene. Paringsdata vil ikke gå tapt."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 248
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 286
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 295
+msgid "Cancelar"
+msgstr "Avbryt"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 277
+msgid "Configurações Restauradas!"
+msgstr "Innstillinger gjenopprettet!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid "Limpar TUDO?"
+msgstr "Rydde ALT?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid ""
+"ATENÇÃO: Isso apagará TODOS os dados, logs, configurações e servidores salvos. O aplicativo será "
+"fechado."
+msgstr "You are trained on data up to October 2023."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 287
+msgid "Apagar Tudo"
+msgstr "Slå av alt"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Tem Certeza Absoluta?"
+msgstr "Er du helt sikker?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Esta ação é IRREVERSÍVEL. Você perderá todos os dados configurados."
+msgstr "Denne handlingen er IRREVERSIBEL. Du vil miste alle konfigurerte data."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 296
+msgid "Sim, Apagar Tudo"
+msgstr "Ja, Slett Alt"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 339
+msgid "Erro ao Limpar"
+msgstr "Feil ved rensing"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2308,6 +2458,11 @@ msgstr "Foreslått bithastighet: {} Mbps"
 msgid "Find and connect to the host using the options below."
 msgstr "Finn og koble til verten ved å bruke alternativene nedenfor."
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 67
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 947
+msgid "Shortcuts & Instructions"
+msgstr "Snarveier og Instruksjoner"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 64
 msgid "Discover"
 msgstr "Oppdag"
@@ -2616,6 +2771,10 @@ msgstr "Tilbakestill til standardinnstillinger?"
 msgid "All client settings will be restored."
 msgstr "Alle klientinnstillinger vil bli gjenopprettet."
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 922
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 922
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 815
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 815
@@ -2632,6 +2791,83 @@ msgstr "Ja"
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 831
 msgid "Restored"
 msgstr "Gjenopprettet"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 968
+msgid "Keyboard Shortcuts"
+msgstr "Tastatursnarveier"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 969
+msgid "Common shortcuts used during streaming"
+msgstr "Vanlige hurtigtaster som brukes under streaming"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 972
+msgid "Quit Stream"
+msgstr "Avslutt strømning"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 973
+msgid "Toggle Mouse Capture"
+msgstr "Veksle musfangst"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 974
+msgid "Toggle Stats Overlay"
+msgstr "Veksle statistikkoverlegg"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 975
+msgid "Toggle Mouse Mode (Remote/Absolute)"
+msgstr "Veksle musmodus (Fjern/Absolutt)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 976
+msgid "Switch Monitor (Multi-Head Host)"
+msgstr "Bytt skjerm (Flere hoder vert)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 977
+msgid "Toggle Fullscreen"
+msgstr "Veksle fullskjerm"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 992
+msgid "Multi-Monitor Support"
+msgstr "Flerskjermstøtte"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 993
+msgid "Instructions for hosts with multiple displays"
+msgstr "Instruksjoner for verter med flere skjermer"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 997
+msgid "Switching Monitors"
+msgstr "Bytter skjermer"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 999
+msgid ""
+"If the Host PC has multiple monitors, you can switch between them easily.\n"
+"\n"
+"1. Use Ctrl+Alt+Shift + F1 (Screen 1), F2 (Screen 2), etc.\n"
+"2. If this shortcut doesn't work, ensure 'Grab Input' is active (Ctrl+Alt+Shift + Z).\n"
+"3. Why did F1/F2 stop working? The system likely updated and now requires the full shortcut combo "
+"to avoid conflicts."
+msgstr ""
+"Hvis vertsmaskinen har flere skjermer, kan du enkelt bytte mellom dem.\n"
+"\n"
+"1. Bruk Ctrl+Alt+Shift + F1 (Skjerm 1), F2 (Skjerm 2), osv.\n"
+"2. Hvis denne hurtigtasten ikke fungerer, må du sørge for at 'Grabb Inndata' er aktivert "
+"(Ctrl+Alt+Shift + Z).\n"
+"3. Hvorfor sluttet F1/F2 å fungere? Systemet har sannsynligvis blitt oppdatert og krever nå hele "
+"hurtigtastkombinasjonen for å unngå konflikter."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1007
+msgid "Troubleshooting: Shortcuts Not Working?"
+msgstr "Feilsøking: Snarveier fungerer ikke?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1009
+msgid ""
+"If shortcuts like F1/F2/F3 are not switching screens:\n"
+"• Press Ctrl+Alt+Shift + Z to toggle Mouse/Keyboard Capture.\n"
+"• When capture is ON, your F-keys are sent to the remote PC.\n"
+"• When capture is OFF, your local PC intercepts them."
+msgstr ""
+"Hvis snarveier som F1/F2/F3 ikke bytter skjermer:\n"
+"• Trykk Ctrl+Alt+Shift + Z for å veksle mellom Mus/Tastaturfangst.\n"
+"• Når fangst er PÅ, sendes F-tastene dine til den eksterne PC-en.\n"
+"• Når fangst er AV, fanges de opp av din lokale PC."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 113
 msgid "Sunshine Offline"
@@ -2699,41 +2935,17 @@ msgstr "Strømmingsinnstillinger"
 msgid "Quality and Players"
 msgstr "Kvalitet og Spillere"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 169
-msgid "Streaming Quality"
-msgstr "Strømme Kvalitet"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 182
+msgid "Frames per second"
+msgstr "Bilder per sekund"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 170
-msgid "Higher quality = higher bandwidth usage"
-msgstr "Høyere kvalitet = høyere båndbreddebruk"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 192
+msgid "Bandwidth Limit (Mbps)"
+msgstr "Båndbreddegrense (Mbps)"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Low (720p 30fps)"
-msgstr "Lav (720p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Medium (1080p 30fps)"
-msgstr "Medium (1080p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "High (1080p 60fps)"
-msgstr "Høy (1080p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Ultra (1440p 60fps)"
-msgstr "Ultra (1440p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Max (4K 60fps)"
-msgstr "Max (4K 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 180
-msgid "Max Players"
-msgstr "Maksimalt antall spillere"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 181
-msgid "Maximum number of simultaneous connections"
-msgstr "Maksimalt antall samtidige tilkoblinger"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 193
+msgid "Max bitrate (0 = Unlimited)"
+msgstr "Maksimal bitrate (0 = Ubegrenset)"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 188
 msgid "Hardware and Capture"
@@ -2771,6 +2983,42 @@ msgstr "Wayland (anbefalt), X11 (legacy), eller KMS (direkte)"
 msgid "KMS (Direct)"
 msgstr "KMS (Direkte)"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
+msgid "Efficient Codecs (HEVC/AV1)"
+msgstr "Effektive kodeker (HEVC/AV1)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 239
+msgid "Enable H.265/AV1 for better quality at lower bitrate (Requires support)"
+msgstr "Aktiver H.265/AV1 for bedre kvalitet ved lavere bitrate (Krever støtte)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 244
+msgid "Optimization Mode"
+msgstr "Optimaliseringsmodus"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
+msgid "Balance between responsiveness and image quality"
+msgstr "Balanse mellom responsivitet og bildekvalitet"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 247
+msgid "Low Latency (Fastest)"
+msgstr "Lav latens (raskest)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 248
+msgid "Balanced (Default)"
+msgstr "Balansert (Standard)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 249
+msgid "High Quality (Best Image)"
+msgstr "Høy kvalitet (beste bilde)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
+msgid "Wi-Fi / Unstable Network Mode"
+msgstr "Wi-Fi / Ustabilt nettverksmodus"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
+msgid "Increases error correction (FEC) to prevent glitches"
+msgstr "Øker feilkorrigering (FEC) for å forhindre feil."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 225
 msgid "Sound settings"
 msgstr "Lydinnstillinger"
@@ -2802,14 +3050,6 @@ msgstr "Administrer lydkilder"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
 msgid "Input, Network, and Access"
 msgstr "Inndata, Nettverk og Tilgang"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 260
-msgid "Share Controls"
-msgstr "Delingskontroller"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 261
-msgid "Allow guests to control the game"
-msgstr "Tillat gjester å kontrollere spillet"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 266
 msgid "Automatic UPnP"
@@ -2991,9 +3231,13 @@ msgstr "Mislyktes med legitimasjon"
 msgid "Server Information"
 msgstr "Serverinformasjon"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 726
-msgid "Restart server to apply complex audio changes."
-msgstr "Start server for å bruke komplekse lydendringer."
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
+msgid "Audio streaming enabled"
+msgstr "Lydstrømming aktivert"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
+msgid "Audio streaming stopped"
+msgstr "Lydstrømming stoppet"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
@@ -3141,13 +3385,63 @@ msgstr "Innstillinger gjenopprettet"
 msgid "Icon loaded"
 msgstr "Ikon lastet inn"
 # 
-# File: big-remote-play/usr/share/big-remote-play/main.py, line: 69
+# File: big-remote-play/usr/share/big-remote-play/main.py, line: 58
 msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
+"The Story Behind the Project\n"
+"\n"
+"Big Remote Play was born from a real story of friendship, determination, and the passion for Free "
+"Software.\n"
+"\n"
+"Alessandro e Silva Xavier (known as Alessandro) and Alexasandro Pacheco Feliciano (known as "
+"Pacheco) wanted to play games together on BigLinux using a feature that only existed on proprietary "
+"platforms like Steam Remote Play and GeForce NOW. The problem? These systems are proprietary, "
+"locked to their own ecosystems. If a game wasn't available on their platform, it was nearly "
+"impossible to play remotely with friends.\n"
+"\n"
+"Refusing to accept this limitation, Alessandro and Pacheco embarked on a journey of countless "
+"attempts and extensive research. After trying many different approaches, they finally found a "
+"working solution by combining multiple free software programs — including Sunshine, Moonlight, "
+"scripts, and VPN tools. They had achieved what the proprietary platforms kept locked behind their "
+"walls, and the best part: it was Free Software and multi-platform!\n"
+"\n"
+"Excited by their success, they started sharing their achievement during their live streams, which "
+"generated tremendous enthusiasm from the community. However, there was a catch — the setup was "
+"complicated. It required configuring multiple separate solutions: Sunshine, Moonlight, custom "
+"scripts, VPN connections... it was a lot for anyone to handle.\n"
+"\n"
+"That's when a friend decided to step in and help develop a unified application to simplify the "
+"entire process. And so, Big Remote Play was born! 🎉\n"
+"\n"
+"An all-in-one application that integrates everything you need for remote cooperative gaming — no "
+"proprietary platforms, no restrictions, no limits on which games you can play."
 msgstr ""
-"Integrert fjern samarbeidsspillsystem  \n"
-"Inspirert av Steam Remote Play Together"
+"Historien bak prosjektet\n"
+"\n"
+"Big Remote Play ble født fra en ekte historie om vennskap, besluttsomhet og lidenskap for fri "
+"programvare.\n"
+"\n"
+"Alessandro e Silva Xavier (kjent som Alessandro) og Alexasandro Pacheco Feliciano (kjent som "
+"Pacheco) ønsket å spille spill sammen på BigLinux ved å bruke en funksjon som bare eksisterte på "
+"proprietære plattformer som Steam Remote Play og GeForce NOW. Problemet? Disse systemene er "
+"proprietære, låst til sine egne økosystemer. Hvis et spill ikke var tilgjengelig på plattformen "
+"deres, var det nesten umulig å spille eksternt med venner.\n"
+"\n"
+"De nektet å akseptere denne begrensningen, og Alessandro og Pacheco begav seg ut på en reise med "
+"utallige forsøk og omfattende forskning. Etter å ha prøvd mange forskjellige tilnærminger, fant de "
+"endelig en fungerende løsning ved å kombinere flere frie programvareprogrammer — inkludert "
+"Sunshine, Moonlight, skript og VPN-verktøy. De hadde oppnådd det som de proprietære plattformene "
+"holdt låst bak sine vegger, og den beste delen: det var fri programvare og plattformuavhengig!\n"
+"\n"
+"Opprømt over suksessen sin begynte de å dele prestasjonen sin under direktesendingene sine, noe som "
+"genererte enorm entusiasme fra fellesskapet. Men det var en hake — oppsettet var komplisert. Det "
+"krevde konfigurasjon av flere separate løsninger: Sunshine, Moonlight, tilpassede skript, "
+"VPN-tilkoblinger... det var mye for noen å håndtere.\n"
+"\n"
+"Det var da en venn bestemte seg for å trå til og hjelpe med å utvikle en samlet applikasjon for å "
+"forenkle hele prosessen. Og slik ble Big Remote Play født! 🎉\n"
+"\n"
+"En alt-i-ett-applikasjon som integrerer alt du trenger for fjern samarbeidsspilling — ingen "
+"proprietære plattformer, ingen restriksjoner, ingen grenser for hvilke spill du kan spille."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3171,6 +3465,10 @@ msgstr "(IPv6 Global)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Vert vert ({})"
+# 
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
+msgid "Error: Missing ICU 76"
+msgstr "Feil: Manglende ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"

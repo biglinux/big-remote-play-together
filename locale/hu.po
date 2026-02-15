@@ -938,6 +938,10 @@ msgstr "Kapcsolat megszakítva"
 msgid "Guest"
 msgstr "Vendég"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 802
+msgid "Active Connection"
+msgstr "Aktív kapcsolat"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 666
 msgid "{} devices monitoring"
 msgstr "{} eszközök figyelése"
@@ -945,6 +949,10 @@ msgstr "{} eszközök figyelése"
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 669
 msgid "Active - No devices"
 msgstr "Aktív - Nincsenek eszközök"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 864
+msgid "Disconnect this specific guest (Admin)"
+msgstr "Húzza le ezt a konkrét vendéget (Admin)."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/performance_monitor.py, line: 722
 msgid "Connected to {}"
@@ -1806,6 +1814,10 @@ msgstr "Válassza ki a színmintát"
 msgid "Automático"
 msgstr "Automatikus"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 54
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 52
@@ -1821,6 +1833,29 @@ msgstr "Automatikus"
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 53
 msgid "Escuro"
 msgstr "Sötét"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 74
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 81
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 249
+msgid "Restaurar"
+msgstr "Visszaállítás"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 78
+msgid "Restaurar Padrões"
+msgstr "Alapértelmezett beállítások visszaállítása"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 79
+msgid "Redefinir todas as configurações para o padrão"
+msgstr "Minden beállítást állítsa vissza az alapértelmezett értékekre."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 89
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 92
+msgid "Limpar Tudo"
+msgstr "Mindent töröl"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 90
+msgid "Remover logs, configurações, servidores e dados salvos"
+msgstr "Naplók, beállítások, szerverek és mentett adatok eltávolítása"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 64
 msgid "Avançado"
@@ -1864,6 +1899,26 @@ msgstr "Régi naplófájlok eltávolítása"
 msgid "Limpar"
 msgstr "Tisztítás"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 149
+msgid "Manutenção do Sistema"
+msgstr "Rendszerkarbantartás"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 150
+msgid "Ferramentas para resolver problemas comuns"
+msgstr "Eszközök gyakori problémák megoldására"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 153
+msgid "Corrigir Bibliotecas (ICU)"
+msgstr "Könyvtárak javítása (ICU)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 154
+msgid "Resolve o erro libicuuc.so.7* ausente"
+msgstr "A hiba megoldása: a libicuuc.so.7* hiányzik."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 156
+msgid "Fix Automático"
+msgstr "Automatikus javítás"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 140
 msgid "Logs Limpos"
 msgstr "Tiszta naplók"
@@ -1880,9 +1935,80 @@ msgstr "Régi naplófájlok eltávolításra kerültek."
 msgid "OK"
 msgstr "Rendben"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "Fix Automático Iniciado"
+msgstr "Automatikus javítás megkezdődött"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 225
+msgid "O script de correção de bibliotecas foi iniciado. Forneça a senha se solicitado."
+msgstr "A könyvtárak javító szkriptje elindult. Kérjük, adja meg a jelszót, ha kérik."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 230
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Erro"
+msgstr "Hiba"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 235
+msgid "Script de correção não encontrado."
+msgstr "A javítási szkript nem található."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 148
 msgid "Caminho copiado!"
 msgstr "Útvonal másolva!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid "Restaurar Padrões?"
+msgstr "Alapértelmezett beállítások visszaállítása?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 247
+msgid ""
+"Isso redefinirá todas as configurações do aplicativo para os valores originais. Dados de pareamento "
+"não serão perdidos."
+msgstr ""
+"Ez visszaállítja az alkalmazás összes beállítását az eredeti értékekre. A párosítási adatok nem "
+"vesznek el."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 248
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 286
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 295
+msgid "Cancelar"
+msgstr "Törlés"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 277
+msgid "Configurações Restauradas!"
+msgstr "Beállítások visszaállítva!"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid "Limpar TUDO?"
+msgstr "Törölni MINDENT?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 285
+msgid ""
+"ATENÇÃO: Isso apagará TODOS os dados, logs, configurações e servidores salvos. O aplicativo será "
+"fechado."
+msgstr ""
+"FIGYELEM: Ez TÖBBI adatot, naplókat, beállításokat és mentett szervereket töröl. Az alkalmazás be "
+"fog zárulni."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 287
+msgid "Apagar Tudo"
+msgstr "Mindent törölni"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Tem Certeza Absoluta?"
+msgstr "Biztos benne?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 294
+msgid "Esta ação é IRREVERSÍVEL. Você perderá todos os dados configurados."
+msgstr "Ez a művelet VISSZAFORDÍTHATATLAN. Minden beállított adatot elveszít."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 296
+msgid "Sim, Apagar Tudo"
+msgstr "Igen, Mindent Töröl"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/preferences.py, line: 339
+msgid "Erro ao Limpar"
+msgstr "Hiba a törléskor"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/main_window.py, line: 20
 msgid "Sunshine Game Stream Host"
@@ -2291,6 +2417,11 @@ msgstr "Javasolt bitráta: {} Mbps"
 msgid "Find and connect to the host using the options below."
 msgstr "Keresse meg és csatlakozzon a gazdagéphez az alábbi lehetőségek használatával."
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 67
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 947
+msgid "Shortcuts & Instructions"
+msgstr "Billentyűparancsok és Utasítások"
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 64
 msgid "Discover"
 msgstr "Fedezd fel"
@@ -2613,6 +2744,83 @@ msgstr "Igen"
 msgid "Restored"
 msgstr "Visszaállítva"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 968
+msgid "Keyboard Shortcuts"
+msgstr "Billentyűparancsok"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 969
+msgid "Common shortcuts used during streaming"
+msgstr "Streaming közben használt gyakori billentyűparancsok"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 972
+msgid "Quit Stream"
+msgstr "Kilépés a Streamből"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 973
+msgid "Toggle Mouse Capture"
+msgstr "Egérfogás váltása"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 974
+msgid "Toggle Stats Overlay"
+msgstr "Statisztikai átfedés váltása"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 975
+msgid "Toggle Mouse Mode (Remote/Absolute)"
+msgstr "Egérmód váltása (Táv/Abszolút)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 976
+msgid "Switch Monitor (Multi-Head Host)"
+msgstr "Képernyő váltása (Többfejű gazda)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 977
+msgid "Toggle Fullscreen"
+msgstr "Teljes képernyő váltása"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 992
+msgid "Multi-Monitor Support"
+msgstr "Többmonitoros támogatás"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 993
+msgid "Instructions for hosts with multiple displays"
+msgstr "Útmutató több kijelzővel rendelkező házigazdák számára"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 997
+msgid "Switching Monitors"
+msgstr "Monitorok váltása"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 999
+msgid ""
+"If the Host PC has multiple monitors, you can switch between them easily.\n"
+"\n"
+"1. Use Ctrl+Alt+Shift + F1 (Screen 1), F2 (Screen 2), etc.\n"
+"2. If this shortcut doesn't work, ensure 'Grab Input' is active (Ctrl+Alt+Shift + Z).\n"
+"3. Why did F1/F2 stop working? The system likely updated and now requires the full shortcut combo "
+"to avoid conflicts."
+msgstr ""
+"Ha a gazda PC-nek több monitora van, könnyen válthat közöttük.\n"
+"\n"
+"1. Használja a Ctrl+Alt+Shift + F1 (Képernyő 1), F2 (Képernyő 2) stb. kombinációt.\n"
+"2. Ha ez a gyorsbillentyű nem működik, győződjön meg arról, hogy a 'Bemenet rögzítése' aktív "
+"(Ctrl+Alt+Shift + Z).\n"
+"3. Miért állt le az F1/F2 működése? Valószínűleg a rendszer frissült, és most a teljes "
+"gyorsbillentyű kombinációra van szükség a konfliktusok elkerülése érdekében."
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1007
+msgid "Troubleshooting: Shortcuts Not Working?"
+msgstr "Hibaelhárítás: A billentyűparancsok nem működnek?"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/guest_view.py, line: 1009
+msgid ""
+"If shortcuts like F1/F2/F3 are not switching screens:\n"
+"• Press Ctrl+Alt+Shift + Z to toggle Mouse/Keyboard Capture.\n"
+"• When capture is ON, your F-keys are sent to the remote PC.\n"
+"• When capture is OFF, your local PC intercepts them."
+msgstr ""
+"Ha az F1/F2/F3 billentyűparancsok nem váltanak képernyőt:\n"
+"• Nyomja meg a Ctrl+Alt+Shift + Z billentyűkombinációt az Egér/Billentyűzet Rögzítés váltásához.\n"
+"• Amikor a rögzítés BE van kapcsolva, az F-billentyűk a távoli PC-re kerülnek.\n"
+"• Amikor a rögzítés KI van kapcsolva, a helyi PC fogja el őket."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 113
 msgid "Sunshine Offline"
 msgstr "Napfény Offline"
@@ -2679,41 +2887,17 @@ msgstr "Streaming beállítások"
 msgid "Quality and Players"
 msgstr "Minőség és Játékosok"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 169
-msgid "Streaming Quality"
-msgstr "Streaming minőség"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 182
+msgid "Frames per second"
+msgstr "Képfrissítési sebesség másodpercenként"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 170
-msgid "Higher quality = higher bandwidth usage"
-msgstr "Magasabb minőség = magasabb sávszélesség-használat"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 192
+msgid "Bandwidth Limit (Mbps)"
+msgstr "Sávszélesség-korlát (Mbps)"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Low (720p 30fps)"
-msgstr "Alacsony (720p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Medium (1080p 30fps)"
-msgstr "Közepes (1080p 30fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "High (1080p 60fps)"
-msgstr "Magas (1080p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Ultra (1440p 60fps)"
-msgstr "Ultra (1440p 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 173
-msgid "Max (4K 60fps)"
-msgstr "Max (4K 60fps)"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 180
-msgid "Max Players"
-msgstr "Maximális játékosok"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 181
-msgid "Maximum number of simultaneous connections"
-msgstr "Maximális egyidejű kapcsolatok száma"
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 193
+msgid "Max bitrate (0 = Unlimited)"
+msgstr "Max bitráta (0 = Korlátlan)"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 188
 msgid "Hardware and Capture"
@@ -2751,6 +2935,42 @@ msgstr "Wayland (ajánlott), X11 (örökölt), vagy KMS (közvetlen)"
 msgid "KMS (Direct)"
 msgstr "KMS (Közvetlen)"
 # 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 238
+msgid "Efficient Codecs (HEVC/AV1)"
+msgstr "Hatékony kodekek (HEVC/AV1)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 239
+msgid "Enable H.265/AV1 for better quality at lower bitrate (Requires support)"
+msgstr "H.265/AV1 engedélyezése a jobb minőség érdekében alacsonyabb bitrátán (Támogatás szükséges)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 244
+msgid "Optimization Mode"
+msgstr "Optimalizálási mód"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 245
+msgid "Balance between responsiveness and image quality"
+msgstr "A válaszidő és a képminőség közötti egyensúly"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 247
+msgid "Low Latency (Fastest)"
+msgstr "Alacsony késleltetés (Leggyorsabb)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 248
+msgid "Balanced (Default)"
+msgstr "Kiegyensúlyozott (Alapértelmezett)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 249
+msgid "High Quality (Best Image)"
+msgstr "Magas minőség (Legjobb kép)"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 255
+msgid "Wi-Fi / Unstable Network Mode"
+msgstr "Wi-Fi / Instabil Hálózati Mód"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
+msgid "Increases error correction (FEC) to prevent glitches"
+msgstr "Növeli a hibajavítást (FEC), hogy megakadályozza a zökkenőket."
+# 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 225
 msgid "Sound settings"
 msgstr "Hangkészlet beállítások"
@@ -2782,14 +3002,6 @@ msgstr "Audioforrások kezelése"
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 256
 msgid "Input, Network, and Access"
 msgstr "Bemenet, Hálózat és Hozzáférés"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 260
-msgid "Share Controls"
-msgstr "Megosztási vezérlők"
-# 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 261
-msgid "Allow guests to control the game"
-msgstr "Engedje meg a vendégeknek, hogy irányítsák a játékot."
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 266
 msgid "Automatic UPnP"
@@ -2971,9 +3183,13 @@ msgstr "Hitelesítési hiba történt."
 msgid "Server Information"
 msgstr "Szerverinformáció"
 # 
-# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 726
-msgid "Restart server to apply complex audio changes."
-msgstr "Indítsa újra a szervert a bonyolult audio változtatások alkalmazásához."
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 762
+msgid "Audio streaming enabled"
+msgstr "Audio streaming engedélyezve"
+# 
+# File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 764
+msgid "Audio streaming stopped"
+msgstr "A hanganyag-streaming leállt"
 # 
 # File: big-remote-play/usr/share/big-remote-play/ui/host_view.py, line: 739
 msgid "System Default"
@@ -3121,13 +3337,64 @@ msgstr "Beállítások visszaállítva"
 msgid "Icon loaded"
 msgstr "Ikon betöltve"
 # 
-# File: big-remote-play/usr/share/big-remote-play/main.py, line: 69
+# File: big-remote-play/usr/share/big-remote-play/main.py, line: 58
 msgid ""
-"Integrated remote cooperative gaming system\n"
-"Inspired by Steam Remote Play Together"
+"The Story Behind the Project\n"
+"\n"
+"Big Remote Play was born from a real story of friendship, determination, and the passion for Free "
+"Software.\n"
+"\n"
+"Alessandro e Silva Xavier (known as Alessandro) and Alexasandro Pacheco Feliciano (known as "
+"Pacheco) wanted to play games together on BigLinux using a feature that only existed on proprietary "
+"platforms like Steam Remote Play and GeForce NOW. The problem? These systems are proprietary, "
+"locked to their own ecosystems. If a game wasn't available on their platform, it was nearly "
+"impossible to play remotely with friends.\n"
+"\n"
+"Refusing to accept this limitation, Alessandro and Pacheco embarked on a journey of countless "
+"attempts and extensive research. After trying many different approaches, they finally found a "
+"working solution by combining multiple free software programs — including Sunshine, Moonlight, "
+"scripts, and VPN tools. They had achieved what the proprietary platforms kept locked behind their "
+"walls, and the best part: it was Free Software and multi-platform!\n"
+"\n"
+"Excited by their success, they started sharing their achievement during their live streams, which "
+"generated tremendous enthusiasm from the community. However, there was a catch — the setup was "
+"complicated. It required configuring multiple separate solutions: Sunshine, Moonlight, custom "
+"scripts, VPN connections... it was a lot for anyone to handle.\n"
+"\n"
+"That's when a friend decided to step in and help develop a unified application to simplify the "
+"entire process. And so, Big Remote Play was born! 🎉\n"
+"\n"
+"An all-in-one application that integrates everything you need for remote cooperative gaming — no "
+"proprietary platforms, no restrictions, no limits on which games you can play."
 msgstr ""
-"Integrált távoli együttműködő játék rendszer  \n"
-"A Steam Remote Play Together ihlette"
+"A projekt mögötti történet\n"
+"\n"
+"A Big Remote Play egy valódi barátság, eltökéltség és a szabad szoftver iránti szenvedély "
+"történetéből született.\n"
+"\n"
+"Alessandro e Silva Xavier (ismertebb nevén Alessandro) és Alexasandro Pacheco Feliciano (ismertebb "
+"nevén Pacheco) együtt akartak játszani a BigLinuxon egy olyan funkcióval, amely csak a Steam Remote "
+"Play és a GeForce NOW tulajdonosi platformjain létezett. A probléma? Ezek a rendszerek "
+"tulajdonosiak, saját ökoszisztémáikhoz vannak zárva. Ha egy játék nem volt elérhető a "
+"platformjukon, szinte lehetetlen volt távolról játszani a barátokkal.\n"
+"\n"
+"Elutasítva ezt a korlátozást, Alessandro és Pacheco egy végtelen kísérletezés és alapos kutatás "
+"útjára indult. Miután sok különböző megközelítést kipróbáltak, végül megtalálták a működő "
+"megoldást, amely több szabad szoftverprogram kombinálásával jött létre — beleértve a Sunshine-t, "
+"Moonlight-ot, szkripteket és VPN eszközöket. Elérték, amit a tulajdonosi platformok a faluk mögött "
+"zárva tartottak, és a legjobb rész: ez szabad szoftver és többplatformos volt!\n"
+"\n"
+"Izgatottan a sikerük miatt elkezdték megosztani az eredményeiket élő közvetítéseik során, ami "
+"hatalmas lelkesedést generált a közösségben. Azonban volt egy bökkenő — a beállítás bonyolult volt. "
+"Több különálló megoldás konfigurálását igényelte: Sunshine, Moonlight, egyedi szkriptek, VPN "
+"kapcsolatok... ez sok volt bárki számára.\n"
+"\n"
+"Ekkor egy barát úgy döntött, hogy közbelép és segít egy egységes alkalmazás kifejlesztésében, hogy "
+"egyszerűsítse az egész folyamatot. Így született meg a Big Remote Play! 🎉\n"
+"\n"
+"Egy mindent egybe foglaló alkalmazás, amely integrálja mindazt, amire szükséged van a távoli "
+"kooperatív játékhoz — nincs tulajdonosi platform, nincsenek korlátozások, nincsenek határok, hogy "
+"mely játékokat játszhatsz."
 # 
 # #-#-#-#-#  big-remote-play.pot (big-remote-play)  #-#-#-#-#
 # 
@@ -3151,6 +3418,10 @@ msgstr "(IPv6 Globális)"
 # File: big-remote-play/usr/share/big-remote-play/utils/network.py, line: 156
 msgid "Host ({})"
 msgstr "Gazda ({})"
+# 
+# File: big-remote-play/usr/share/big-remote-play/utils/system_check.py, line: 126
+msgid "Error: Missing ICU 76"
+msgstr "Hiba: Hiányzó ICU 76"
 # 
 # File: big-remote-play/usr/share/big-remote-play/host/sunshine_manager.py, line: 86
 msgid "Sunshine failed to start (Exit code {}).\n"
